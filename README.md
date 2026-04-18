@@ -1,46 +1,48 @@
-# E-Ebeveyn: Smart Baby Tracker & AI Coach 🍼✨
+<div align="center">
+  <h1>🍼 E-Ebeveyn: Smart Baby Tracker & AI Coach</h1>
+  <p><i>Enterprise-grade parenting platform built with Feature-First Clean Architecture</i></p>
 
-E-Ebeveyn is a modern Flutter application built with **Clean Architecture** principles, allowing parents to synchronize and track their baby's development, feeding, and sleep schedules on a single screen.
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
+  <img src="https://img.shields.io/badge/Architecture-Clean-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/State_Management-Riverpod-orange?style=for-the-badge" />
+</div>
 
-## 🚀 Project Goal and Architectural Approach
-This project is built using a **Feature-First Clean Architecture** to establish a sustainable and scalable software architecture. Data management, UI, and business logic are completely isolated from each other.
+<br/>
 
-### 🛠️ Tech Stack
-* **Framework:** Flutter & Dart
-* **State Management:** Riverpod (Hooks & Notifiers)
-* **Backend & BaaS:** Supabase (PostgreSQL, Auth, Storage)
-* **Local Database:** Realm (For offline-first capabilities)
-* **Architecture:** Clean Architecture (Domain, Data, Presentation layers)
+## 🚀 Overview
+E-Ebeveyn is not just a baby tracker; it is a fully synchronized, AI-powered parental ecosystem. Designed to reduce parental anxiety, the app offers real-time synchronization between family members, a robust offline-first database, and an AI coaching system, all wrapped in a highly intuitive, premium dark-mode UI.
 
-## 📸 Screenshots
+## 🧠 Architecture Deep Dive (Feature-First Clean Architecture)
+To ensure maximum scalability, testability, and separation of concerns, the project strictly adheres to **Clean Architecture**. 
+
+* **Presentation Layer:** Contains completely dumb UI components. State is managed reactively via `Riverpod`, ensuring widget rebuilds are kept to an absolute minimum.
+* **Domain Layer:** The heart of the application. Contains enterprise-wide business rules (`Entities`) and application-specific business rules (`UseCases`). Completely independent of any external frameworks.
+* **Data Layer:** Handles all external communications. Uses a `Repository Pattern` to abstract data sources (`Supabase` for cloud, `Realm` for local caching).
+
+### 🔄 Data Flow:
+`UI (Widget) ➔ Riverpod (Notifier) ➔ UseCase ➔ Repository ➔ Remote/Local DataSource`
+
+## 📸 Premium UI Mocks
 <p align="center">
-  <img src="YOUR_SCREENSHOT_LINK_1" width="200"/>
-  <img src="YOUR_SCREENSHOT_LINK_2" width="200"/>
-  <img src="YOUR_SCREENSHOT_LINK_3" width="200"/>
+  <img src="https://github.com/user-attachments/assets/2f38c7ce-cb33-415e-a488-0724ddab7fc0" width="250" alt="Home Screen"/>
+  <img src="https://github.com/user-attachments/assets/d211e7f0-7560-4b45-ba9d-5bd3af2a9fe3" width="250" alt="AI Coach"/>
+  <img src="https://github.com/user-attachments/assets/b1c36ab2-1941-4aa3-a5f0-1739ef3e7f47" width="250" alt="Vaccine Tracker"/>
 </p>
 
-## 🔥 Key Features
-* **Supabase Realtime:** Instant data synchronization between family members (Mother, Father, Caregiver).
-* **Riverpod Caching:** Optimized state management to prevent unnecessary API requests.
-* **Custom Audio Player:** Background-running, loop-supported sleep sounds engine.
-* **AI Integration:** An AI coach assistant that analyzes baby data and provides personalized insights to parents.
+## 🔥 Core Engineering Features
+* **Realtime Sync (Supabase):** Family mode allows parents and caregivers to see feeding or sleep data update instantly across multiple devices without manual refreshes.
+* **Offline-First Capabilities (Realm):** Even in areas with no internet, parents can log critical data. The system automatically syncs with the Supabase backend once the connection is restored.
+* **Memory-Optimized Audio Engine:** A custom-built, background-running audio player for the Sleep Library that uses minimal RAM while playing continuous white noise/colic frequencies.
+* **AI Behavioral Analysis:** Integration of an AI engine that reads the child's logged data (fever, sleep gaps, feeding) and generates proactive, personalized medical alerts and advice.
 
-## ⚙️ How to Run
-1. Clone the repo: `git clone https://github.com/clbieren/E-Ebeveyn.git`
-2. Install dependencies: `flutter pub get`
-3. Enter your Supabase credentials in the `lib/config/` directory.
-4. Run the project: `flutter run`
+## 👨‍💻 Core Engineering Team
+This project was architected and developed by a dedicated team of engineers:
+* **Eren Çelebi** - Lead Flutter Developer & UI/UX Architect
+* **Emirhan** - Core Backend (Supabase) & Systems Integration
+* **Kayra** - QA & Audio/AI Implementations
 
-
-## 📁 Folder Structure (Feature-First Clean Architecture)
-Our project strictly follows Clean Architecture principles to separate business logic from UI, ensuring high maintainability and scalability.
-
-```text
-lib/
-├── core/               # Shared utilities, routing, themes, and network services
-├── features/           # Feature-based modules (e.g., auth, sleep, vaccine)
-│   ├── data/           # DTOs, Data Sources (Supabase, Realm), Repositories Impl
-│   ├── domain/         # Entities, Repository Interfaces, UseCases
-│   └── presentation/   # UI Screens, Custom Widgets, Riverpod Providers
-├── config/             # Environment variables and API keys
-└── main.dart           # App entry point
+## ⚙️ How to Build & Run
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/KULLANICI_ADIN/e-ebeveyn.git](https://github.com/KULLANICI_ADIN/e-ebeveyn.git)

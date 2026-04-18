@@ -36,12 +36,6 @@ To ensure maximum scalability, testability, and separation of concerns, the proj
 * **Memory-Optimized Audio Engine:** A custom-built, background-running audio player for the Sleep Library that uses minimal RAM while playing continuous white noise/colic frequencies.
 * **AI Behavioral Analysis:** Integration of an AI engine that reads the child's logged data (fever, sleep gaps, feeding) and generates proactive, personalized medical alerts and advice.
 
-## 👨‍💻 Core Engineering Team
-This project was architected and developed by a dedicated team of engineers:
-* **Eren Çelebi** - Lead Flutter Developer & UI/UX Architect
-* **Emirhan** - Core Backend (Supabase) & Systems Integration
-* **Kayra** - QA & Audio/AI Implementations
-
 ## ⚙️ How to Build & Run
 1. Clone the repository:
    ```bash

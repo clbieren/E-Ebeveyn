@@ -39,4 +39,4 @@ To ensure maximum scalability, testability, and separation of concerns, the proj
 ## ⚙️ How to Build & Run
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/KULLANICI_ADIN/e-ebeveyn.git](https://github.com/KULLANICI_ADIN/e-ebeveyn.git)
+   git clone [https://github.com/clbieren/E-Ebeveyn.git](https://github.com/clbieren/E-Ebeveyn.git)

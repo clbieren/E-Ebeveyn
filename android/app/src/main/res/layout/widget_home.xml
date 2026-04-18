@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/widget_bg"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Header / Child Name & Status -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/widget_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bebeğim'in Durumu"
+            android:textColor="#EEEEEE"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="12dp"
+        android:background="#212121" />
+
+    <!-- AI Insight Area -->
+    <TextView
+        android:id="@+id/text_insight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Son olay kaydediliyor..."
+        android:textColor="#9E9E9E"
+        android:textSize="14sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Action Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <!-- Süt Button -->
+        <TextView
+            android:id="@+id/button_sut"
+            android:layout_width="0dp"
+            android:layout_height="46dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="6dp"
+            android:background="@drawable/widget_btn_feed_bg"
+            android:gravity="center"
+            android:text="🥛 Süt"
+            android:textColor="#00201E"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <!-- Mama Button -->
+        <TextView
+            android:id="@+id/button_mama"
+            android:layout_width="0dp"
+            android:layout_height="46dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="6dp"
+            android:background="@drawable/widget_btn_feed_bg"
+            android:gravity="center"
+            android:text="🍼 Mama"
+            android:textColor="#00201E"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <!-- Sleep / Wake Button -->
+        <TextView
+            android:id="@+id/button_sleep"
+            android:layout_width="0dp"
+            android:layout_height="46dp"
+            android:layout_weight="1"
+            android:background="@drawable/widget_btn_sleep_bg"
+            android:gravity="center"
+            android:text="💤 Uyut"
+            android:textColor="#1A1030"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

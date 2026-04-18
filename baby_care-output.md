@@ -1,0 +1,7250 @@
+# 📁 PROJECT EXPORT FOR LLMs
+
+## 📊 Project Information
+
+- **Project Name**: `baby_care`
+- **Generated On**: 2026-04-18 10:50:40 (Europe/Istanbul / GMT+03:00)
+- **Total Files Processed**: 265
+- **Export Tool**: Easy Whole Project to Single Text File for LLMs v1.1.0
+- **Tool Author**: Jota / José Guilherme Pandolfi
+
+### ⚙️ Export Configuration
+
+| Setting | Value |
+|---------|-------|
+| Language | `en` |
+| Max File Size | `1 MB` |
+| Include Hidden Files | `false` |
+| Output Format | `both` |
+
+## 🌳 Project Structure
+
+```
+├── 📁 android/
+│   ├── 📁 app/
+│   │   ├── 📁 src/
+│   │   │   ├── 📁 debug/
+│   │   │   │   └── 📄 AndroidManifest.xml (385 B)
+│   │   │   ├── 📁 main/
+│   │   │   │   ├── 📁 java/
+│   │   │   │   │   └── 📁 io/
+│   │   │   │   │       └── 📁 flutter/
+│   │   │   │   │           └── 📁 plugins/
+│   │   │   │   │               └── 📄 GeneratedPluginRegistrant.java (4.33 KB)
+│   │   │   │   ├── 📁 kotlin/
+│   │   │   │   │   └── 📁 com/
+│   │   │   │   │       └── 📁 example/
+│   │   │   │   │           ├── 📁 baby_care/
+│   │   │   │   │           │   ├── 📄 BabyCareWidgetProvider.kt (2.81 KB)
+│   │   │   │   │           │   └── 📄 MainActivity.kt (128 B)
+│   │   │   │   │           └── 📁 babytracker/
+│   │   │   │   │               └── 📄 MainActivity.kt (130 B)
+│   │   │   │   ├── 📁 res/
+│   │   │   │   │   ├── 📁 drawable/
+│   │   │   │   │   │   ├── 📄 launch_background.xml (446 B)
+│   │   │   │   │   │   ├── 📄 widget_bg.xml (280 B)
+│   │   │   │   │   │   ├── 📄 widget_btn_feed_bg.xml (221 B)
+│   │   │   │   │   │   └── 📄 widget_btn_sleep_bg.xml (221 B)
+│   │   │   │   │   ├── 📁 drawable-hdpi/
+│   │   │   │   │   │   └── 📄 ic_launcher_foreground.png (48.91 KB)
+│   │   │   │   │   ├── 📁 drawable-mdpi/
+│   │   │   │   │   │   └── 📄 ic_launcher_foreground.png (23.95 KB)
+│   │   │   │   │   ├── 📁 drawable-v21/
+│   │   │   │   │   │   └── 📄 launch_background.xml (450 B)
+│   │   │   │   │   ├── 📁 drawable-xhdpi/
+│   │   │   │   │   │   └── 📄 ic_launcher_foreground.png (80.29 KB)
+│   │   │   │   │   ├── 📁 drawable-xxhdpi/
+│   │   │   │   │   │   └── 📄 ic_launcher_foreground.png (162.88 KB)
+│   │   │   │   │   ├── 📁 drawable-xxxhdpi/
+│   │   │   │   │   │   └── 📄 ic_launcher_foreground.png (267.99 KB)
+│   │   │   │   │   ├── 📁 layout/
+│   │   │   │   │   │   └── 📄 widget_home.xml (3.08 KB)
+│   │   │   │   │   ├── 📁 mipmap-anydpi-v26/
+│   │   │   │   │   │   └── 📄 ic_launcher.xml (264 B)
+│   │   │   │   │   ├── 📁 mipmap-hdpi/
+│   │   │   │   │   │   └── 📄 ic_launcher.png (11.43 KB)
+│   │   │   │   │   ├── 📁 mipmap-mdpi/
+│   │   │   │   │   │   └── 📄 ic_launcher.png (5.31 KB)
+│   │   │   │   │   ├── 📁 mipmap-xhdpi/
+│   │   │   │   │   │   └── 📄 ic_launcher.png (19.39 KB)
+│   │   │   │   │   ├── 📁 mipmap-xxhdpi/
+│   │   │   │   │   │   └── 📄 ic_launcher.png (39.94 KB)
+│   │   │   │   │   ├── 📁 mipmap-xxxhdpi/
+│   │   │   │   │   │   └── 📄 ic_launcher.png (65.89 KB)
+│   │   │   │   │   ├── 📁 values/
+│   │   │   │   │   │   ├── 📄 colors.xml (120 B)
+│   │   │   │   │   │   └── 📄 styles.xml (1014 B)
+│   │   │   │   │   ├── 📁 values-night/
+│   │   │   │   │   │   └── 📄 styles.xml (1013 B)
+│   │   │   │   │   └── 📁 xml/
+│   │   │   │   │       └── 📄 widget_info.xml (402 B)
+│   │   │   │   └── 📄 AndroidManifest.xml (3.4 KB)
+│   │   │   └── 📁 profile/
+│   │   │       └── 📄 AndroidManifest.xml (385 B)
+│   │   └── 📄 build.gradle.kts (935 B)
+│   ├── 📁 gradle/
+│   │   └── 📁 wrapper/
+│   │       ├── 📄 gradle-wrapper.jar (52.38 KB)
+│   │       └── 📄 gradle-wrapper.properties (206 B)
+│   ├── 📄 baby_care_android.iml (1.59 KB)
+│   ├── 📄 babytracker_android.iml (1.59 KB)
+│   ├── 📄 build.gradle.kts (561 B)
+│   ├── 📄 gradle.properties (140 B)
+│   ├── 📄 gradlew (4.85 KB)
+│   ├── 📄 gradlew.bat (2.35 KB)
+│   ├── 📄 local.properties (150 B)
+│   └── 📄 settings.gradle.kts (798 B)
+├── 📁 assets/
+│   └── 📁 branding/
+│       ├── 📄 app_icon_foreground.png (173.49 KB)
+│       ├── 📄 app_icon.png (173.49 KB)
+│       ├── 📄 README.md (259 B)
+│       └── 📄 splash_logo.png (173.49 KB)
+├── 📁 ios/
+│   ├── 📁 BabyWidget/
+│   │   ├── 📄 AppIntent.swift (1.36 KB)
+│   │   ├── 📄 BabyWidget.swift (4.48 KB)
+│   │   └── 📄 BabyWidgetBundle.swift (136 B)
+│   ├── 📁 Flutter/
+│   │   ├── 📁 ephemeral/
+│   │   │   ├── 📄 flutter_lldb_helper.py (1.25 KB)
+│   │   │   └── 📄 flutter_lldbinit (108 B)
+│   │   ├── 📄 AppFrameworkInfo.plist (744 B)
+│   │   ├── 📄 Debug.xcconfig (31 B)
+│   │   ├── 📄 flutter_export_environment.sh (526 B)
+│   │   ├── 📄 Generated.xcconfig (496 B)
+│   │   └── 📄 Release.xcconfig (31 B)
+│   ├── 📁 Runner/
+│   │   ├── 📁 Assets.xcassets/
+│   │   │   ├── 📁 AppIcon.appiconset/
+│   │   │   │   ├── 📄 Contents.json (2.05 KB)
+│   │   │   │   ├── 📄 Icon-App-1024x1024@1x.png (966.15 KB)
+│   │   │   │   ├── 📄 Icon-App-20x20@1x.png (1.08 KB)
+│   │   │   │   ├── 📄 Icon-App-20x20@2x.png (3.79 KB)
+│   │   │   │   ├── 📄 Icon-App-20x20@3x.png (8.12 KB)
+│   │   │   │   ├── 📄 Icon-App-29x29@1x.png (2.08 KB)
+│   │   │   │   ├── 📄 Icon-App-29x29@2x.png (7.62 KB)
+│   │   │   │   ├── 📄 Icon-App-29x29@3x.png (16.2 KB)
+│   │   │   │   ├── 📄 Icon-App-40x40@1x.png (3.79 KB)
+│   │   │   │   ├── 📄 Icon-App-40x40@2x.png (13.88 KB)
+│   │   │   │   ├── 📄 Icon-App-40x40@3x.png (28.97 KB)
+│   │   │   │   ├── 📄 Icon-App-50x50@1x.png (5.73 KB)
+│   │   │   │   ├── 📄 Icon-App-50x50@2x.png (20.91 KB)
+│   │   │   │   ├── 📄 Icon-App-57x57@1x.png (7.38 KB)
+│   │   │   │   ├── 📄 Icon-App-57x57@2x.png (26.43 KB)
+│   │   │   │   ├── 📄 Icon-App-60x60@2x.png (28.97 KB)
+│   │   │   │   ├── 📄 Icon-App-60x60@3x.png (58.66 KB)
+│   │   │   │   ├── 📄 Icon-App-72x72@1x.png (11.43 KB)
+│   │   │   │   ├── 📄 Icon-App-72x72@2x.png (39.94 KB)
+│   │   │   │   ├── 📄 Icon-App-76x76@1x.png (12.6 KB)
+│   │   │   │   ├── 📄 Icon-App-76x76@2x.png (43.92 KB)
+│   │   │   │   └── 📄 Icon-App-83.5x83.5@2x.png (51.56 KB)
+│   │   │   └── 📁 LaunchImage.imageset/
+│   │   │       ├── 📄 Contents.json (414 B)
+│   │   │       ├── 📄 LaunchImage.png (68 B)
+│   │   │       ├── 📄 LaunchImage@2x.png (68 B)
+│   │   │       ├── 📄 LaunchImage@3x.png (68 B)
+│   │   │       └── 📄 README.md (340 B)
+│   │   ├── 📁 Base.lproj/
+│   │   │   ├── 📄 LaunchScreen.storyboard (2.36 KB)
+│   │   │   └── 📄 Main.storyboard (1.59 KB)
+│   │   ├── 📄 AppDelegate.swift (555 B)
+│   │   ├── 📄 GeneratedPluginRegistrant.h (378 B)
+│   │   ├── 📄 GeneratedPluginRegistrant.m (3.79 KB)
+│   │   ├── 📄 Info.plist (2.33 KB)
+│   │   ├── 📄 Runner-Bridging-Header.h (39 B)
+│   │   └── 📄 SceneDelegate.swift (82 B)
+│   ├── 📁 Runner.xcodeproj/
+│   │   ├── 📁 project.xcworkspace/
+│   │   │   ├── 📁 xcshareddata/
+│   │   │   │   ├── 📄 IDEWorkspaceChecks.plist (246 B)
+│   │   │   │   └── 📄 WorkspaceSettings.xcsettings (234 B)
+│   │   │   └── 📄 contents.xcworkspacedata (142 B)
+│   │   ├── 📁 xcshareddata/
+│   │   │   └── 📁 xcschemes/
+│   │   │       └── 📄 Runner.xcscheme (3.84 KB)
+│   │   └── 📄 project.pbxproj (23.54 KB)
+│   ├── 📁 Runner.xcworkspace/
+│   │   ├── 📁 xcshareddata/
+│   │   │   ├── 📄 IDEWorkspaceChecks.plist (246 B)
+│   │   │   └── 📄 WorkspaceSettings.xcsettings (234 B)
+│   │   └── 📄 contents.xcworkspacedata (159 B)
+│   └── 📁 RunnerTests/
+│       └── 📄 RunnerTests.swift (297 B)
+├── 📁 lib/
+│   ├── 📁 core/
+│   │   ├── 📁 auth/
+│   │   │   ├── 📁 data/
+│   │   │   │   └── 📄 supabase_auth_repository.dart (1.98 KB)
+│   │   │   ├── 📁 domain/
+│   │   │   │   ├── 📄 auth_failure.dart (2.22 KB)
+│   │   │   │   └── 📄 auth_repository.dart (1.06 KB)
+│   │   │   ├── 📁 providers/
+│   │   │   │   └── 📄 auth_providers.dart (683 B)
+│   │   │   ├── 📄 auth_provider.dart (6.03 KB)
+│   │   │   └── 📄 auth_provider.g.dart (980 B)
+│   │   ├── 📁 bootstrap/
+│   │   │   └── 📄 growth_reminder_bootstrap.dart (1.13 KB)
+│   │   ├── 📁 config/
+│   │   │   └── 📄 app_config.dart (1.48 KB)
+│   │   ├── 📁 connectivity/
+│   │   │   └── 📁 providers/
+│   │   │       └── 📄 connectivity_provider.dart (952 B)
+│   │   ├── 📁 constants/
+│   │   │   └── 📄 app_constants.dart (2.37 KB)
+│   │   ├── 📁 db/
+│   │   │   ├── 📁 providers/
+│   │   │   │   └── 📄 realm_provider.dart (571 B)
+│   │   │   └── 📄 realm_config.dart (1.75 KB)
+│   │   ├── 📁 family/
+│   │   │   ├── 📁 providers/
+│   │   │   │   └── 📄 family_providers.dart (3.23 KB)
+│   │   │   └── 📄 family_repository.dart (6.42 KB)
+│   │   ├── 📁 navigation/
+│   │   │   └── 📄 page_routes.dart (950 B)
+│   │   ├── 📁 notifications/
+│   │   │   ├── 📄 growth_measurement_scheduler.dart (1.43 KB)
+│   │   │   └── 📄 notification_service.dart (2.6 KB)
+│   │   ├── 📁 sync/
+│   │   │   ├── 📁 data/
+│   │   │   ├── 📁 domain/
+│   │   │   ├── 📁 presentation/
+│   │   │   │   └── 📁 controllers/
+│   │   │   │       └── 📄 sync_orchestrator.dart (95 B)
+│   │   │   ├── 📁 providers/
+│   │   │   │   └── 📄 sync_providers.dart (2.76 KB)
+│   │   │   └── 📄 sync_repository.dart (9.59 KB)
+│   │   ├── 📁 theme/
+│   │   │   ├── 📄 app_colors.dart (3.12 KB)
+│   │   │   └── 📄 app_theme.dart (17.53 KB)
+│   │   └── 📁 widgets/
+│   │       ├── 📄 empty_state_widget.dart (1.35 KB)
+│   │       ├── 📄 home_widget_service.dart (7.19 KB)
+│   │       └── 📄 shimmer_skeleton.dart (1.03 KB)
+│   ├── 📁 features/
+│   │   ├── 📁 academy/
+│   │   │   ├── 📁 presentation/
+│   │   │   │   ├── 📄 academy_screen.dart (8.14 KB)
+│   │   │   │   └── 📄 pdf_viewer_screen.dart (1.22 KB)
+│   │   │   └── 📁 providers/
+│   │   │       └── 📄 academy_providers.dart (1.32 KB)
+│   │   ├── 📁 ai_coach/
+│   │   │   ├── 📁 data/
+│   │   │   │   └── 📁 repositories/
+│   │   │   │       └── 📄 ai_repository.dart (5.9 KB)
+│   │   │   ├── 📁 presentation/
+│   │   │   │   ├── 📁 widgets/
+│   │   │   │   │   ├── 📄 ai_chat_bubble.dart (1.26 KB)
+│   │   │   │   │   └── 📄 analyze_button_widget.dart (1.41 KB)
+│   │   │   │   └── 📄 ai_insight_screen.dart (11.91 KB)
+│   │   │   ├── 📁 providers/
+│   │   │   │   ├── 📄 ai_coach_provider.dart (17.08 KB)
+│   │   │   │   └── 📄 ai_credit_provider.dart (1.68 KB)
+│   │   │   └── 📁 services/
+│   │   │       └── 📄 ad_mob_service.dart (2.79 KB)
+│   │   ├── 📁 auth/
+│   │   │   ├── 📁 data/
+│   │   │   │   └── 📁 repositories/
+│   │   │   ├── 📁 domain/
+│   │   │   │   ├── 📁 providers/
+│   │   │   │   │   └── 📄 auth_providers.dart (62 B)
+│   │   │   │   └── 📄 auth_failure.dart (54 B)
+│   │   │   ├── 📁 presentation/
+│   │   │   │   ├── 📁 controllers/
+│   │   │   │   │   └── 📄 login_controller.dart (2.49 KB)
+│   │   │   │   └── 📄 login_screen.dart (13.53 KB)
+│   │   │   ├── 📁 providers/
+│   │   │   │   └── 📄 auth_providers.dart (59 B)
+│   │   │   └── 📁 screens/
+│   │   ├── 📁 child/
+│   │   │   ├── 📁 data/
+│   │   │   │   ├── 📁 models/
+│   │   │   │   │   ├── 📄 child_model.dart (1.36 KB)
+│   │   │   │   │   └── 📄 child_model.realm.dart (5.98 KB)
+│   │   │   │   └── 📁 repositories/
+│   │   │   │       └── 📄 child_repository.dart (3.58 KB)
+│   │   │   └── 📁 providers/
+│   │   │       ├── 📄 child_providers.dart (3.88 KB)
+│   │   │       └── 📄 child_providers.g.dart (3.88 KB)
+│   │   ├── 📁 event_log/
+│   │   │   ├── 📁 data/
+│   │   │   │   ├── 📁 models/
+│   │   │   │   │   ├── 📄 event_log_model.dart (1.61 KB)
+│   │   │   │   │   └── 📄 event_log_model.realm.dart (6.59 KB)
+│   │   │   │   └── 📁 repositories/
+│   │   │   │       └── 📄 event_log_repository.dart (4.07 KB)
+│   │   │   └── 📁 providers/
+│   │   │       ├── 📄 event_log_providers.dart (4.46 KB)
+│   │   │       └── 📄 event_log_providers.g.dart (5.62 KB)
+│   │   ├── 📁 home/
+│   │   │   ├── 📁 presentation/
+│   │   │   │   ├── 📁 widgets/
+│   │   │   │   │   ├── 📄 action_bottom_sheet.dart (8.03 KB)
+│   │   │   │   │   ├── 📄 child_header.dart (2.24 KB)
+│   │   │   │   │   ├── 📄 child_selector_bar.dart (4.87 KB)
+│   │   │   │   │   ├── 📄 recent_events_list.dart (7.55 KB)
+│   │   │   │   │   └── 📄 tutorial_service.dart (7.29 KB)
+│   │   │   │   └── 📄 home_screen.dart (30.91 KB)
+│   │   │   └── 📁 providers/
+│   │   │       ├── 📄 tutorial_keys.dart (337 B)
+│   │   │       └── 📄 tutorial_provider.dart (764 B)
+│   │   ├── 📁 kids_media/
+│   │   │   ├── 📁 data/
+│   │   │   │   ├── 📁 models/
+│   │   │   │   │   └── 📄 kids_media_model.dart (661 B)
+│   │   │   │   └── 📁 repositories/
+│   │   │   │       └── 📄 kids_media_repository.dart (612 B)
+│   │   │   ├── 📁 providers/
+│   │   │   │   ├── 📄 kids_media_providers.dart (744 B)
+│   │   │   │   └── 📄 kids_media_providers.g.dart (2.24 KB)
+│   │   │   └── 📁 screens/
+│   │   │       └── 📄 kids_media_screen.dart (4.27 KB)
+│   │   ├── 📁 main/
+│   │   │   └── 📁 presentation/
+│   │   │       └── 📄 main_layout.dart (3.78 KB)
+│   │   ├── 📁 media/
+│   │   │   ├── 📁 data/
+│   │   │   │   ├── 📁 models/
+│   │   │   │   │   └── 📄 sound_track_model.dart (2.14 KB)
+│   │   │   │   └── 📁 repositories/
+│   │   │   │       └── 📄 media_repository.dart (1.06 KB)
+│   │   │   ├── 📁 presentation/
+│   │   │   │   ├── 📁 widgets/
+│   │   │   │   │   ├── 📄 category_header.dart (570 B)
+│   │   │   │   │   ├── 📄 persistent_mini_player.dart (2.91 KB)
+│   │   │   │   │   └── 📄 track_list_tile.dart (1.52 KB)
+│   │   │   │   └── 📄 sleep_library_screen.dart (3.6 KB)
+│   │   │   └── 📁 providers/
+│   │   │       ├── 📄 audio_player_provider.dart (3.37 KB)
+│   │   │       └── 📄 media_list_provider.dart (998 B)
+│   │   ├── 📁 onboarding/
+│   │   │   └── 📁 presentation/
+│   │   │       ├── 📄 family_decision_screen.dart (7.95 KB)
+│   │   │       └── 📄 onboarding_screen.dart (14.23 KB)
+│   │   ├── 📁 reminders/
+│   │   │   ├── 📁 presentation/
+│   │   │   │   ├── 📁 widgets/
+│   │   │   │   │   └── 📄 add_reminder_bottom_sheet.dart (3.46 KB)
+│   │   │   │   └── 📄 reminders_screen.dart (6.98 KB)
+│   │   │   └── 📁 providers/
+│   │   │       └── 📄 reminder_provider.dart (4.07 KB)
+│   │   ├── 📁 reports/
+│   │   │   ├── 📁 data/
+│   │   │   │   └── 📁 repositories/
+│   │   │   │       └── 📄 reports_repository.dart (5.49 KB)
+│   │   │   ├── 📁 presentation/
+│   │   │   │   ├── 📁 widgets/
+│   │   │   │   │   ├── 📄 daily_summary_card.dart (1.78 KB)
+│   │   │   │   │   └── 📄 weekly_chart_widget.dart (3.14 KB)
+│   │   │   │   └── 📄 reports_screen.dart (5.48 KB)
+│   │   │   └── 📁 providers/
+│   │   │       └── 📄 reports_providers.dart (1.89 KB)
+│   │   ├── 📁 settings/
+│   │   │   └── 📁 presentation/
+│   │   │       └── 📄 settings_screen.dart (17.41 KB)
+│   │   ├── 📁 user/
+│   │   │   ├── 📁 data/
+│   │   │   │   ├── 📁 models/
+│   │   │   │   │   ├── 📄 user_model.dart (838 B)
+│   │   │   │   │   └── 📄 user_model.realm.dart (3.23 KB)
+│   │   │   │   └── 📁 repositories/
+│   │   │   │       └── 📄 user_local_repository.dart (3.01 KB)
+│   │   │   ├── 📁 presentation/
+│   │   │   │   └── 📄 family_settings_screen.dart (7.6 KB)
+│   │   │   └── 📁 providers/
+│   │   │       └── 📄 user_providers.dart (1.87 KB)
+│   │   └── 📁 vaccination/
+│   │       ├── 📁 data/
+│   │       │   ├── 📄 vaccination_due_helper.dart (1.75 KB)
+│   │       │   ├── 📄 vaccination_repository.dart (3.56 KB)
+│   │       │   └── 📄 vaccination_schedule.dart (2.3 KB)
+│   │       ├── 📁 presentation/
+│   │       │   └── 📄 vaccination_screen.dart (7.36 KB)
+│   │       └── 📁 providers/
+│   │           └── 📄 vaccination_providers.dart (529 B)
+│   ├── 📄 app.dart (2 KB)
+│   └── 📄 main.dart (5.49 KB)
+├── 📁 linux/
+│   ├── 📁 flutter/
+│   │   ├── 📁 ephemeral/
+│   │   ├── 📄 CMakeLists.txt (2.83 KB)
+│   │   ├── 📄 generated_plugin_registrant.cc (1.16 KB)
+│   │   ├── 📄 generated_plugin_registrant.h (303 B)
+│   │   └── 📄 generated_plugins.cmake (803 B)
+│   ├── 📁 runner/
+│   │   ├── 📄 CMakeLists.txt (1000 B)
+│   │   ├── 📄 main.cc (186 B)
+│   │   ├── 📄 my_application.cc (5.47 KB)
+│   │   └── 📄 my_application.h (472 B)
+│   └── 📄 CMakeLists.txt (4.77 KB)
+├── 📁 macos/
+│   ├── 📁 Flutter/
+│   │   ├── 📁 ephemeral/
+│   │   │   ├── 📄 flutter_export_environment.sh (488 B)
+│   │   │   └── 📄 Flutter-Generated.xcconfig (389 B)
+│   │   ├── 📄 Flutter-Debug.xcconfig (49 B)
+│   │   ├── 📄 Flutter-Release.xcconfig (49 B)
+│   │   └── 📄 GeneratedPluginRegistrant.swift (1.44 KB)
+│   ├── 📁 Runner/
+│   │   ├── 📁 Assets.xcassets/
+│   │   │   └── 📁 AppIcon.appiconset/
+│   │   │       ├── 📄 app_icon_1024.png (100.58 KB)
+│   │   │       ├── 📄 app_icon_128.png (5.55 KB)
+│   │   │       ├── 📄 app_icon_16.png (520 B)
+│   │   │       ├── 📄 app_icon_256.png (13.81 KB)
+│   │   │       ├── 📄 app_icon_32.png (1.04 KB)
+│   │   │       ├── 📄 app_icon_512.png (35.55 KB)
+│   │   │       ├── 📄 app_icon_64.png (2.17 KB)
+│   │   │       └── 📄 Contents.json (1.33 KB)
+│   │   ├── 📁 Base.lproj/
+│   │   │   └── 📄 MainMenu.xib (23.51 KB)
+│   │   ├── 📁 Configs/
+│   │   │   ├── 📄 AppInfo.xcconfig (618 B)
+│   │   │   ├── 📄 Debug.xcconfig (79 B)
+│   │   │   ├── 📄 Release.xcconfig (81 B)
+│   │   │   └── 📄 Warnings.xcconfig (593 B)
+│   │   ├── 📄 AppDelegate.swift (324 B)
+│   │   ├── 📄 DebugProfile.entitlements (360 B)
+│   │   ├── 📄 Info.plist (1.07 KB)
+│   │   ├── 📄 MainFlutterWindow.swift (403 B)
+│   │   └── 📄 Release.entitlements (248 B)
+│   ├── 📁 Runner.xcodeproj/
+│   │   ├── 📁 project.xcworkspace/
+│   │   │   └── 📁 xcshareddata/
+│   │   │       └── 📄 IDEWorkspaceChecks.plist (246 B)
+│   │   ├── 📁 xcshareddata/
+│   │   │   └── 📁 xcschemes/
+│   │   │       └── 📄 Runner.xcscheme (3.71 KB)
+│   │   └── 📄 project.pbxproj (26.44 KB)
+│   ├── 📁 Runner.xcworkspace/
+│   │   ├── 📁 xcshareddata/
+│   │   │   └── 📄 IDEWorkspaceChecks.plist (246 B)
+│   │   └── 📄 contents.xcworkspacedata (159 B)
+│   └── 📁 RunnerTests/
+│       └── 📄 RunnerTests.swift (302 B)
+├── 📁 test/
+│   └── 📄 widget_test.dart (1.06 KB)
+├── 📁 web/
+│   ├── 📁 icons/
+│   │   ├── 📄 Icon-192.png (5.17 KB)
+│   │   ├── 📄 Icon-512.png (8.06 KB)
+│   │   ├── 📄 Icon-maskable-192.png (5.46 KB)
+│   │   └── 📄 Icon-maskable-512.png (20.51 KB)
+│   ├── 📄 favicon.png (917 B)
+│   ├── 📄 index.html (1.53 KB)
+│   └── 📄 manifest.json (949 B)
+├── 📁 windows/
+│   ├── 📁 flutter/
+│   │   ├── 📁 ephemeral/
+│   │   ├── 📄 CMakeLists.txt (3.76 KB)
+│   │   ├── 📄 generated_plugin_registrant.cc (1.17 KB)
+│   │   ├── 📄 generated_plugin_registrant.h (302 B)
+│   │   └── 📄 generated_plugins.cmake (904 B)
+│   ├── 📁 runner/
+│   │   ├── 📁 resources/
+│   │   │   └── 📄 app_icon.ico (32.98 KB)
+│   │   ├── 📄 CMakeLists.txt (1.79 KB)
+│   │   ├── 📄 flutter_window.cpp (2.14 KB)
+│   │   ├── 📄 flutter_window.h (961 B)
+│   │   ├── 📄 main.cpp (1.27 KB)
+│   │   ├── 📄 resource.h (448 B)
+│   │   ├── 📄 runner.exe.manifest (616 B)
+│   │   ├── 📄 Runner.rc (3.08 KB)
+│   │   ├── 📄 utils.cpp (1.82 KB)
+│   │   ├── 📄 utils.h (691 B)
+│   │   ├── 📄 win32_window.cpp (8.62 KB)
+│   │   └── 📄 win32_window.h (3.54 KB)
+│   └── 📄 CMakeLists.txt (4.16 KB)
+├── 📄 analysis_options.yaml (1.41 KB)
+├── 📄 baby_care.iml (859 B)
+├── 📄 babytracker.iml (859 B)
+├── 📄 devtools_options.yaml (184 B)
+├── 📄 flutter_launcher_icons.yaml (233 B)
+├── 📄 flutter_native_splash.yaml (271 B)
+├── 📄 pubspec.lock (47.75 KB)
+├── 📄 pubspec.yaml (1.5 KB)
+├── 📄 README.md (2.41 KB)
+└── 📄 supabase_vaccine_logs.sql (714 B)
+```
+
+## 📑 Table of Contents
+
+**Project Files:**
+
+- [📄 android/app/src/debug/AndroidManifest.xml](#📄-android-app-src-debug-androidmanifest-xml)
+- [📄 android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java](#📄-android-app-src-main-java-io-flutter-plugins-generatedpluginregistrant-java)
+- [📄 android/app/src/main/kotlin/com/example/baby_care/BabyCareWidgetProvider.kt](#📄-android-app-src-main-kotlin-com-example-baby-care-babycarewidgetprovider-kt)
+- [📄 android/app/src/main/kotlin/com/example/baby_care/MainActivity.kt](#📄-android-app-src-main-kotlin-com-example-baby-care-mainactivity-kt)
+- [📄 android/app/src/main/kotlin/com/example/babytracker/MainActivity.kt](#📄-android-app-src-main-kotlin-com-example-babytracker-mainactivity-kt)
+- [📄 android/app/src/main/res/drawable/launch_background.xml](#📄-android-app-src-main-res-drawable-launch-background-xml)
+- [📄 android/app/src/main/res/drawable/widget_bg.xml](#📄-android-app-src-main-res-drawable-widget-bg-xml)
+- [📄 android/app/src/main/res/drawable/widget_btn_feed_bg.xml](#📄-android-app-src-main-res-drawable-widget-btn-feed-bg-xml)
+- [📄 android/app/src/main/res/drawable/widget_btn_sleep_bg.xml](#📄-android-app-src-main-res-drawable-widget-btn-sleep-bg-xml)
+- [📄 android/app/src/main/res/drawable-v21/launch_background.xml](#📄-android-app-src-main-res-drawable-v21-launch-background-xml)
+- [📄 android/app/src/main/res/layout/widget_home.xml](#📄-android-app-src-main-res-layout-widget-home-xml)
+- [📄 android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml](#📄-android-app-src-main-res-mipmap-anydpi-v26-ic-launcher-xml)
+- [📄 android/app/src/main/res/values/colors.xml](#📄-android-app-src-main-res-values-colors-xml)
+- [📄 android/app/src/main/res/values/styles.xml](#📄-android-app-src-main-res-values-styles-xml)
+- [📄 android/app/src/main/res/values-night/styles.xml](#📄-android-app-src-main-res-values-night-styles-xml)
+- [📄 android/app/src/main/res/xml/widget_info.xml](#📄-android-app-src-main-res-xml-widget-info-xml)
+- [📄 android/app/src/main/AndroidManifest.xml](#📄-android-app-src-main-androidmanifest-xml)
+- [📄 android/app/src/profile/AndroidManifest.xml](#📄-android-app-src-profile-androidmanifest-xml)
+- [📄 android/gradle/wrapper/gradle-wrapper.properties](#📄-android-gradle-wrapper-gradle-wrapper-properties)
+- [📄 android/gradle.properties](#📄-android-gradle-properties)
+- [📄 android/gradlew.bat](#📄-android-gradlew-bat)
+- [📄 android/local.properties](#📄-android-local-properties)
+- [📄 assets/branding/README.md](#📄-assets-branding-readme-md)
+- [📄 ios/BabyWidget/AppIntent.swift](#📄-ios-babywidget-appintent-swift)
+- [📄 ios/BabyWidget/BabyWidget.swift](#📄-ios-babywidget-babywidget-swift)
+- [📄 ios/BabyWidget/BabyWidgetBundle.swift](#📄-ios-babywidget-babywidgetbundle-swift)
+- [📄 ios/Flutter/ephemeral/flutter_lldb_helper.py](#📄-ios-flutter-ephemeral-flutter-lldb-helper-py)
+- [📄 ios/Flutter/flutter_export_environment.sh](#📄-ios-flutter-flutter-export-environment-sh)
+- [📄 ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json](#📄-ios-runner-assets-xcassets-appicon-appiconset-contents-json)
+- [📄 ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json](#📄-ios-runner-assets-xcassets-launchimage-imageset-contents-json)
+- [📄 ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md](#📄-ios-runner-assets-xcassets-launchimage-imageset-readme-md)
+- [📄 ios/Runner/AppDelegate.swift](#📄-ios-runner-appdelegate-swift)
+- [📄 ios/Runner/GeneratedPluginRegistrant.h](#📄-ios-runner-generatedpluginregistrant-h)
+- [📄 ios/Runner/GeneratedPluginRegistrant.m](#📄-ios-runner-generatedpluginregistrant-m)
+- [📄 ios/Runner/Runner-Bridging-Header.h](#📄-ios-runner-runner-bridging-header-h)
+- [📄 ios/Runner/SceneDelegate.swift](#📄-ios-runner-scenedelegate-swift)
+- [📄 ios/RunnerTests/RunnerTests.swift](#📄-ios-runnertests-runnertests-swift)
+- [📄 linux/flutter/CMakeLists.txt](#📄-linux-flutter-cmakelists-txt)
+- [📄 linux/flutter/generated_plugin_registrant.h](#📄-linux-flutter-generated-plugin-registrant-h)
+- [📄 linux/flutter/generated_plugins.cmake](#📄-linux-flutter-generated-plugins-cmake)
+- [📄 linux/runner/CMakeLists.txt](#📄-linux-runner-cmakelists-txt)
+- [📄 linux/runner/my_application.h](#📄-linux-runner-my-application-h)
+- [📄 linux/CMakeLists.txt](#📄-linux-cmakelists-txt)
+- [📄 macos/Flutter/ephemeral/flutter_export_environment.sh](#📄-macos-flutter-ephemeral-flutter-export-environment-sh)
+- [📄 macos/Flutter/GeneratedPluginRegistrant.swift](#📄-macos-flutter-generatedpluginregistrant-swift)
+- [📄 macos/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json](#📄-macos-runner-assets-xcassets-appicon-appiconset-contents-json)
+- [📄 macos/Runner/AppDelegate.swift](#📄-macos-runner-appdelegate-swift)
+- [📄 macos/Runner/MainFlutterWindow.swift](#📄-macos-runner-mainflutterwindow-swift)
+- [📄 macos/RunnerTests/RunnerTests.swift](#📄-macos-runnertests-runnertests-swift)
+- [📄 web/index.html](#📄-web-index-html)
+- [📄 web/manifest.json](#📄-web-manifest-json)
+- [📄 windows/flutter/CMakeLists.txt](#📄-windows-flutter-cmakelists-txt)
+- [📄 windows/flutter/generated_plugin_registrant.h](#📄-windows-flutter-generated-plugin-registrant-h)
+- [📄 windows/flutter/generated_plugins.cmake](#📄-windows-flutter-generated-plugins-cmake)
+- [📄 windows/runner/CMakeLists.txt](#📄-windows-runner-cmakelists-txt)
+- [📄 windows/runner/flutter_window.cpp](#📄-windows-runner-flutter-window-cpp)
+- [📄 windows/runner/flutter_window.h](#📄-windows-runner-flutter-window-h)
+- [📄 windows/runner/main.cpp](#📄-windows-runner-main-cpp)
+- [📄 windows/runner/resource.h](#📄-windows-runner-resource-h)
+- [📄 windows/runner/runner.exe.manifest](#📄-windows-runner-runner-exe-manifest)
+- [📄 windows/runner/utils.cpp](#📄-windows-runner-utils-cpp)
+- [📄 windows/runner/utils.h](#📄-windows-runner-utils-h)
+- [📄 windows/runner/win32_window.cpp](#📄-windows-runner-win32-window-cpp)
+- [📄 windows/runner/win32_window.h](#📄-windows-runner-win32-window-h)
+- [📄 windows/CMakeLists.txt](#📄-windows-cmakelists-txt)
+- [📄 analysis_options.yaml](#📄-analysis-options-yaml)
+- [📄 devtools_options.yaml](#📄-devtools-options-yaml)
+- [📄 flutter_launcher_icons.yaml](#📄-flutter-launcher-icons-yaml)
+- [📄 flutter_native_splash.yaml](#📄-flutter-native-splash-yaml)
+- [📄 pubspec.lock](#📄-pubspec-lock)
+- [📄 pubspec.yaml](#📄-pubspec-yaml)
+- [📄 README.md](#📄-readme-md)
+- [📄 supabase_vaccine_logs.sql](#📄-supabase-vaccine-logs-sql)
+
+---
+
+## 📈 Project Statistics
+
+| Metric | Count |
+|--------|-------|
+| Total Files | 265 |
+| Total Directories | 180 |
+| Text Files | 73 |
+| Binary Files | 192 |
+| Total Size | 3.46 MB |
+
+### 📄 File Types Distribution
+
+| Extension | Count |
+|-----------|-------|
+| `.dart` | 96 |
+| `.png` | 49 |
+| `.xml` | 14 |
+| `.swift` | 10 |
+| `.xcconfig` | 10 |
+| `.h` | 9 |
+| `.plist` | 7 |
+| `.txt` | 6 |
+| `.yaml` | 5 |
+| `.iml` | 4 |
+| `.json` | 4 |
+| `.cc` | 4 |
+| `.cpp` | 4 |
+| `.kt` | 3 |
+| `.kts` | 3 |
+| `.properties` | 3 |
+| `.md` | 3 |
+| `.xcworkspacedata` | 3 |
+| `no extension` | 2 |
+| `.sh` | 2 |
+| `.storyboard` | 2 |
+| `.xcsettings` | 2 |
+| `.xcscheme` | 2 |
+| `.pbxproj` | 2 |
+| `.cmake` | 2 |
+| `.entitlements` | 2 |
+| `.java` | 1 |
+| `.jar` | 1 |
+| `.bat` | 1 |
+| `.py` | 1 |
+| `.m` | 1 |
+| `.xib` | 1 |
+| `.html` | 1 |
+| `.ico` | 1 |
+| `.manifest` | 1 |
+| `.rc` | 1 |
+| `.lock` | 1 |
+| `.sql` | 1 |
+
+## 💻 File Code Contents
+
+### <a id="📄-android-app-src-debug-androidmanifest-xml"></a>📄 `android/app/src/debug/AndroidManifest.xml`
+
+**File Info:**
+- **Size**: 385 B
+- **Extension**: `.xml`
+- **Language**: `xml`
+- **Location**: `android/app/src/debug/AndroidManifest.xml`
+- **Relative Path**: `android/app/src/debug`
+- **Created**: 2026-04-05 10:15:50 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-05 10:15:50 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `820c45a25b424dd5b7388330f7548d1f`
+- **SHA256**: `b01a4541a8144c15bc617bab7eb267c99fa1476368fbbda5a12cdbf4e316a34c`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```xml
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- The INTERNET permission is required for development. Specifically,
+         the Flutter tool needs it to communicate with the running application
+         to allow setting breakpoints, to provide hot reload, etc.
+    -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+</manifest>
+
+```
+
+---
+
+### <a id="📄-android-app-src-main-java-io-flutter-plugins-generatedpluginregistrant-java"></a>📄 `android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java`
+
+**File Info:**
+- **Size**: 4.33 KB
+- **Extension**: `.java`
+- **Language**: `java`
+- **Location**: `android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java`
+- **Relative Path**: `android/app/src/main/java/io/flutter/plugins`
+- **Created**: 2026-04-05 10:15:54 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-16 19:14:30 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `3577aef69c115df6581a6dcba9e55403`
+- **SHA256**: `8516b423b9d940e496c44ece47a4e1d69010de6686267aba961856cff6c31a24`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```java
+package io.flutter.plugins;
+
+import androidx.annotation.Keep;
+import androidx.annotation.NonNull;
+import io.flutter.Log;
+
+import io.flutter.embedding.engine.FlutterEngine;
+
+/**
+ * Generated file. Do not edit.
+ * This file is generated by the Flutter tool based on the
+ * plugins that support the Android platform.
+ */
+@Keep
+public final class GeneratedPluginRegistrant {
+  private static final String TAG = "GeneratedPluginRegistrant";
+  public static void registerWith(@NonNull FlutterEngine flutterEngine) {
+    try {
+      flutterEngine.getPlugins().add(new com.llfbandit.app_links.AppLinksPlugin());
+    } catch (Exception e) {
+      Log.e(TAG, "Error registering plugin app_links, com.llfbandit.app_links.AppLinksPlugin", e);
+    }
+    try {
+      flutterEngine.getPlugins().add(new com.ryanheise.audio_session.AudioSessionPlugin());
+    } catch (Exception e) {
+      Log.e(TAG, "Error registering plugin audio_session, com.ryanheise.audio_session.AudioSessionPlugin", e);
+    }
+    try {
+      flutterEngine.getPlugins().add(new dev.fluttercommunity.plus.connectivity.ConnectivityPlugin());
+    } catch (Exception e) {
+      Log.e(TAG, "Error registering plugin connectivity_plus, dev.fluttercommunity.plus.connectivity.ConnectivityPlugin", e);
+    }
+    try {
+      flutterEngine.getPlugins().add(new dev.fluttercommunity.plus.device_info.DeviceInfoPlusPlugin());
+    } catch (Exception e) {
+      Log.e(TAG, "Error registering plugin device_info_plus, dev.fluttercommunity.plus.device_info.DeviceInfoPlusPlugin", e);
+    }
+    try {
+      flutterEngine.getPlugins().add(new com.dexterous.flutterlocalnotifications.FlutterLocalNotificationsPlugin());
+    } catch (Exception e) {
+      Log.e(TAG, "Error registering plugin flutter_local_notifications, com.dexterous.flutterlocalnotifications.FlutterLocalNotificationsPlugin", e);
+    }
+    try {
+      flutterEngine.getPlugins().add(new io.flutter.plugins.googlemobileads.GoogleMobileAdsPlugin());
+    } catch (Exception e) {
+      Log.e(TAG, "Error registering plugin google_mobile_ads, io.flutter.plugins.googlemobileads.GoogleMobileAdsPlugin", e);
+    }
+    try {
+      flutterEngine.getPlugins().add(new es.antonborri.home_widget.HomeWidgetPlugin());
+    } catch (Exception e) {
+      Log.e(TAG, "Error registering plugin home_widget, es.antonborri.home_widget.HomeWidgetPlugin", e);
+    }
+    try {
+      flutterEngine.getPlugins().add(new com.ryanheise.just_audio.JustAudioPlugin());
+    } catch (Exception e) {
+      Log.e(TAG, "Error registering plugin just_audio, com.ryanheise.just_audio.JustAudioPlugin", e);
+    }
+    try {
+      flutterEngine.getPlugins().add(new io.flutter.plugins.pathprovider.PathProviderPlugin());
+    } catch (Exception e) {
+      Log.e(TAG, "Error registering plugin path_provider_android, io.flutter.plugins.pathprovider.PathProviderPlugin", e);
+    }
+    try {
+      flutterEngine.getPlugins().add(new com.baseflow.permissionhandler.PermissionHandlerPlugin());
+    } catch (Exception e) {
+      Log.e(TAG, "Error registering plugin permission_handler_android, com.baseflow.permissionhandler.PermissionHandlerPlugin", e);
+    }
+    try {
+      flutterEngine.getPlugins().add(new io.realm.RealmPlugin());
+    } catch (Exception e) {
+      Log.e(TAG, "Error registering plugin realm, io.realm.RealmPlugin", e);
+    }
+    try {
+      flutterEngine.getPlugins().add(new io.flutter.plugins.sharedpreferences.SharedPreferencesPlugin());
+    } catch (Exception e) {
+      Log.e(TAG, "Error registering plugin shared_preferences_android, io.flutter.plugins.sharedpreferences.SharedPreferencesPlugin", e);
+    }
+    try {
+      flutterEngine.getPlugins().add(new com.syncfusion.flutter.pdfviewer.SyncfusionFlutterPdfViewerPlugin());
+    } catch (Exception e) {
+      Log.e(TAG, "Error registering plugin syncfusion_flutter_pdfviewer, com.syncfusion.flutter.pdfviewer.SyncfusionFlutterPdfViewerPlugin", e);
+    }
+    try {
+      flutterEngine.getPlugins().add(new io.flutter.plugins.urllauncher.UrlLauncherPlugin());
+    } catch (Exception e) {
+      Log.e(TAG, "Error registering plugin url_launcher_android, io.flutter.plugins.urllauncher.UrlLauncherPlugin", e);
+    }
+    try {
+      flutterEngine.getPlugins().add(new io.flutter.plugins.webviewflutter.WebViewFlutterPlugin());
+    } catch (Exception e) {
+      Log.e(TAG, "Error registering plugin webview_flutter_android, io.flutter.plugins.webviewflutter.WebViewFlutterPlugin", e);
+    }
+  }
+}
+
+```
+
+---
+
+### <a id="📄-android-app-src-main-kotlin-com-example-baby-care-babycarewidgetprovider-kt"></a>📄 `android/app/src/main/kotlin/com/example/baby_care/BabyCareWidgetProvider.kt`
+
+**File Info:**
+- **Size**: 2.81 KB
+- **Extension**: `.kt`
+- **Language**: `kotlin`
+- **Location**: `android/app/src/main/kotlin/com/example/baby_care/BabyCareWidgetProvider.kt`
+- **Relative Path**: `android/app/src/main/kotlin/com/example/baby_care`
+- **Created**: 2026-04-14 16:10:29 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-14 16:28:22 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `20c8cb6217cae93a54488fa96731a737`
+- **SHA256**: `08a28126f04cbb73033304e1614d11452a389854e8fd994d4c01df03ee84a6e3`
+- **Encoding**: UTF-8
+
+**File code content:**
+
+```kotlin
+package com.example.baby_care
+
+import android.app.PendingIntent
+import android.appwidget.AppWidgetManager
+import android.appwidget.AppWidgetProvider
+import android.content.Context
+import android.content.Intent
+import android.net.Uri
+import android.widget.RemoteViews
+import es.antonborri.home_widget.HomeWidgetBackgroundIntent
+import es.antonborri.home_widget.HomeWidgetLaunchIntent
+import es.antonborri.home_widget.HomeWidgetPlugin
+
+class BabyCareWidgetProvider : AppWidgetProvider() {
+
+    override fun onUpdate(
+        context: Context,
+        appWidgetManager: AppWidgetManager,
+        appWidgetIds: IntArray
+    ) {
+        for (appWidgetId in appWidgetIds) {
+            val widgetData = HomeWidgetPlugin.getData(context)
+            val views = RemoteViews(context.packageName, R.layout.widget_home).apply {
+                
+                // Set default text values from shared preferences saved by Flutter
+                val title = widgetData.getString("widget_title_text", "Bebeğim'in Durumu")
+                setTextViewText(R.id.widget_title, title)
+
+                val insight = widgetData.getString("ai_insight", "Yükleniyor...")
+                setTextViewText(R.id.text_insight, insight)
+                
+                val sleepBtnText = widgetData.getString("sleep_btn_text", "💤 Uyut")
+                setTextViewText(R.id.button_sleep, sleepBtnText)
+
+                val childId = widgetData.getString("child_id", "") ?: ""
+
+                // Background intent for Breast Milk (Süt)
+                val breastIntent = HomeWidgetBackgroundIntent.getBroadcast(
+                    context,
+                    Uri.parse("babycare://log_feed?type=breast_milk&child_id=$childId")
+                )
+                setOnClickPendingIntent(R.id.button_sut, breastIntent)
+                
+                // Background intent for Formula (Mama)
+                val formulaIntent = HomeWidgetBackgroundIntent.getBroadcast(
+                    context,
+                    Uri.parse("babycare://log_feed?type=formula&child_id=$childId")
+                )
+                setOnClickPendingIntent(R.id.button_mama, formulaIntent)
+
+                // Background intent for Sleep Toggle
+                val sleepIntent = HomeWidgetBackgroundIntent.getBroadcast(
+                    context,
+                    Uri.parse("babycare://toggle_sleep?child_id=$childId")
+                )
+                setOnClickPendingIntent(R.id.button_sleep, sleepIntent)
+
+                // App Launch Intent on Widget Click (Open App)
+                val launchIntent = HomeWidgetLaunchIntent.getActivity(
+                    context,
+                    MainActivity::class.java
+                )
+                setOnClickPendingIntent(R.id.widget_title, launchIntent)
+            }
+
+            appWidgetManager.updateAppWidget(appWidgetId, views)
+        }
+    }
+}
+
+```
+
+---
+
+### <a id="📄-android-app-src-main-kotlin-com-example-baby-care-mainactivity-kt"></a>📄 `android/app/src/main/kotlin/com/example/baby_care/MainActivity.kt`
+
+**File Info:**
+- **Size**: 128 B
+- **Extension**: `.kt`
+- **Language**: `kotlin`
+- **Location**: `android/app/src/main/kotlin/com/example/baby_care/MainActivity.kt`
+- **Relative Path**: `android/app/src/main/kotlin/com/example/baby_care`
+- **Created**: 2026-04-05 10:15:50 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-05 10:15:50 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `2c983ede5ce217f65ba9150ee8a4abf2`
+- **SHA256**: `567fa78f659530dc70d4524b0b316bd7883974e8d5f9424b83b4891081dc6cd2`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```kotlin
+package com.example.baby_care
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity : FlutterActivity()
+
+```
+
+---
+
+### <a id="📄-android-app-src-main-kotlin-com-example-babytracker-mainactivity-kt"></a>📄 `android/app/src/main/kotlin/com/example/babytracker/MainActivity.kt`
+
+**File Info:**
+- **Size**: 130 B
+- **Extension**: `.kt`
+- **Language**: `kotlin`
+- **Location**: `android/app/src/main/kotlin/com/example/babytracker/MainActivity.kt`
+- **Relative Path**: `android/app/src/main/kotlin/com/example/babytracker`
+- **Created**: 2026-04-16 09:01:31 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-16 09:01:31 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `57c60786ed4d6d30e1fd70375373afbb`
+- **SHA256**: `816d6ca335e0fd99a93f39cd68d59d6e4f599d09ad756b4d5c345687107f385d`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```kotlin
+package com.example.babytracker
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity : FlutterActivity()
+
+```
+
+---
+
+### <a id="📄-android-app-src-main-res-drawable-launch-background-xml"></a>📄 `android/app/src/main/res/drawable/launch_background.xml`
+
+**File Info:**
+- **Size**: 446 B
+- **Extension**: `.xml`
+- **Language**: `xml`
+- **Location**: `android/app/src/main/res/drawable/launch_background.xml`
+- **Relative Path**: `android/app/src/main/res/drawable`
+- **Created**: 2026-04-05 10:15:50 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-02-23 09:36:18 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `12c379b886cbd7e72cfee6060a0947d4`
+- **SHA256**: `2df60e2cfbee873ce2858088cf003e6b93498f2f568476da437610467ea1a9d7`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Modify this file to customize your launch splash screen -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@android:color/white" />
+
+    <!-- You can insert your own image assets here -->
+    <!-- <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@mipmap/launch_image" />
+    </item> -->
+</layer-list>
+
+```
+
+---
+
+### <a id="📄-android-app-src-main-res-drawable-widget-bg-xml"></a>📄 `android/app/src/main/res/drawable/widget_bg.xml`
+
+**File Info:**
+- **Size**: 280 B
+- **Extension**: `.xml`
+- **Language**: `xml`
+- **Location**: `android/app/src/main/res/drawable/widget_bg.xml`
+- **Relative Path**: `android/app/src/main/res/drawable`
+- **Created**: 2026-04-14 16:10:12 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-14 16:28:26 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `d5aaf0972264a8e892095220a219e6cc`
+- **SHA256**: `566fab8d1a21682cc0c44f69ff84e8aab76355a765ef2977b77234e69b38046b`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="20dp" />
+    <solid android:color="#0D0D0D" />
+    <stroke android:width="1dp" android:color="#303030" />
+</shape>
+
+```
+
+---
+
+### <a id="📄-android-app-src-main-res-drawable-widget-btn-feed-bg-xml"></a>📄 `android/app/src/main/res/drawable/widget_btn_feed_bg.xml`
+
+**File Info:**
+- **Size**: 221 B
+- **Extension**: `.xml`
+- **Language**: `xml`
+- **Location**: `android/app/src/main/res/drawable/widget_btn_feed_bg.xml`
+- **Relative Path**: `android/app/src/main/res/drawable`
+- **Created**: 2026-04-14 16:10:14 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-14 16:28:25 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `cfeaa606bc9bd8839540f1b2595b07eb`
+- **SHA256**: `8650ff49f35df7982465c90f3d6a302cc259cdf39cfe9df091f8482e1d5099b1`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="12dp" />
+    <solid android:color="#80CBC4" />
+</shape>
+
+```
+
+---
+
+### <a id="📄-android-app-src-main-res-drawable-widget-btn-sleep-bg-xml"></a>📄 `android/app/src/main/res/drawable/widget_btn_sleep_bg.xml`
+
+**File Info:**
+- **Size**: 221 B
+- **Extension**: `.xml`
+- **Language**: `xml`
+- **Location**: `android/app/src/main/res/drawable/widget_btn_sleep_bg.xml`
+- **Relative Path**: `android/app/src/main/res/drawable`
+- **Created**: 2026-04-14 16:10:22 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-14 16:28:24 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `fe96ada75c8d8d5c82f43e5e83b06fc9`
+- **SHA256**: `6549563cd91d28018b2b1fc2bd336e17731835f2c576e1f4dbc2d8e58f128ea1`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="12dp" />
+    <solid android:color="#B39DDB" />
+</shape>
+
+```
+
+---
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `android/app/src/main/res/drawable-hdpi/ic_launcher_foreground.png`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `android/app/src/main/res/drawable-mdpi/ic_launcher_foreground.png`
+
+### <a id="📄-android-app-src-main-res-drawable-v21-launch-background-xml"></a>📄 `android/app/src/main/res/drawable-v21/launch_background.xml`
+
+**File Info:**
+- **Size**: 450 B
+- **Extension**: `.xml`
+- **Language**: `xml`
+- **Location**: `android/app/src/main/res/drawable-v21/launch_background.xml`
+- **Relative Path**: `android/app/src/main/res/drawable-v21`
+- **Created**: 2026-04-05 10:15:50 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-02-23 09:36:18 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `bff4b9cd8e98754261159601bd94abd3`
+- **SHA256**: `dca312ec77de83e43ef70a825c299b51451247286c29167d62f19165750b8793`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Modify this file to customize your launch splash screen -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="?android:colorBackground" />
+
+    <!-- You can insert your own image assets here -->
+    <!-- <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@mipmap/launch_image" />
+    </item> -->
+</layer-list>
+
+```
+
+---
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `android/app/src/main/res/drawable-xhdpi/ic_launcher_foreground.png`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `android/app/src/main/res/drawable-xxhdpi/ic_launcher_foreground.png`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `android/app/src/main/res/drawable-xxxhdpi/ic_launcher_foreground.png`
+
+### <a id="📄-android-app-src-main-res-layout-widget-home-xml"></a>📄 `android/app/src/main/res/layout/widget_home.xml`
+
+**File Info:**
+- **Size**: 3.08 KB
+- **Extension**: `.xml`
+- **Language**: `xml`
+- **Location**: `android/app/src/main/res/layout/widget_home.xml`
+- **Relative Path**: `android/app/src/main/res/layout`
+- **Created**: 2026-04-14 16:10:10 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-14 16:28:27 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `937fe8ddebe39d10a4c388855f1f9fce`
+- **SHA256**: `192494da97cb3b643de1ab020c177233bc899de8148033970e5e441ea3ad68de`
+- **Encoding**: UTF-8
+
+**File code content:**
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/widget_bg"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Header / Child Name & Status -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/widget_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bebeğim'in Durumu"
+            android:textColor="#EEEEEE"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="12dp"
+        android:background="#212121" />
+
+    <!-- AI Insight Area -->
+    <TextView
+        android:id="@+id/text_insight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Son olay kaydediliyor..."
+        android:textColor="#9E9E9E"
+        android:textSize="14sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Action Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <!-- Süt Button -->
+        <TextView
+            android:id="@+id/button_sut"
+            android:layout_width="0dp"
+            android:layout_height="46dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="6dp"
+            android:background="@drawable/widget_btn_feed_bg"
+            android:gravity="center"
+            android:text="🥛 Süt"
+            android:textColor="#00201E"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <!-- Mama Button -->
+        <TextView
+            android:id="@+id/button_mama"
+            android:layout_width="0dp"
+            android:layout_height="46dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="6dp"
+            android:background="@drawable/widget_btn_feed_bg"
+            android:gravity="center"
+            android:text="🍼 Mama"
+            android:textColor="#00201E"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <!-- Sleep / Wake Button -->
+        <TextView
+            android:id="@+id/button_sleep"
+            android:layout_width="0dp"
+            android:layout_height="46dp"
+            android:layout_weight="1"
+            android:background="@drawable/widget_btn_sleep_bg"
+            android:gravity="center"
+            android:text="💤 Uyut"
+            android:textColor="#1A1030"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+```
+
+---
+
+### <a id="📄-android-app-src-main-res-mipmap-anydpi-v26-ic-launcher-xml"></a>📄 `android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml`
+
+**File Info:**
+- **Size**: 264 B
+- **Extension**: `.xml`
+- **Language**: `xml`
+- **Location**: `android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml`
+- **Relative Path**: `android/app/src/main/res/mipmap-anydpi-v26`
+- **Created**: 2026-04-07 14:44:16 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-12 12:11:48 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `c765f0996fb121b291732d5799761f76`
+- **SHA256**: `ddcd6eff64c66ee4394d18bc9431c89c418baec3eafac96347e561874d25217b`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+  <background android:drawable="@color/ic_launcher_background"/>
+  <foreground android:drawable="@drawable/ic_launcher_foreground"/>
+</adaptive-icon>
+
+```
+
+---
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `android/app/src/main/res/mipmap-hdpi/ic_launcher.png`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `android/app/src/main/res/mipmap-mdpi/ic_launcher.png`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `android/app/src/main/res/mipmap-xhdpi/ic_launcher.png`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png`
+
+### <a id="📄-android-app-src-main-res-values-colors-xml"></a>📄 `android/app/src/main/res/values/colors.xml`
+
+**File Info:**
+- **Size**: 120 B
+- **Extension**: `.xml`
+- **Language**: `xml`
+- **Location**: `android/app/src/main/res/values/colors.xml`
+- **Relative Path**: `android/app/src/main/res/values`
+- **Created**: 2026-04-07 14:44:16 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-12 12:11:48 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `2ec5d54bea3c1877ffb2065d10a4447b`
+- **SHA256**: `d80a637240092d84a76bf66fdff7a711f43fba8b25088c6d6d7ea2600aaf0df7`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#000000</color>
+</resources>
+```
+
+---
+
+### <a id="📄-android-app-src-main-res-values-styles-xml"></a>📄 `android/app/src/main/res/values/styles.xml`
+
+**File Info:**
+- **Size**: 1014 B
+- **Extension**: `.xml`
+- **Language**: `xml`
+- **Location**: `android/app/src/main/res/values/styles.xml`
+- **Relative Path**: `android/app/src/main/res/values`
+- **Created**: 2026-04-05 10:15:50 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-02-23 09:36:18 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `f8b8cfbf977690d117f4dade5d27a789`
+- **SHA256**: `cca15a99b59380a548bf6a890f7ca5380ee509b1f9bbb2f5f9ec3589fa25c2f7`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme applied to the Android Window while the process is starting when the OS's Dark Mode setting is off -->
+    <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <!-- Show a splash screen on the activity. Automatically removed when
+             the Flutter engine draws its first frame -->
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+    <!-- Theme applied to the Android Window as soon as the process has started.
+         This theme determines the color of the Android Window while your
+         Flutter UI initializes, as well as behind your Flutter UI while its
+         running.
+
+         This Theme is only used starting with V2 of Flutter's Android embedding. -->
+    <style name="NormalTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">?android:colorBackground</item>
+    </style>
+</resources>
+
+```
+
+---
+
+### <a id="📄-android-app-src-main-res-values-night-styles-xml"></a>📄 `android/app/src/main/res/values-night/styles.xml`
+
+**File Info:**
+- **Size**: 1013 B
+- **Extension**: `.xml`
+- **Language**: `xml`
+- **Location**: `android/app/src/main/res/values-night/styles.xml`
+- **Relative Path**: `android/app/src/main/res/values-night`
+- **Created**: 2026-04-05 10:15:50 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-02-23 09:36:18 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `c22fb29c307f2a6ae4317b3a5e577688`
+- **SHA256**: `ea763597dc1a84c8034251caee98d7753e0fbf57340ffc94677427de4b537516`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme applied to the Android Window while the process is starting when the OS's Dark Mode setting is on -->
+    <style name="LaunchTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <!-- Show a splash screen on the activity. Automatically removed when
+             the Flutter engine draws its first frame -->
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+    <!-- Theme applied to the Android Window as soon as the process has started.
+         This theme determines the color of the Android Window while your
+         Flutter UI initializes, as well as behind your Flutter UI while its
+         running.
+
+         This Theme is only used starting with V2 of Flutter's Android embedding. -->
+    <style name="NormalTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowBackground">?android:colorBackground</item>
+    </style>
+</resources>
+
+```
+
+---
+
+### <a id="📄-android-app-src-main-res-xml-widget-info-xml"></a>📄 `android/app/src/main/res/xml/widget_info.xml`
+
+**File Info:**
+- **Size**: 402 B
+- **Extension**: `.xml`
+- **Language**: `xml`
+- **Location**: `android/app/src/main/res/xml/widget_info.xml`
+- **Relative Path**: `android/app/src/main/res/xml`
+- **Created**: 2026-04-14 16:10:27 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-14 16:28:23 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `dcf096f87c315ca53bca23885d0a61c5`
+- **SHA256**: `cd365791d808b63f7ba9eb5efdf87ac4793c6ce7cb003452d1ca809cf1cfa966`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="250dp"
+    android:minHeight="110dp"
+    android:updatePeriodMillis="1800000"
+    android:initialLayout="@layout/widget_home"
+    android:resizeMode="horizontal|vertical"
+    android:widgetCategory="home_screen"
+    android:previewImage="@mipmap/ic_launcher" />
+
+```
+
+---
+
+### <a id="📄-android-app-src-main-androidmanifest-xml"></a>📄 `android/app/src/main/AndroidManifest.xml`
+
+**File Info:**
+- **Size**: 3.4 KB
+- **Extension**: `.xml`
+- **Language**: `xml`
+- **Location**: `android/app/src/main/AndroidManifest.xml`
+- **Relative Path**: `android/app/src/main`
+- **Created**: 2026-04-05 10:15:50 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-16 19:18:59 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `1ef930eee587066c537a8127523c2d1d`
+- **SHA256**: `4f50c757bec9cbe53e6db6bf2e2b7f358e8361afdfa4f15b9a80aa652eafc54d`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```xml
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:label="E-Ebeveyn"
+        android:name="${applicationName}"
+        android:icon="@mipmap/ic_launcher">
+        
+        <!-- Google AdMob Test App ID -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713"/>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:taskAffinity=""
+            android:theme="@style/LaunchTheme"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+            android:hardwareAccelerated="true"
+            android:windowSoftInputMode="adjustResize">
+            <!-- Specifies an Android theme to apply to this Activity as soon as
+                 the Android process has started. This theme is visible to the user
+                 while the Flutter UI initializes. After that, this theme continues
+                 to determine the Window background behind the Flutter UI. -->
+            <meta-data
+              android:name="io.flutter.embedding.android.NormalTheme"
+              android:resource="@style/NormalTheme"
+              />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <!-- Don't delete the meta-data below.
+             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java -->
+        <meta-data
+            android:name="flutterEmbedding"
+            android:value="2" />
+        <!-- Widget Provider (Home Screen UI) -->
+        <receiver android:name=".BabyCareWidgetProvider" android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info" />
+        </receiver>
+
+        <!-- Home Widget Background Callback Receiver -->
+        <receiver android:name="es.antonborri.home_widget.HomeWidgetBackgroundReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="es.antonborri.home_widget.action.BACKGROUND" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+    <!-- Required to query activities that can process text, see:
+         https://developer.android.com/training/package-visibility and
+         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
+
+         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin. -->
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.PROCESS_TEXT"/>
+            <data android:mimeType="text/plain"/>
+        </intent>
+    </queries>
+</manifest>
+
+```
+
+---
+
+### <a id="📄-android-app-src-profile-androidmanifest-xml"></a>📄 `android/app/src/profile/AndroidManifest.xml`
+
+**File Info:**
+- **Size**: 385 B
+- **Extension**: `.xml`
+- **Language**: `xml`
+- **Location**: `android/app/src/profile/AndroidManifest.xml`
+- **Relative Path**: `android/app/src/profile`
+- **Created**: 2026-04-05 10:15:50 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-05 10:15:50 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `820c45a25b424dd5b7388330f7548d1f`
+- **SHA256**: `b01a4541a8144c15bc617bab7eb267c99fa1476368fbbda5a12cdbf4e316a34c`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```xml
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- The INTERNET permission is required for development. Specifically,
+         the Flutter tool needs it to communicate with the running application
+         to allow setting breakpoints, to provide hot reload, etc.
+    -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+</manifest>
+
+```
+
+---
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `android/app/build.gradle.kts`
+
+### <a id="📄-android-gradle-wrapper-gradle-wrapper-properties"></a>📄 `android/gradle/wrapper/gradle-wrapper.properties`
+
+**File Info:**
+- **Size**: 206 B
+- **Extension**: `.properties`
+- **Language**: `text`
+- **Location**: `android/gradle/wrapper/gradle-wrapper.properties`
+- **Relative Path**: `android/gradle/wrapper`
+- **Created**: 2026-04-05 10:15:50 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-05 10:15:50 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `21caa57dc392a3785205960f75fa33ca`
+- **SHA256**: `1220fdd333a881e47441de07b23f9dd1ebd35459730543ae429cf249847d91bf`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```text
+distributionBase=GRADLE_USER_HOME
+distributionPath=wrapper/dists
+zipStoreBase=GRADLE_USER_HOME
+zipStorePath=wrapper/dists
+distributionUrl=https\://services.gradle.org/distributions/gradle-8.14-all.zip
+
+```
+
+---
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `android/gradle/wrapper/gradle-wrapper.jar`
+
+### <a id="📄-android-gradle-properties"></a>📄 `android/gradle.properties`
+
+**File Info:**
+- **Size**: 140 B
+- **Extension**: `.properties`
+- **Language**: `text`
+- **Location**: `android/gradle.properties`
+- **Relative Path**: `android`
+- **Created**: 2026-04-05 10:15:50 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-05 10:15:50 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `6c140ea6b218e726e042f1d98318ecb1`
+- **SHA256**: `1888df8f168eb770ca0f540b7bf84091e6b31b0d5ac55e4de518590b8f7ed8e5`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```text
+org.gradle.jvmargs=-Xmx8G -XX:MaxMetaspaceSize=4G -XX:ReservedCodeCacheSize=512m -XX:+HeapDumpOnOutOfMemoryError
+android.useAndroidX=true
+
+```
+
+---
+
+### <a id="📄-android-gradlew-bat"></a>📄 `android/gradlew.bat`
+
+**File Info:**
+- **Size**: 2.35 KB
+- **Extension**: `.bat`
+- **Language**: `batch`
+- **Location**: `android/gradlew.bat`
+- **Relative Path**: `android`
+- **Created**: 2026-04-05 10:15:51 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-16 18:11:28 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `375ddea382b6c56a7be2a967a20e0ab5`
+- **SHA256**: `c13c6e91b9a517783976de213d46398c661ea9e17651376d7301e839eaedcc62`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```batch
+@if "%DEBUG%" == "" @echo off
+@rem ##########################################################################
+@rem
+@rem  Gradle startup script for Windows
+@rem
+@rem ##########################################################################
+
+@rem Set local scope for the variables with windows NT shell
+if "%OS%"=="Windows_NT" setlocal
+
+@rem Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.
+set DEFAULT_JVM_OPTS=
+
+set DIRNAME=%~dp0
+if "%DIRNAME%" == "" set DIRNAME=.
+set APP_BASE_NAME=%~n0
+set APP_HOME=%DIRNAME%
+
+@rem Find java.exe
+if defined JAVA_HOME goto findJavaFromJavaHome
+
+set JAVA_EXE=java.exe
+%JAVA_EXE% -version >NUL 2>&1
+if "%ERRORLEVEL%" == "0" goto init
+
+echo.
+echo ERROR: JAVA_HOME is not set and no 'java' command could be found in your PATH.
+echo.
+echo Please set the JAVA_HOME variable in your environment to match the
+echo location of your Java installation.
+
+goto fail
+
+:findJavaFromJavaHome
+set JAVA_HOME=%JAVA_HOME:"=%
+set JAVA_EXE=%JAVA_HOME%/bin/java.exe
+
+if exist "%JAVA_EXE%" goto init
+
+echo.
+echo ERROR: JAVA_HOME is set to an invalid directory: %JAVA_HOME%
+echo.
+echo Please set the JAVA_HOME variable in your environment to match the
+echo location of your Java installation.
+
+goto fail
+
+:init
+@rem Get command-line arguments, handling Windowz variants
+
+if not "%OS%" == "Windows_NT" goto win9xME_args
+if "%@eval[2+2]" == "4" goto 4NT_args
+
+:win9xME_args
+@rem Slurp the command line arguments.
+set CMD_LINE_ARGS=
+set _SKIP=2
+
+:win9xME_args_slurp
+if "x%~1" == "x" goto execute
+
+set CMD_LINE_ARGS=%*
+goto execute
+
+:4NT_args
+@rem Get arguments from the 4NT Shell from JP Software
+set CMD_LINE_ARGS=%$
+
+:execute
+@rem Setup the command line
+
+set CLASSPATH=%APP_HOME%\gradle\wrapper\gradle-wrapper.jar
+
+@rem Execute Gradle
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %GRADLE_OPTS% "-Dorg.gradle.appname=%APP_BASE_NAME%" -classpath "%CLASSPATH%" org.gradle.wrapper.GradleWrapperMain %CMD_LINE_ARGS%
+
+:end
+@rem End local scope for the variables with windows NT shell
+if "%ERRORLEVEL%"=="0" goto mainEnd
+
+:fail
+rem Set variable GRADLE_EXIT_CONSOLE if you need the _script_ return code instead of
+rem the _cmd.exe /c_ return code!
+if  not "" == "%GRADLE_EXIT_CONSOLE%" exit 1
+exit /b 1
+
+:mainEnd
+if "%OS%"=="Windows_NT" endlocal
+
+:omega
+
+```
+
+---
+
+### <a id="📄-android-local-properties"></a>📄 `android/local.properties`
+
+**File Info:**
+- **Size**: 150 B
+- **Extension**: `.properties`
+- **Language**: `text`
+- **Location**: `android/local.properties`
+- **Relative Path**: `android`
+- **Created**: 2026-04-05 10:15:51 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-05 20:06:24 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `2b2f815acf94753c7472e8eb99ac4d84`
+- **SHA256**: `cbe74d4a37138eb749135be1ab7a54b54f53d6f903512b1ed8405287ad55423c`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```text
+sdk.dir=C:\\Users\\clbie\\AppData\\Local\\Android\\sdk
+flutter.sdk=C:\\flutter
+flutter.buildMode=debug
+flutter.versionName=1.0.0
+flutter.versionCode=1
+```
+
+---
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `android/baby_care_android.iml`
+- `android/babytracker_android.iml`
+- `android/build.gradle.kts`
+- `android/gradlew`
+- `android/settings.gradle.kts`
+
+### <a id="📄-assets-branding-readme-md"></a>📄 `assets/branding/README.md`
+
+**File Info:**
+- **Size**: 259 B
+- **Extension**: `.md`
+- **Language**: `text`
+- **Location**: `assets/branding/README.md`
+- **Relative Path**: `assets/branding`
+- **Created**: 2026-04-07 14:15:53 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-12 07:31:48 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `f677ceb6a77e993e0d90765f8d147ea4`
+- **SHA256**: `112ef5a769ef8c5a2294074f14150f8213a4f396b107e1cb1df58c182224194d`
+- **Encoding**: ASCII
+
+**File code content:**
+
+````markdown
+Place branding PNG assets here:
+
+- `splash_logo.png` (center icon, neon purple/blue baby icon)
+- `splash_branding.png` (BabyTracker text branding)
+- `app_icon.png` (launcher icon source, 1024x1024)
+- `app_icon_foreground.png` (adaptive foreground icon)
+
+````
+
+---
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `assets/branding/app_icon_foreground.png`
+- `assets/branding/app_icon.png`
+- `assets/branding/splash_logo.png`
+
+### <a id="📄-ios-babywidget-appintent-swift"></a>📄 `ios/BabyWidget/AppIntent.swift`
+
+**File Info:**
+- **Size**: 1.36 KB
+- **Extension**: `.swift`
+- **Language**: `swift`
+- **Location**: `ios/BabyWidget/AppIntent.swift`
+- **Relative Path**: `ios/BabyWidget`
+- **Created**: 2026-04-14 16:11:47 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-14 16:28:13 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `d51a014f8fb56550c9b2a6ff5dd61c04`
+- **SHA256**: `e3c41a8abae4f492919922acb1e54be9fcb779e6b9b65cc641ce3c9b2b9e18f9`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```swift
+import AppIntents
+import home_widget
+
+@available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, *)
+public struct FeedActionIntent: AppIntent {
+    public static var title: LocalizedStringResource = "Log Feed"
+    
+    @Parameter(title: "Feed Type")
+    var feedType: String
+    
+    @Parameter(title: "Child ID")
+    var childId: String
+
+    public init() {}
+    public init(feedType: String, childId: String) {
+        self.feedType = feedType
+        self.childId = childId
+    }
+
+    public func perform() async throws -> some IntentResult {
+        await HomeWidgetBackgroundWorker.run(
+            url: URL(string: "babycare://log_feed?type=\(feedType)&child_id=\(childId)"),
+            appGroup: "group.com.example.babycare"
+        )
+        return .result()
+    }
+}
+
+@available(iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0, *)
+public struct SleepActionIntent: AppIntent {
+    public static var title: LocalizedStringResource = "Toggle Sleep"
+    
+    @Parameter(title: "Child ID")
+    var childId: String
+
+    public init() {}
+    public init(childId: String) {
+        self.childId = childId
+    }
+
+    public func perform() async throws -> some IntentResult {
+        await HomeWidgetBackgroundWorker.run(
+            url: URL(string: "babycare://toggle_sleep?child_id=\(childId)"),
+            appGroup: "group.com.example.babycare"
+        )
+        return .result()
+    }
+}
+
+```
+
+---
+
+### <a id="📄-ios-babywidget-babywidget-swift"></a>📄 `ios/BabyWidget/BabyWidget.swift`
+
+**File Info:**
+- **Size**: 4.48 KB
+- **Extension**: `.swift`
+- **Language**: `swift`
+- **Location**: `ios/BabyWidget/BabyWidget.swift`
+- **Relative Path**: `ios/BabyWidget`
+- **Created**: 2026-04-14 16:11:49 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-14 16:28:10 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `0e8a0e8e97e891450dc71d121e3db3a6`
+- **SHA256**: `82f71f74e0169f5631946e0bcca71892db2364ba6b790672317f67b8620e8eef`
+- **Encoding**: UTF-8
+
+**File code content:**
+
+```swift
+import WidgetKit
+import SwiftUI
+import AppIntents
+
+struct Provider: AppIntentTimelineProvider {
+    func placeholder(in context: Context) -> SimpleEntry {
+        SimpleEntry(date: Date(), configuration: ConfigurationAppIntent())
+    }
+
+    func snapshot(for configuration: ConfigurationAppIntent, in context: Context) async -> SimpleEntry {
+        SimpleEntry(date: Date(), configuration: configuration)
+    }
+    
+    func timeline(for configuration: ConfigurationAppIntent, in context: Context) async -> Timeline<SimpleEntry> {
+        return Timeline(entries: [SimpleEntry(date: Date(), configuration: configuration)], policy: .never)
+    }
+}
+
+struct SimpleEntry: TimelineEntry {
+    let date: Date
+    let configuration: ConfigurationAppIntent
+}
+
+struct BabyWidgetEntryView : View {
+    var entry: Provider.Entry
+    
+    @AppStorage("widget_title_text", store: UserDefaults(suiteName: "group.com.example.babycare")) 
+    var title: String = "Bebeğim'in Durumu"
+    
+    @AppStorage("child_id", store: UserDefaults(suiteName: "group.com.example.babycare")) 
+    var childId: String = ""
+    
+    @AppStorage("ai_insight", store: UserDefaults(suiteName: "group.com.example.babycare")) 
+    var insight: String = "Yükleniyor..."
+    
+    @AppStorage("sleep_btn_text", store: UserDefaults(suiteName: "group.com.example.babycare")) 
+    var sleepBtnText: String = "💤 Uyut"
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 10) {
+            
+            // Header
+            Text(title)
+                .font(.headline)
+                .foregroundColor(Color(red: 238/255, green: 238/255, blue: 238/255))
+            
+            Divider().background(Color(white: 0.2))
+            
+            // AI Insight
+            Text(insight)
+                .font(.footnote)
+                .foregroundColor(Color(white: 0.6))
+                .lineLimit(2)
+                .padding(.bottom, 4)
+            
+            Spacer(minLength: 0)
+            
+            // Buttons
+            HStack(spacing: 8) {
+                // Süt Button
+                Button(intent: FeedActionIntent(feedType: "breast_milk", childId: childId)) {
+                    Text("🥛 Süt")
+                        .font(.caption)
+                        .fontWeight(.bold)
+                        .padding(.vertical, 12)
+                        .frame(maxWidth: .infinity)
+                        .foregroundColor(Color(red: 0/255, green: 32/255, blue: 30/255))
+                        .background(Color(red: 128/255, green: 203/255, blue: 196/255))
+                        .cornerRadius(12)
+                }
+                
+                // Mama Button
+                Button(intent: FeedActionIntent(feedType: "formula", childId: childId)) {
+                    Text("🍼 Mama")
+                        .font(.caption)
+                        .fontWeight(.bold)
+                        .padding(.vertical, 12)
+                        .frame(maxWidth: .infinity)
+                        .foregroundColor(Color(red: 0/255, green: 32/255, blue: 30/255))
+                        .background(Color(red: 128/255, green: 203/255, blue: 196/255))
+                        .cornerRadius(12)
+                }
+                
+                // Sleep Button
+                Button(intent: SleepActionIntent(childId: childId)) {
+                    Text(sleepBtnText)
+                        .font(.caption)
+                        .fontWeight(.bold)
+                        .padding(.vertical, 12)
+                        .frame(maxWidth: .infinity)
+                        .foregroundColor(Color(red: 26/255, green: 16/255, blue: 48/255))
+                        .background(Color(red: 179/255, green: 157/255, blue: 219/255))
+                        .cornerRadius(12)
+                }
+            }
+        }
+        .padding()
+        // Premium Dark Theme Background
+        .containerBackground(Color(red: 13/255, green: 13/255, blue: 13/255), for: .widget)
+    }
+}
+
+// Widget Kaydı
+struct BabyWidget: Widget {
+    let kind: String = "BabyWidget"
+
+    var body: some WidgetConfiguration {
+        AppIntentConfiguration(kind: kind, intent: ConfigurationAppIntent.self, provider: Provider()) { entry in
+            BabyWidgetEntryView(entry: entry)
+        }
+        .configurationDisplayName("Baby Tracker Interaktif")
+        .description("Bebeğinizin durumunu görün ve anında kayıt atın.")
+        .supportedFamilies([.systemMedium]) // Orta boy idealdir
+    }
+}
+
+struct ConfigurationAppIntent: AppIntent {
+    static var title: LocalizedStringResource = "Configuration"
+}
+
+```
+
+---
+
+### <a id="📄-ios-babywidget-babywidgetbundle-swift"></a>📄 `ios/BabyWidget/BabyWidgetBundle.swift`
+
+**File Info:**
+- **Size**: 136 B
+- **Extension**: `.swift`
+- **Language**: `swift`
+- **Location**: `ios/BabyWidget/BabyWidgetBundle.swift`
+- **Relative Path**: `ios/BabyWidget`
+- **Created**: 2026-04-14 16:11:51 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-14 16:28:08 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `f8c06ee96979b162eb9bbccc25044e3f`
+- **SHA256**: `bec57e4c706a1e5daf84ae5ed76ae6a74de75a5064c91d1d6b3940ee1e48de09`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```swift
+import WidgetKit
+import SwiftUI
+
+@main
+struct BabyWidgetBundle: WidgetBundle {
+    var body: some Widget {
+        BabyWidget()
+    }
+}
+
+```
+
+---
+
+### <a id="📄-ios-flutter-ephemeral-flutter-lldb-helper-py"></a>📄 `ios/Flutter/ephemeral/flutter_lldb_helper.py`
+
+**File Info:**
+- **Size**: 1.25 KB
+- **Extension**: `.py`
+- **Language**: `python`
+- **Location**: `ios/Flutter/ephemeral/flutter_lldb_helper.py`
+- **Relative Path**: `ios/Flutter/ephemeral`
+- **Created**: 2026-04-17 11:27:47 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-17 11:27:47 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `98fc75412162af387e2e3461e4e58094`
+- **SHA256**: `05cfe3977fdee593efad2049a4f62d374e55c69cedc8aabeee5566b37acb8384`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```python
+#
+# Generated file, do not edit.
+#
+
+import lldb
+
+def handle_new_rx_page(frame: lldb.SBFrame, bp_loc, extra_args, intern_dict):
+    """Intercept NOTIFY_DEBUGGER_ABOUT_RX_PAGES and touch the pages."""
+    base = frame.register["x0"].GetValueAsAddress()
+    page_len = frame.register["x1"].GetValueAsUnsigned()
+
+    # Note: NOTIFY_DEBUGGER_ABOUT_RX_PAGES will check contents of the
+    # first page to see if handled it correctly. This makes diagnosing
+    # misconfiguration (e.g. missing breakpoint) easier.
+    data = bytearray(page_len)
+    data[0:8] = b'IHELPED!'
+
+    error = lldb.SBError()
+    frame.GetThread().GetProcess().WriteMemory(base, data, error)
+    if not error.Success():
+        print(f'Failed to write into {base}[+{page_len}]', error)
+        return
+
+def __lldb_init_module(debugger: lldb.SBDebugger, _):
+    target = debugger.GetDummyTarget()
+    # Caveat: must use BreakpointCreateByRegEx here and not
+    # BreakpointCreateByName. For some reasons callback function does not
+    # get carried over from dummy target for the later.
+    bp = target.BreakpointCreateByRegex("^NOTIFY_DEBUGGER_ABOUT_RX_PAGES$")
+    bp.SetScriptCallbackFunction('{}.handle_new_rx_page'.format(__name__))
+    bp.SetAutoContinue(True)
+    print("-- LLDB integration loaded --")
+
+```
+
+---
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `ios/Flutter/ephemeral/flutter_lldbinit`
+
+### <a id="📄-ios-flutter-flutter-export-environment-sh"></a>📄 `ios/Flutter/flutter_export_environment.sh`
+
+**File Info:**
+- **Size**: 526 B
+- **Extension**: `.sh`
+- **Language**: `bash`
+- **Location**: `ios/Flutter/flutter_export_environment.sh`
+- **Relative Path**: `ios/Flutter`
+- **Created**: 2026-04-14 16:18:48 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-17 11:27:47 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `d191c748e4b809941aef21062290ca3d`
+- **SHA256**: `fc9535abaae5c4f98bdd0acfce05df45c22c11102b3a039d7e527bb29bb68329`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```bash
+#!/bin/sh
+# This is a generated file; do not edit or check into version control.
+export "FLUTTER_ROOT=C:\flutter"
+export "FLUTTER_APPLICATION_PATH=C:\Users\clbie\Desktop\E-ebeveyn\baby_care"
+export "COCOAPODS_PARALLEL_CODE_SIGN=true"
+export "FLUTTER_TARGET=lib\main.dart"
+export "FLUTTER_BUILD_DIR=build"
+export "FLUTTER_BUILD_NAME=1.0.0"
+export "FLUTTER_BUILD_NUMBER=1"
+export "DART_OBFUSCATION=false"
+export "TRACK_WIDGET_CREATION=true"
+export "TREE_SHAKE_ICONS=false"
+export "PACKAGE_CONFIG=.dart_tool/package_config.json"
+
+```
+
+---
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `ios/Flutter/AppFrameworkInfo.plist`
+- `ios/Flutter/Debug.xcconfig`
+- `ios/Flutter/Generated.xcconfig`
+- `ios/Flutter/Release.xcconfig`
+
+### <a id="📄-ios-runner-assets-xcassets-appicon-appiconset-contents-json"></a>📄 `ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json`
+
+**File Info:**
+- **Size**: 2.05 KB
+- **Extension**: `.json`
+- **Language**: `json`
+- **Location**: `ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json`
+- **Relative Path**: `ios/Runner/Assets.xcassets/AppIcon.appiconset`
+- **Created**: 2026-04-05 10:15:50 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-07 14:44:16 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `c870f277d0c83d1af12f8dc2d368879a`
+- **SHA256**: `59aee64f32dab46ad775da6ea2f3fc4efe6e8a78289a9185cd0d2d7e055845dd`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```json
+{"images":[{"size":"20x20","idiom":"iphone","filename":"Icon-App-20x20@2x.png","scale":"2x"},{"size":"20x20","idiom":"iphone","filename":"Icon-App-20x20@3x.png","scale":"3x"},{"size":"29x29","idiom":"iphone","filename":"Icon-App-29x29@1x.png","scale":"1x"},{"size":"29x29","idiom":"iphone","filename":"Icon-App-29x29@2x.png","scale":"2x"},{"size":"29x29","idiom":"iphone","filename":"Icon-App-29x29@3x.png","scale":"3x"},{"size":"40x40","idiom":"iphone","filename":"Icon-App-40x40@2x.png","scale":"2x"},{"size":"40x40","idiom":"iphone","filename":"Icon-App-40x40@3x.png","scale":"3x"},{"size":"57x57","idiom":"iphone","filename":"Icon-App-57x57@1x.png","scale":"1x"},{"size":"57x57","idiom":"iphone","filename":"Icon-App-57x57@2x.png","scale":"2x"},{"size":"60x60","idiom":"iphone","filename":"Icon-App-60x60@2x.png","scale":"2x"},{"size":"60x60","idiom":"iphone","filename":"Icon-App-60x60@3x.png","scale":"3x"},{"size":"20x20","idiom":"ipad","filename":"Icon-App-20x20@1x.png","scale":"1x"},{"size":"20x20","idiom":"ipad","filename":"Icon-App-20x20@2x.png","scale":"2x"},{"size":"29x29","idiom":"ipad","filename":"Icon-App-29x29@1x.png","scale":"1x"},{"size":"29x29","idiom":"ipad","filename":"Icon-App-29x29@2x.png","scale":"2x"},{"size":"40x40","idiom":"ipad","filename":"Icon-App-40x40@1x.png","scale":"1x"},{"size":"40x40","idiom":"ipad","filename":"Icon-App-40x40@2x.png","scale":"2x"},{"size":"50x50","idiom":"ipad","filename":"Icon-App-50x50@1x.png","scale":"1x"},{"size":"50x50","idiom":"ipad","filename":"Icon-App-50x50@2x.png","scale":"2x"},{"size":"72x72","idiom":"ipad","filename":"Icon-App-72x72@1x.png","scale":"1x"},{"size":"72x72","idiom":"ipad","filename":"Icon-App-72x72@2x.png","scale":"2x"},{"size":"76x76","idiom":"ipad","filename":"Icon-App-76x76@1x.png","scale":"1x"},{"size":"76x76","idiom":"ipad","filename":"Icon-App-76x76@2x.png","scale":"2x"},{"size":"83.5x83.5","idiom":"ipad","filename":"Icon-App-83.5x83.5@2x.png","scale":"2x"},{"size":"1024x1024","idiom":"ios-marketing","filename":"Icon-App-1024x1024@1x.png","scale":"1x"}],"info":{"version":1,"author":"xcode"}}
+```
+
+---
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png`
+- `ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png`
+- `ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png`
+- `ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png`
+- `ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png`
+- `ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png`
+- `ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png`
+- `ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png`
+- `ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png`
+- `ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png`
+- `ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-50x50@1x.png`
+- `ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-50x50@2x.png`
+- `ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-57x57@1x.png`
+- `ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-57x57@2x.png`
+- `ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png`
+- `ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png`
+- `ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-72x72@1x.png`
+- `ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-72x72@2x.png`
+- `ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png`
+- `ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png`
+- `ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png`
+
+### <a id="📄-ios-runner-assets-xcassets-launchimage-imageset-contents-json"></a>📄 `ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json`
+
+**File Info:**
+- **Size**: 414 B
+- **Extension**: `.json`
+- **Language**: `json`
+- **Location**: `ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json`
+- **Relative Path**: `ios/Runner/Assets.xcassets/LaunchImage.imageset`
+- **Created**: 2026-04-05 10:15:50 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-02-23 09:36:18 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `b9e927ac17345f2d5f052fe68a3487f9`
+- **SHA256**: `fbd112a9f3b541a1d811f71ac8e4fe68b6176687d973a5f4d99b7aa4a722e94e`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```json
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "LaunchImage.png",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "LaunchImage@2x.png",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "LaunchImage@3x.png",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
+
+```
+
+---
+
+### <a id="📄-ios-runner-assets-xcassets-launchimage-imageset-readme-md"></a>📄 `ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md`
+
+**File Info:**
+- **Size**: 340 B
+- **Extension**: `.md`
+- **Language**: `text`
+- **Location**: `ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md`
+- **Relative Path**: `ios/Runner/Assets.xcassets/LaunchImage.imageset`
+- **Created**: 2026-04-05 10:15:50 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-02-23 09:36:18 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `f7ee1b402881509d197f34963e569927`
+- **SHA256**: `853ac958e2416fe2540f6f61165283a3618b71a7ba5f85f65ac41c2158dfcd21`
+- **Encoding**: ASCII
+
+**File code content:**
+
+````markdown
+# Launch Screen Assets
+
+You can customize the launch screen with your own desired assets by replacing the image files in this directory.
+
+You can also do it by opening your Flutter project's Xcode project with `open ios/Runner.xcworkspace`, selecting `Runner/Assets.xcassets` in the Project Navigator and dropping in the desired images.
+````
+
+---
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png`
+- `ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png`
+- `ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `ios/Runner/Base.lproj/LaunchScreen.storyboard`
+- `ios/Runner/Base.lproj/Main.storyboard`
+
+### <a id="📄-ios-runner-appdelegate-swift"></a>📄 `ios/Runner/AppDelegate.swift`
+
+**File Info:**
+- **Size**: 555 B
+- **Extension**: `.swift`
+- **Language**: `swift`
+- **Location**: `ios/Runner/AppDelegate.swift`
+- **Relative Path**: `ios/Runner`
+- **Created**: 2026-04-05 10:15:50 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-02-23 09:36:18 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `9e1de9c329a3fe4931876063de95132b`
+- **SHA256**: `54a5e98d6c3e8a79413ad50607b83aac8ded8828bc913eda1fe86bb33a66cd5d`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```swift
+import Flutter
+import UIKit
+
+@main
+@objc class AppDelegate: FlutterAppDelegate, FlutterImplicitEngineDelegate {
+  override func application(
+    _ application: UIApplication,
+    didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
+  ) -> Bool {
+    return super.application(application, didFinishLaunchingWithOptions: launchOptions)
+  }
+
+  func didInitializeImplicitFlutterEngine(_ engineBridge: FlutterImplicitEngineBridge) {
+    GeneratedPluginRegistrant.register(with: engineBridge.pluginRegistry)
+  }
+}
+
+```
+
+---
+
+### <a id="📄-ios-runner-generatedpluginregistrant-h"></a>📄 `ios/Runner/GeneratedPluginRegistrant.h`
+
+**File Info:**
+- **Size**: 378 B
+- **Extension**: `.h`
+- **Language**: `text`
+- **Location**: `ios/Runner/GeneratedPluginRegistrant.h`
+- **Relative Path**: `ios/Runner`
+- **Created**: 2026-04-05 10:15:54 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-05 10:15:54 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `decb9041b5e91a07e66f4664e5dac408`
+- **SHA256**: `a5f88cc6415d2e639d2cb549348b84e02a7fdd0261603b0063abef6fa11f075a`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```text
+//
+//  Generated file. Do not edit.
+//
+
+// clang-format off
+
+#ifndef GeneratedPluginRegistrant_h
+#define GeneratedPluginRegistrant_h
+
+#import <Flutter/Flutter.h>
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface GeneratedPluginRegistrant : NSObject
++ (void)registerWithRegistry:(NSObject<FlutterPluginRegistry>*)registry;
+@end
+
+NS_ASSUME_NONNULL_END
+#endif /* GeneratedPluginRegistrant_h */
+
+```
+
+---
+
+### <a id="📄-ios-runner-generatedpluginregistrant-m"></a>📄 `ios/Runner/GeneratedPluginRegistrant.m`
+
+**File Info:**
+- **Size**: 3.79 KB
+- **Extension**: `.m`
+- **Language**: `text`
+- **Location**: `ios/Runner/GeneratedPluginRegistrant.m`
+- **Relative Path**: `ios/Runner`
+- **Created**: 2026-04-05 10:15:54 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-16 19:14:30 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `d92f79cbcd784015a41ccba4a110bc8b`
+- **SHA256**: `c261b248c833c337d53d93ecb9c71488baf4d9a8f4630b9732af810599b16d9e`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```text
+//
+//  Generated file. Do not edit.
+//
+
+// clang-format off
+
+#import "GeneratedPluginRegistrant.h"
+
+#if __has_include(<app_links/AppLinksIosPlugin.h>)
+#import <app_links/AppLinksIosPlugin.h>
+#else
+@import app_links;
+#endif
+
+#if __has_include(<audio_session/AudioSessionPlugin.h>)
+#import <audio_session/AudioSessionPlugin.h>
+#else
+@import audio_session;
+#endif
+
+#if __has_include(<connectivity_plus/ConnectivityPlusPlugin.h>)
+#import <connectivity_plus/ConnectivityPlusPlugin.h>
+#else
+@import connectivity_plus;
+#endif
+
+#if __has_include(<device_info_plus/FPPDeviceInfoPlusPlugin.h>)
+#import <device_info_plus/FPPDeviceInfoPlusPlugin.h>
+#else
+@import device_info_plus;
+#endif
+
+#if __has_include(<flutter_local_notifications/FlutterLocalNotificationsPlugin.h>)
+#import <flutter_local_notifications/FlutterLocalNotificationsPlugin.h>
+#else
+@import flutter_local_notifications;
+#endif
+
+#if __has_include(<google_mobile_ads/FLTGoogleMobileAdsPlugin.h>)
+#import <google_mobile_ads/FLTGoogleMobileAdsPlugin.h>
+#else
+@import google_mobile_ads;
+#endif
+
+#if __has_include(<home_widget/HomeWidgetPlugin.h>)
+#import <home_widget/HomeWidgetPlugin.h>
+#else
+@import home_widget;
+#endif
+
+#if __has_include(<just_audio/JustAudioPlugin.h>)
+#import <just_audio/JustAudioPlugin.h>
+#else
+@import just_audio;
+#endif
+
+#if __has_include(<permission_handler_apple/PermissionHandlerPlugin.h>)
+#import <permission_handler_apple/PermissionHandlerPlugin.h>
+#else
+@import permission_handler_apple;
+#endif
+
+#if __has_include(<realm/RealmPlugin.h>)
+#import <realm/RealmPlugin.h>
+#else
+@import realm;
+#endif
+
+#if __has_include(<shared_preferences_foundation/SharedPreferencesPlugin.h>)
+#import <shared_preferences_foundation/SharedPreferencesPlugin.h>
+#else
+@import shared_preferences_foundation;
+#endif
+
+#if __has_include(<syncfusion_flutter_pdfviewer/SyncfusionFlutterPdfViewerPlugin.h>)
+#import <syncfusion_flutter_pdfviewer/SyncfusionFlutterPdfViewerPlugin.h>
+#else
+@import syncfusion_flutter_pdfviewer;
+#endif
+
+#if __has_include(<url_launcher_ios/URLLauncherPlugin.h>)
+#import <url_launcher_ios/URLLauncherPlugin.h>
+#else
+@import url_launcher_ios;
+#endif
+
+#if __has_include(<webview_flutter_wkwebview/WebViewFlutterPlugin.h>)
+#import <webview_flutter_wkwebview/WebViewFlutterPlugin.h>
+#else
+@import webview_flutter_wkwebview;
+#endif
+
+@implementation GeneratedPluginRegistrant
+
++ (void)registerWithRegistry:(NSObject<FlutterPluginRegistry>*)registry {
+  [AppLinksIosPlugin registerWithRegistrar:[registry registrarForPlugin:@"AppLinksIosPlugin"]];
+  [AudioSessionPlugin registerWithRegistrar:[registry registrarForPlugin:@"AudioSessionPlugin"]];
+  [ConnectivityPlusPlugin registerWithRegistrar:[registry registrarForPlugin:@"ConnectivityPlusPlugin"]];
+  [FPPDeviceInfoPlusPlugin registerWithRegistrar:[registry registrarForPlugin:@"FPPDeviceInfoPlusPlugin"]];
+  [FlutterLocalNotificationsPlugin registerWithRegistrar:[registry registrarForPlugin:@"FlutterLocalNotificationsPlugin"]];
+  [FLTGoogleMobileAdsPlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTGoogleMobileAdsPlugin"]];
+  [HomeWidgetPlugin registerWithRegistrar:[registry registrarForPlugin:@"HomeWidgetPlugin"]];
+  [JustAudioPlugin registerWithRegistrar:[registry registrarForPlugin:@"JustAudioPlugin"]];
+  [PermissionHandlerPlugin registerWithRegistrar:[registry registrarForPlugin:@"PermissionHandlerPlugin"]];
+  [RealmPlugin registerWithRegistrar:[registry registrarForPlugin:@"RealmPlugin"]];
+  [SharedPreferencesPlugin registerWithRegistrar:[registry registrarForPlugin:@"SharedPreferencesPlugin"]];
+  [SyncfusionFlutterPdfViewerPlugin registerWithRegistrar:[registry registrarForPlugin:@"SyncfusionFlutterPdfViewerPlugin"]];
+  [URLLauncherPlugin registerWithRegistrar:[registry registrarForPlugin:@"URLLauncherPlugin"]];
+  [WebViewFlutterPlugin registerWithRegistrar:[registry registrarForPlugin:@"WebViewFlutterPlugin"]];
+}
+
+@end
+
+```
+
+---
+
+### <a id="📄-ios-runner-runner-bridging-header-h"></a>📄 `ios/Runner/Runner-Bridging-Header.h`
+
+**File Info:**
+- **Size**: 39 B
+- **Extension**: `.h`
+- **Language**: `text`
+- **Location**: `ios/Runner/Runner-Bridging-Header.h`
+- **Relative Path**: `ios/Runner`
+- **Created**: 2026-04-05 10:15:50 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-02-23 09:36:18 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `7ad7b5cea096132de13ba526b2b9efbe`
+- **SHA256**: `efe657d8b27f7f8595a0d416bffb33fe7d93bd2869d81f7353b556c439d7a1a7`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```text
+#import "GeneratedPluginRegistrant.h"
+
+```
+
+---
+
+### <a id="📄-ios-runner-scenedelegate-swift"></a>📄 `ios/Runner/SceneDelegate.swift`
+
+**File Info:**
+- **Size**: 82 B
+- **Extension**: `.swift`
+- **Language**: `swift`
+- **Location**: `ios/Runner/SceneDelegate.swift`
+- **Relative Path**: `ios/Runner`
+- **Created**: 2026-04-05 10:15:50 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-02-23 09:36:18 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `0c3e86af131f6a9e547c80b5ed058914`
+- **SHA256**: `edce811c671ca0a6ccb14753e14e16deb0d89a0adf4f1b685e362d87d8f4c366`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```swift
+import Flutter
+import UIKit
+
+class SceneDelegate: FlutterSceneDelegate {
+
+}
+
+```
+
+---
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `ios/Runner/Info.plist`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist`
+- `ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `ios/Runner.xcodeproj/project.pbxproj`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist`
+- `ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `ios/Runner.xcworkspace/contents.xcworkspacedata`
+
+### <a id="📄-ios-runnertests-runnertests-swift"></a>📄 `ios/RunnerTests/RunnerTests.swift`
+
+**File Info:**
+- **Size**: 297 B
+- **Extension**: `.swift`
+- **Language**: `swift`
+- **Location**: `ios/RunnerTests/RunnerTests.swift`
+- **Relative Path**: `ios/RunnerTests`
+- **Created**: 2026-04-05 10:15:50 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-05 10:15:50 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `24e5d095048eb86c30423f4e04b6e57b`
+- **SHA256**: `c0e04141287eb7f9c9f3d31cf5be8cb626a9ea71351206c9121578e8b8f480c3`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```swift
+import Flutter
+import UIKit
+import XCTest
+
+class RunnerTests: XCTestCase {
+
+  func testExample() {
+    // If you add code to the Runner application, consider adding tests here.
+    // See https://developer.apple.com/documentation/xctest for more information about using XCTest.
+  }
+
+}
+
+```
+
+---
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/core/auth/data/supabase_auth_repository.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/core/auth/domain/auth_failure.dart`
+- `lib/core/auth/domain/auth_repository.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/core/auth/providers/auth_providers.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/core/auth/auth_provider.dart`
+- `lib/core/auth/auth_provider.g.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/core/bootstrap/growth_reminder_bootstrap.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/core/config/app_config.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/core/connectivity/providers/connectivity_provider.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/core/constants/app_constants.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/core/db/providers/realm_provider.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/core/db/realm_config.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/core/family/providers/family_providers.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/core/family/family_repository.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/core/navigation/page_routes.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/core/notifications/growth_measurement_scheduler.dart`
+- `lib/core/notifications/notification_service.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/core/sync/presentation/controllers/sync_orchestrator.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/core/sync/providers/sync_providers.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/core/sync/sync_repository.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/core/theme/app_colors.dart`
+- `lib/core/theme/app_theme.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/core/widgets/empty_state_widget.dart`
+- `lib/core/widgets/home_widget_service.dart`
+- `lib/core/widgets/shimmer_skeleton.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/features/academy/presentation/academy_screen.dart`
+- `lib/features/academy/presentation/pdf_viewer_screen.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/features/academy/providers/academy_providers.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/features/ai_coach/data/repositories/ai_repository.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/features/ai_coach/presentation/widgets/ai_chat_bubble.dart`
+- `lib/features/ai_coach/presentation/widgets/analyze_button_widget.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/features/ai_coach/presentation/ai_insight_screen.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/features/ai_coach/providers/ai_coach_provider.dart`
+- `lib/features/ai_coach/providers/ai_credit_provider.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/features/ai_coach/services/ad_mob_service.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/features/auth/domain/providers/auth_providers.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/features/auth/domain/auth_failure.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/features/auth/presentation/controllers/login_controller.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/features/auth/presentation/login_screen.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/features/auth/providers/auth_providers.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/features/child/data/models/child_model.dart`
+- `lib/features/child/data/models/child_model.realm.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/features/child/data/repositories/child_repository.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/features/child/providers/child_providers.dart`
+- `lib/features/child/providers/child_providers.g.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/features/event_log/data/models/event_log_model.dart`
+- `lib/features/event_log/data/models/event_log_model.realm.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/features/event_log/data/repositories/event_log_repository.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/features/event_log/providers/event_log_providers.dart`
+- `lib/features/event_log/providers/event_log_providers.g.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/features/home/presentation/widgets/action_bottom_sheet.dart`
+- `lib/features/home/presentation/widgets/child_header.dart`
+- `lib/features/home/presentation/widgets/child_selector_bar.dart`
+- `lib/features/home/presentation/widgets/recent_events_list.dart`
+- `lib/features/home/presentation/widgets/tutorial_service.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/features/home/presentation/home_screen.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/features/home/providers/tutorial_keys.dart`
+- `lib/features/home/providers/tutorial_provider.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/features/kids_media/data/models/kids_media_model.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/features/kids_media/data/repositories/kids_media_repository.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/features/kids_media/providers/kids_media_providers.dart`
+- `lib/features/kids_media/providers/kids_media_providers.g.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/features/kids_media/screens/kids_media_screen.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/features/main/presentation/main_layout.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/features/media/data/models/sound_track_model.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/features/media/data/repositories/media_repository.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/features/media/presentation/widgets/category_header.dart`
+- `lib/features/media/presentation/widgets/persistent_mini_player.dart`
+- `lib/features/media/presentation/widgets/track_list_tile.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/features/media/presentation/sleep_library_screen.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/features/media/providers/audio_player_provider.dart`
+- `lib/features/media/providers/media_list_provider.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/features/onboarding/presentation/family_decision_screen.dart`
+- `lib/features/onboarding/presentation/onboarding_screen.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/features/reminders/presentation/widgets/add_reminder_bottom_sheet.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/features/reminders/presentation/reminders_screen.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/features/reminders/providers/reminder_provider.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/features/reports/data/repositories/reports_repository.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/features/reports/presentation/widgets/daily_summary_card.dart`
+- `lib/features/reports/presentation/widgets/weekly_chart_widget.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/features/reports/presentation/reports_screen.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/features/reports/providers/reports_providers.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/features/settings/presentation/settings_screen.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/features/user/data/models/user_model.dart`
+- `lib/features/user/data/models/user_model.realm.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/features/user/data/repositories/user_local_repository.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/features/user/presentation/family_settings_screen.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/features/user/providers/user_providers.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/features/vaccination/data/vaccination_due_helper.dart`
+- `lib/features/vaccination/data/vaccination_repository.dart`
+- `lib/features/vaccination/data/vaccination_schedule.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/features/vaccination/presentation/vaccination_screen.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/features/vaccination/providers/vaccination_providers.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `lib/app.dart`
+- `lib/main.dart`
+
+### <a id="📄-linux-flutter-cmakelists-txt"></a>📄 `linux/flutter/CMakeLists.txt`
+
+**File Info:**
+- **Size**: 2.83 KB
+- **Extension**: `.txt`
+- **Language**: `text`
+- **Location**: `linux/flutter/CMakeLists.txt`
+- **Relative Path**: `linux/flutter`
+- **Created**: 2026-04-05 10:15:50 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-02-23 09:36:18 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `2195470ce31675d31db5a37590d011f6`
+- **SHA256**: `4eb17836308c1cd53f6b2bb8edb3b7b30610bff3b1d9df7fecc9317f9109700c`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```text
+# This file controls Flutter-level build steps. It should not be edited.
+cmake_minimum_required(VERSION 3.10)
+
+set(EPHEMERAL_DIR "${CMAKE_CURRENT_SOURCE_DIR}/ephemeral")
+
+# Configuration provided via flutter tool.
+include(${EPHEMERAL_DIR}/generated_config.cmake)
+
+# TODO: Move the rest of this into files in ephemeral. See
+# https://github.com/flutter/flutter/issues/57146.
+
+# Serves the same purpose as list(TRANSFORM ... PREPEND ...),
+# which isn't available in 3.10.
+function(list_prepend LIST_NAME PREFIX)
+    set(NEW_LIST "")
+    foreach(element ${${LIST_NAME}})
+        list(APPEND NEW_LIST "${PREFIX}${element}")
+    endforeach(element)
+    set(${LIST_NAME} "${NEW_LIST}" PARENT_SCOPE)
+endfunction()
+
+# === Flutter Library ===
+# System-level dependencies.
+find_package(PkgConfig REQUIRED)
+pkg_check_modules(GTK REQUIRED IMPORTED_TARGET gtk+-3.0)
+pkg_check_modules(GLIB REQUIRED IMPORTED_TARGET glib-2.0)
+pkg_check_modules(GIO REQUIRED IMPORTED_TARGET gio-2.0)
+
+set(FLUTTER_LIBRARY "${EPHEMERAL_DIR}/libflutter_linux_gtk.so")
+
+# Published to parent scope for install step.
+set(FLUTTER_LIBRARY ${FLUTTER_LIBRARY} PARENT_SCOPE)
+set(FLUTTER_ICU_DATA_FILE "${EPHEMERAL_DIR}/icudtl.dat" PARENT_SCOPE)
+set(PROJECT_BUILD_DIR "${PROJECT_DIR}/build/" PARENT_SCOPE)
+set(AOT_LIBRARY "${PROJECT_DIR}/build/lib/libapp.so" PARENT_SCOPE)
+
+list(APPEND FLUTTER_LIBRARY_HEADERS
+  "fl_basic_message_channel.h"
+  "fl_binary_codec.h"
+  "fl_binary_messenger.h"
+  "fl_dart_project.h"
+  "fl_engine.h"
+  "fl_json_message_codec.h"
+  "fl_json_method_codec.h"
+  "fl_message_codec.h"
+  "fl_method_call.h"
+  "fl_method_channel.h"
+  "fl_method_codec.h"
+  "fl_method_response.h"
+  "fl_plugin_registrar.h"
+  "fl_plugin_registry.h"
+  "fl_standard_message_codec.h"
+  "fl_standard_method_codec.h"
+  "fl_string_codec.h"
+  "fl_value.h"
+  "fl_view.h"
+  "flutter_linux.h"
+)
+list_prepend(FLUTTER_LIBRARY_HEADERS "${EPHEMERAL_DIR}/flutter_linux/")
+add_library(flutter INTERFACE)
+target_include_directories(flutter INTERFACE
+  "${EPHEMERAL_DIR}"
+)
+target_link_libraries(flutter INTERFACE "${FLUTTER_LIBRARY}")
+target_link_libraries(flutter INTERFACE
+  PkgConfig::GTK
+  PkgConfig::GLIB
+  PkgConfig::GIO
+)
+add_dependencies(flutter flutter_assemble)
+
+# === Flutter tool backend ===
+# _phony_ is a non-existent file to force this command to run every time,
+# since currently there's no way to get a full input/output list from the
+# flutter tool.
+add_custom_command(
+  OUTPUT ${FLUTTER_LIBRARY} ${FLUTTER_LIBRARY_HEADERS}
+    ${CMAKE_CURRENT_BINARY_DIR}/_phony_
+  COMMAND ${CMAKE_COMMAND} -E env
+    ${FLUTTER_TOOL_ENVIRONMENT}
+    "${FLUTTER_ROOT}/packages/flutter_tools/bin/tool_backend.sh"
+      ${FLUTTER_TARGET_PLATFORM} ${CMAKE_BUILD_TYPE}
+  VERBATIM
+)
+add_custom_target(flutter_assemble DEPENDS
+  "${FLUTTER_LIBRARY}"
+  ${FLUTTER_LIBRARY_HEADERS}
+)
+
+```
+
+---
+
+### <a id="📄-linux-flutter-generated-plugin-registrant-h"></a>📄 `linux/flutter/generated_plugin_registrant.h`
+
+**File Info:**
+- **Size**: 303 B
+- **Extension**: `.h`
+- **Language**: `text`
+- **Location**: `linux/flutter/generated_plugin_registrant.h`
+- **Relative Path**: `linux/flutter`
+- **Created**: 2026-04-05 10:15:54 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-05 10:15:54 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `d295462c9da9f7fef22dc86c34492318`
+- **SHA256**: `00f93bb5b1faefdede8f6065df327522900fb0b8efee86bacf424fd947ed14bb`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```text
+//
+//  Generated file. Do not edit.
+//
+
+// clang-format off
+
+#ifndef GENERATED_PLUGIN_REGISTRANT_
+#define GENERATED_PLUGIN_REGISTRANT_
+
+#include <flutter_linux/flutter_linux.h>
+
+// Registers Flutter plugins.
+void fl_register_plugins(FlPluginRegistry* registry);
+
+#endif  // GENERATED_PLUGIN_REGISTRANT_
+
+```
+
+---
+
+### <a id="📄-linux-flutter-generated-plugins-cmake"></a>📄 `linux/flutter/generated_plugins.cmake`
+
+**File Info:**
+- **Size**: 803 B
+- **Extension**: `.cmake`
+- **Language**: `text`
+- **Location**: `linux/flutter/generated_plugins.cmake`
+- **Relative Path**: `linux/flutter`
+- **Created**: 2026-04-05 10:15:54 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-16 18:08:54 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `67c2c339ab2af59ed3b45678eb60a65c`
+- **SHA256**: `b65ea2775ac651906bb9ddb1d5ba8d85bab4686c8445d8ea53e4af0fbb8024a9`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```text
+#
+# Generated file, do not edit.
+#
+
+list(APPEND FLUTTER_PLUGIN_LIST
+  gtk
+  realm
+  syncfusion_pdfviewer_linux
+  url_launcher_linux
+)
+
+list(APPEND FLUTTER_FFI_PLUGIN_LIST
+)
+
+set(PLUGIN_BUNDLED_LIBRARIES)
+
+foreach(plugin ${FLUTTER_PLUGIN_LIST})
+  add_subdirectory(flutter/ephemeral/.plugin_symlinks/${plugin}/linux plugins/${plugin})
+  target_link_libraries(${BINARY_NAME} PRIVATE ${plugin}_plugin)
+  list(APPEND PLUGIN_BUNDLED_LIBRARIES $<TARGET_FILE:${plugin}_plugin>)
+  list(APPEND PLUGIN_BUNDLED_LIBRARIES ${${plugin}_bundled_libraries})
+endforeach(plugin)
+
+foreach(ffi_plugin ${FLUTTER_FFI_PLUGIN_LIST})
+  add_subdirectory(flutter/ephemeral/.plugin_symlinks/${ffi_plugin}/linux plugins/${ffi_plugin})
+  list(APPEND PLUGIN_BUNDLED_LIBRARIES ${${ffi_plugin}_bundled_libraries})
+endforeach(ffi_plugin)
+
+```
+
+---
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `linux/flutter/generated_plugin_registrant.cc`
+
+### <a id="📄-linux-runner-cmakelists-txt"></a>📄 `linux/runner/CMakeLists.txt`
+
+**File Info:**
+- **Size**: 1000 B
+- **Extension**: `.txt`
+- **Language**: `text`
+- **Location**: `linux/runner/CMakeLists.txt`
+- **Relative Path**: `linux/runner`
+- **Created**: 2026-04-05 10:15:50 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-02-23 09:36:18 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `30cc1614b16214b66c014af09ba699eb`
+- **SHA256**: `81ecf2604c50f480c23d460b2ddf653ecd39df29cc5b2fe4913f1a59f008a5a7`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```text
+cmake_minimum_required(VERSION 3.13)
+project(runner LANGUAGES CXX)
+
+# Define the application target. To change its name, change BINARY_NAME in the
+# top-level CMakeLists.txt, not the value here, or `flutter run` will no longer
+# work.
+#
+# Any new source files that you add to the application should be added here.
+add_executable(${BINARY_NAME}
+  "main.cc"
+  "my_application.cc"
+  "${FLUTTER_MANAGED_DIR}/generated_plugin_registrant.cc"
+)
+
+# Apply the standard set of build settings. This can be removed for applications
+# that need different build settings.
+apply_standard_settings(${BINARY_NAME})
+
+# Add preprocessor definitions for the application ID.
+add_definitions(-DAPPLICATION_ID="${APPLICATION_ID}")
+
+# Add dependency libraries. Add any application-specific dependencies here.
+target_link_libraries(${BINARY_NAME} PRIVATE flutter)
+target_link_libraries(${BINARY_NAME} PRIVATE PkgConfig::GTK)
+
+target_include_directories(${BINARY_NAME} PRIVATE "${CMAKE_SOURCE_DIR}")
+
+```
+
+---
+
+### <a id="📄-linux-runner-my-application-h"></a>📄 `linux/runner/my_application.h`
+
+**File Info:**
+- **Size**: 472 B
+- **Extension**: `.h`
+- **Language**: `text`
+- **Location**: `linux/runner/my_application.h`
+- **Relative Path**: `linux/runner`
+- **Created**: 2026-04-05 10:15:51 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-02-23 09:36:18 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `ffa1a7c0a2ad45a2c14a921596516ff8`
+- **SHA256**: `880393cb82d7feaaa95d9acd6c2317749afae0e17ea5f5ee44b456bc081b5987`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```text
+#ifndef FLUTTER_MY_APPLICATION_H_
+#define FLUTTER_MY_APPLICATION_H_
+
+#include <gtk/gtk.h>
+
+G_DECLARE_FINAL_TYPE(MyApplication,
+                     my_application,
+                     MY,
+                     APPLICATION,
+                     GtkApplication)
+
+/**
+ * my_application_new:
+ *
+ * Creates a new Flutter-based application.
+ *
+ * Returns: a new #MyApplication.
+ */
+MyApplication* my_application_new();
+
+#endif  // FLUTTER_MY_APPLICATION_H_
+
+```
+
+---
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `linux/runner/main.cc`
+- `linux/runner/my_application.cc`
+
+### <a id="📄-linux-cmakelists-txt"></a>📄 `linux/CMakeLists.txt`
+
+**File Info:**
+- **Size**: 4.77 KB
+- **Extension**: `.txt`
+- **Language**: `text`
+- **Location**: `linux/CMakeLists.txt`
+- **Relative Path**: `linux`
+- **Created**: 2026-04-05 10:15:50 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-05 10:15:50 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `b860aa266347463738c4148559380489`
+- **SHA256**: `3e3a5564a8f9bdd65bcbf82a75ad80baa563973c6cf5db36f9d814971f468f43`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```text
+# Project-level configuration.
+cmake_minimum_required(VERSION 3.13)
+project(runner LANGUAGES CXX)
+
+# The name of the executable created for the application. Change this to change
+# the on-disk name of your application.
+set(BINARY_NAME "baby_care")
+# The unique GTK application identifier for this application. See:
+# https://wiki.gnome.org/HowDoI/ChooseApplicationID
+set(APPLICATION_ID "com.example.baby_care")
+
+# Explicitly opt in to modern CMake behaviors to avoid warnings with recent
+# versions of CMake.
+cmake_policy(SET CMP0063 NEW)
+
+# Load bundled libraries from the lib/ directory relative to the binary.
+set(CMAKE_INSTALL_RPATH "$ORIGIN/lib")
+
+# Root filesystem for cross-building.
+if(FLUTTER_TARGET_PLATFORM_SYSROOT)
+  set(CMAKE_SYSROOT ${FLUTTER_TARGET_PLATFORM_SYSROOT})
+  set(CMAKE_FIND_ROOT_PATH ${CMAKE_SYSROOT})
+  set(CMAKE_FIND_ROOT_PATH_MODE_PROGRAM NEVER)
+  set(CMAKE_FIND_ROOT_PATH_MODE_PACKAGE ONLY)
+  set(CMAKE_FIND_ROOT_PATH_MODE_LIBRARY ONLY)
+  set(CMAKE_FIND_ROOT_PATH_MODE_INCLUDE ONLY)
+endif()
+
+# Define build configuration options.
+if(NOT CMAKE_BUILD_TYPE AND NOT CMAKE_CONFIGURATION_TYPES)
+  set(CMAKE_BUILD_TYPE "Debug" CACHE
+    STRING "Flutter build mode" FORCE)
+  set_property(CACHE CMAKE_BUILD_TYPE PROPERTY STRINGS
+    "Debug" "Profile" "Release")
+endif()
+
+# Compilation settings that should be applied to most targets.
+#
+# Be cautious about adding new options here, as plugins use this function by
+# default. In most cases, you should add new options to specific targets instead
+# of modifying this function.
+function(APPLY_STANDARD_SETTINGS TARGET)
+  target_compile_features(${TARGET} PUBLIC cxx_std_14)
+  target_compile_options(${TARGET} PRIVATE -Wall -Werror)
+  target_compile_options(${TARGET} PRIVATE "$<$<NOT:$<CONFIG:Debug>>:-O3>")
+  target_compile_definitions(${TARGET} PRIVATE "$<$<NOT:$<CONFIG:Debug>>:NDEBUG>")
+endfunction()
+
+# Flutter library and tool build rules.
+set(FLUTTER_MANAGED_DIR "${CMAKE_CURRENT_SOURCE_DIR}/flutter")
+add_subdirectory(${FLUTTER_MANAGED_DIR})
+
+# System-level dependencies.
+find_package(PkgConfig REQUIRED)
+pkg_check_modules(GTK REQUIRED IMPORTED_TARGET gtk+-3.0)
+
+# Application build; see runner/CMakeLists.txt.
+add_subdirectory("runner")
+
+# Run the Flutter tool portions of the build. This must not be removed.
+add_dependencies(${BINARY_NAME} flutter_assemble)
+
+# Only the install-generated bundle's copy of the executable will launch
+# correctly, since the resources must in the right relative locations. To avoid
+# people trying to run the unbundled copy, put it in a subdirectory instead of
+# the default top-level location.
+set_target_properties(${BINARY_NAME}
+  PROPERTIES
+  RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/intermediates_do_not_run"
+)
+
+
+# Generated plugin build rules, which manage building the plugins and adding
+# them to the application.
+include(flutter/generated_plugins.cmake)
+
+
+# === Installation ===
+# By default, "installing" just makes a relocatable bundle in the build
+# directory.
+set(BUILD_BUNDLE_DIR "${PROJECT_BINARY_DIR}/bundle")
+if(CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT)
+  set(CMAKE_INSTALL_PREFIX "${BUILD_BUNDLE_DIR}" CACHE PATH "..." FORCE)
+endif()
+
+# Start with a clean build bundle directory every time.
+install(CODE "
+  file(REMOVE_RECURSE \"${BUILD_BUNDLE_DIR}/\")
+  " COMPONENT Runtime)
+
+set(INSTALL_BUNDLE_DATA_DIR "${CMAKE_INSTALL_PREFIX}/data")
+set(INSTALL_BUNDLE_LIB_DIR "${CMAKE_INSTALL_PREFIX}/lib")
+
+install(TARGETS ${BINARY_NAME} RUNTIME DESTINATION "${CMAKE_INSTALL_PREFIX}"
+  COMPONENT Runtime)
+
+install(FILES "${FLUTTER_ICU_DATA_FILE}" DESTINATION "${INSTALL_BUNDLE_DATA_DIR}"
+  COMPONENT Runtime)
+
+install(FILES "${FLUTTER_LIBRARY}" DESTINATION "${INSTALL_BUNDLE_LIB_DIR}"
+  COMPONENT Runtime)
+
+foreach(bundled_library ${PLUGIN_BUNDLED_LIBRARIES})
+  install(FILES "${bundled_library}"
+    DESTINATION "${INSTALL_BUNDLE_LIB_DIR}"
+    COMPONENT Runtime)
+endforeach(bundled_library)
+
+# Copy the native assets provided by the build.dart from all packages.
+set(NATIVE_ASSETS_DIR "${PROJECT_BUILD_DIR}native_assets/linux/")
+install(DIRECTORY "${NATIVE_ASSETS_DIR}"
+   DESTINATION "${INSTALL_BUNDLE_LIB_DIR}"
+   COMPONENT Runtime)
+
+# Fully re-copy the assets directory on each build to avoid having stale files
+# from a previous install.
+set(FLUTTER_ASSET_DIR_NAME "flutter_assets")
+install(CODE "
+  file(REMOVE_RECURSE \"${INSTALL_BUNDLE_DATA_DIR}/${FLUTTER_ASSET_DIR_NAME}\")
+  " COMPONENT Runtime)
+install(DIRECTORY "${PROJECT_BUILD_DIR}/${FLUTTER_ASSET_DIR_NAME}"
+  DESTINATION "${INSTALL_BUNDLE_DATA_DIR}" COMPONENT Runtime)
+
+# Install the AOT library on non-Debug builds only.
+if(NOT CMAKE_BUILD_TYPE MATCHES "Debug")
+  install(FILES "${AOT_LIBRARY}" DESTINATION "${INSTALL_BUNDLE_LIB_DIR}"
+    COMPONENT Runtime)
+endif()
+
+```
+
+---
+
+### <a id="📄-macos-flutter-ephemeral-flutter-export-environment-sh"></a>📄 `macos/Flutter/ephemeral/flutter_export_environment.sh`
+
+**File Info:**
+- **Size**: 488 B
+- **Extension**: `.sh`
+- **Language**: `bash`
+- **Location**: `macos/Flutter/ephemeral/flutter_export_environment.sh`
+- **Relative Path**: `macos/Flutter/ephemeral`
+- **Created**: 2026-04-17 11:27:47 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-17 11:27:47 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `359a350b5e0a84a223336203816f3023`
+- **SHA256**: `8598d944e5ccc24de55d96495315af548ac4100e9712e7b7ea1cec3dd7614492`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```bash
+#!/bin/sh
+# This is a generated file; do not edit or check into version control.
+export "FLUTTER_ROOT=C:\flutter"
+export "FLUTTER_APPLICATION_PATH=C:\Users\clbie\Desktop\E-ebeveyn\baby_care"
+export "COCOAPODS_PARALLEL_CODE_SIGN=true"
+export "FLUTTER_BUILD_DIR=build"
+export "FLUTTER_BUILD_NAME=1.0.0"
+export "FLUTTER_BUILD_NUMBER=1"
+export "DART_OBFUSCATION=false"
+export "TRACK_WIDGET_CREATION=true"
+export "TREE_SHAKE_ICONS=false"
+export "PACKAGE_CONFIG=.dart_tool/package_config.json"
+
+```
+
+---
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `macos/Flutter/ephemeral/Flutter-Generated.xcconfig`
+
+### <a id="📄-macos-flutter-generatedpluginregistrant-swift"></a>📄 `macos/Flutter/GeneratedPluginRegistrant.swift`
+
+**File Info:**
+- **Size**: 1.44 KB
+- **Extension**: `.swift`
+- **Language**: `swift`
+- **Location**: `macos/Flutter/GeneratedPluginRegistrant.swift`
+- **Relative Path**: `macos/Flutter`
+- **Created**: 2026-04-05 10:15:54 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-16 19:14:30 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `03d8d3ec575f5b300382eac0e4f5487c`
+- **SHA256**: `38cbbae81666b6ad11f9ca7f1c925ece26eafc87fe7b03b07b87e3bfa3f892f9`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```swift
+//
+//  Generated file. Do not edit.
+//
+
+import FlutterMacOS
+import Foundation
+
+import app_links
+import audio_session
+import connectivity_plus
+import device_info_plus
+import flutter_local_notifications
+import just_audio
+import realm
+import shared_preferences_foundation
+import syncfusion_pdfviewer_macos
+import url_launcher_macos
+import webview_flutter_wkwebview
+
+func RegisterGeneratedPlugins(registry: FlutterPluginRegistry) {
+  AppLinksMacosPlugin.register(with: registry.registrar(forPlugin: "AppLinksMacosPlugin"))
+  AudioSessionPlugin.register(with: registry.registrar(forPlugin: "AudioSessionPlugin"))
+  ConnectivityPlusPlugin.register(with: registry.registrar(forPlugin: "ConnectivityPlusPlugin"))
+  DeviceInfoPlusMacosPlugin.register(with: registry.registrar(forPlugin: "DeviceInfoPlusMacosPlugin"))
+  FlutterLocalNotificationsPlugin.register(with: registry.registrar(forPlugin: "FlutterLocalNotificationsPlugin"))
+  JustAudioPlugin.register(with: registry.registrar(forPlugin: "JustAudioPlugin"))
+  RealmPlugin.register(with: registry.registrar(forPlugin: "RealmPlugin"))
+  SharedPreferencesPlugin.register(with: registry.registrar(forPlugin: "SharedPreferencesPlugin"))
+  SyncfusionFlutterPdfViewerPlugin.register(with: registry.registrar(forPlugin: "SyncfusionFlutterPdfViewerPlugin"))
+  UrlLauncherPlugin.register(with: registry.registrar(forPlugin: "UrlLauncherPlugin"))
+  WebViewFlutterPlugin.register(with: registry.registrar(forPlugin: "WebViewFlutterPlugin"))
+}
+
+```
+
+---
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `macos/Flutter/Flutter-Debug.xcconfig`
+- `macos/Flutter/Flutter-Release.xcconfig`
+
+### <a id="📄-macos-runner-assets-xcassets-appicon-appiconset-contents-json"></a>📄 `macos/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json`
+
+**File Info:**
+- **Size**: 1.33 KB
+- **Extension**: `.json`
+- **Language**: `json`
+- **Location**: `macos/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json`
+- **Relative Path**: `macos/Runner/Assets.xcassets/AppIcon.appiconset`
+- **Created**: 2026-04-05 10:15:51 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-02-23 09:36:18 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `1d48e925145d4b573a3b5d7960a1c585`
+- **SHA256**: `992ba63d183dfb8f8e3af38ac203d834d23c004da1417c438b4c5a3d7d1d7103`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```json
+{
+  "images" : [
+    {
+      "size" : "16x16",
+      "idiom" : "mac",
+      "filename" : "app_icon_16.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "16x16",
+      "idiom" : "mac",
+      "filename" : "app_icon_32.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "32x32",
+      "idiom" : "mac",
+      "filename" : "app_icon_32.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "32x32",
+      "idiom" : "mac",
+      "filename" : "app_icon_64.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "128x128",
+      "idiom" : "mac",
+      "filename" : "app_icon_128.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "128x128",
+      "idiom" : "mac",
+      "filename" : "app_icon_256.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "256x256",
+      "idiom" : "mac",
+      "filename" : "app_icon_256.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "256x256",
+      "idiom" : "mac",
+      "filename" : "app_icon_512.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "512x512",
+      "idiom" : "mac",
+      "filename" : "app_icon_512.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "512x512",
+      "idiom" : "mac",
+      "filename" : "app_icon_1024.png",
+      "scale" : "2x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
+
+```
+
+---
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_1024.png`
+- `macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_128.png`
+- `macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_16.png`
+- `macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_256.png`
+- `macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_32.png`
+- `macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_512.png`
+- `macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_64.png`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `macos/Runner/Base.lproj/MainMenu.xib`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `macos/Runner/Configs/AppInfo.xcconfig`
+- `macos/Runner/Configs/Debug.xcconfig`
+- `macos/Runner/Configs/Release.xcconfig`
+- `macos/Runner/Configs/Warnings.xcconfig`
+
+### <a id="📄-macos-runner-appdelegate-swift"></a>📄 `macos/Runner/AppDelegate.swift`
+
+**File Info:**
+- **Size**: 324 B
+- **Extension**: `.swift`
+- **Language**: `swift`
+- **Location**: `macos/Runner/AppDelegate.swift`
+- **Relative Path**: `macos/Runner`
+- **Created**: 2026-04-05 10:15:51 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-02-23 09:36:18 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `4b52e0b89ebfef9baf45b04548c463d6`
+- **SHA256**: `5b9cbdcb563ad8578a99b7c283958490e4af537322e9092fe1efbb3c29ab3e1b`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```swift
+import Cocoa
+import FlutterMacOS
+
+@main
+class AppDelegate: FlutterAppDelegate {
+  override func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {
+    return true
+  }
+
+  override func applicationSupportsSecureRestorableState(_ app: NSApplication) -> Bool {
+    return true
+  }
+}
+
+```
+
+---
+
+### <a id="📄-macos-runner-mainflutterwindow-swift"></a>📄 `macos/Runner/MainFlutterWindow.swift`
+
+**File Info:**
+- **Size**: 403 B
+- **Extension**: `.swift`
+- **Language**: `swift`
+- **Location**: `macos/Runner/MainFlutterWindow.swift`
+- **Relative Path**: `macos/Runner`
+- **Created**: 2026-04-05 10:15:51 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-02-23 09:36:18 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `93c22dae2d93f3dc1402e121901f582b`
+- **SHA256**: `8178ad756f958f986f794a8bb06e321a6630ceaaf8f235b3b4ae3936e415dc7c`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```swift
+import Cocoa
+import FlutterMacOS
+
+class MainFlutterWindow: NSWindow {
+  override func awakeFromNib() {
+    let flutterViewController = FlutterViewController()
+    let windowFrame = self.frame
+    self.contentViewController = flutterViewController
+    self.setFrame(windowFrame, display: true)
+
+    RegisterGeneratedPlugins(registry: flutterViewController)
+
+    super.awakeFromNib()
+  }
+}
+
+```
+
+---
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `macos/Runner/DebugProfile.entitlements`
+- `macos/Runner/Info.plist`
+- `macos/Runner/Release.entitlements`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `macos/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `macos/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `macos/Runner.xcodeproj/project.pbxproj`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `macos/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `macos/Runner.xcworkspace/contents.xcworkspacedata`
+
+### <a id="📄-macos-runnertests-runnertests-swift"></a>📄 `macos/RunnerTests/RunnerTests.swift`
+
+**File Info:**
+- **Size**: 302 B
+- **Extension**: `.swift`
+- **Language**: `swift`
+- **Location**: `macos/RunnerTests/RunnerTests.swift`
+- **Relative Path**: `macos/RunnerTests`
+- **Created**: 2026-04-05 10:15:51 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-05 10:15:51 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `8059f5d27a19c556eeafb49b3f9b7bdd`
+- **SHA256**: `8a0ff977c64ceac0750fffa48087988b7b4125d1b1c49019221e7fffb574423e`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```swift
+import Cocoa
+import FlutterMacOS
+import XCTest
+
+class RunnerTests: XCTestCase {
+
+  func testExample() {
+    // If you add code to the Runner application, consider adding tests here.
+    // See https://developer.apple.com/documentation/xctest for more information about using XCTest.
+  }
+
+}
+
+```
+
+---
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `test/widget_test.dart`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `web/icons/Icon-192.png`
+- `web/icons/Icon-512.png`
+- `web/icons/Icon-maskable-192.png`
+- `web/icons/Icon-maskable-512.png`
+
+### <a id="📄-web-index-html"></a>📄 `web/index.html`
+
+**File Info:**
+- **Size**: 1.53 KB
+- **Extension**: `.html`
+- **Language**: `html`
+- **Location**: `web/index.html`
+- **Relative Path**: `web`
+- **Created**: 2026-04-05 10:15:51 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-05 10:15:51 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `a9b536ea93c4e563bf036d62e98e701c`
+- **SHA256**: `83a0a492411285f22e59131f708fda447c54a1d89b58c4cd262fa9063fd74c2a`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="baby_care">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>baby_care</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <!--
+    You can customize the "flutter_bootstrap.js" script.
+    This is useful to provide a custom configuration to the Flutter loader
+    or to give the user feedback during the initialization process.
+
+    For more details:
+    * https://docs.flutter.dev/platform-integration/web/initialization
+  -->
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
+
+```
+
+---
+
+### <a id="📄-web-manifest-json"></a>📄 `web/manifest.json`
+
+**File Info:**
+- **Size**: 949 B
+- **Extension**: `.json`
+- **Language**: `json`
+- **Location**: `web/manifest.json`
+- **Relative Path**: `web`
+- **Created**: 2026-04-05 10:15:51 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-05 10:15:51 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `e1723234a30283b8867b55fc9470c757`
+- **SHA256**: `a9a5e4aa18e2aa9eb47763b282caa89cd0a30d6ea14785b3deb878356785621d`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```json
+{
+    "name": "baby_care",
+    "short_name": "baby_care",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
+    "description": "A new Flutter project.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}
+
+```
+
+---
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `web/favicon.png`
+
+### <a id="📄-windows-flutter-cmakelists-txt"></a>📄 `windows/flutter/CMakeLists.txt`
+
+**File Info:**
+- **Size**: 3.76 KB
+- **Extension**: `.txt`
+- **Language**: `text`
+- **Location**: `windows/flutter/CMakeLists.txt`
+- **Relative Path**: `windows/flutter`
+- **Created**: 2026-04-05 10:15:51 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-02-23 09:36:18 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `bbf66fed5180bd9ae8198b8d7c4a0001`
+- **SHA256**: `bd05e3268b2f246bcbafdb778165fe67a7bafdba04eb73599502563a67b8ae7e`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```text
+# This file controls Flutter-level build steps. It should not be edited.
+cmake_minimum_required(VERSION 3.14)
+
+set(EPHEMERAL_DIR "${CMAKE_CURRENT_SOURCE_DIR}/ephemeral")
+
+# Configuration provided via flutter tool.
+include(${EPHEMERAL_DIR}/generated_config.cmake)
+
+# TODO: Move the rest of this into files in ephemeral. See
+# https://github.com/flutter/flutter/issues/57146.
+set(WRAPPER_ROOT "${EPHEMERAL_DIR}/cpp_client_wrapper")
+
+# Set fallback configurations for older versions of the flutter tool.
+if (NOT DEFINED FLUTTER_TARGET_PLATFORM)
+  set(FLUTTER_TARGET_PLATFORM "windows-x64")
+endif()
+
+# === Flutter Library ===
+set(FLUTTER_LIBRARY "${EPHEMERAL_DIR}/flutter_windows.dll")
+
+# Published to parent scope for install step.
+set(FLUTTER_LIBRARY ${FLUTTER_LIBRARY} PARENT_SCOPE)
+set(FLUTTER_ICU_DATA_FILE "${EPHEMERAL_DIR}/icudtl.dat" PARENT_SCOPE)
+set(PROJECT_BUILD_DIR "${PROJECT_DIR}/build/" PARENT_SCOPE)
+set(AOT_LIBRARY "${PROJECT_DIR}/build/windows/app.so" PARENT_SCOPE)
+
+list(APPEND FLUTTER_LIBRARY_HEADERS
+  "flutter_export.h"
+  "flutter_windows.h"
+  "flutter_messenger.h"
+  "flutter_plugin_registrar.h"
+  "flutter_texture_registrar.h"
+)
+list(TRANSFORM FLUTTER_LIBRARY_HEADERS PREPEND "${EPHEMERAL_DIR}/")
+add_library(flutter INTERFACE)
+target_include_directories(flutter INTERFACE
+  "${EPHEMERAL_DIR}"
+)
+target_link_libraries(flutter INTERFACE "${FLUTTER_LIBRARY}.lib")
+add_dependencies(flutter flutter_assemble)
+
+# === Wrapper ===
+list(APPEND CPP_WRAPPER_SOURCES_CORE
+  "core_implementations.cc"
+  "standard_codec.cc"
+)
+list(TRANSFORM CPP_WRAPPER_SOURCES_CORE PREPEND "${WRAPPER_ROOT}/")
+list(APPEND CPP_WRAPPER_SOURCES_PLUGIN
+  "plugin_registrar.cc"
+)
+list(TRANSFORM CPP_WRAPPER_SOURCES_PLUGIN PREPEND "${WRAPPER_ROOT}/")
+list(APPEND CPP_WRAPPER_SOURCES_APP
+  "flutter_engine.cc"
+  "flutter_view_controller.cc"
+)
+list(TRANSFORM CPP_WRAPPER_SOURCES_APP PREPEND "${WRAPPER_ROOT}/")
+
+# Wrapper sources needed for a plugin.
+add_library(flutter_wrapper_plugin STATIC
+  ${CPP_WRAPPER_SOURCES_CORE}
+  ${CPP_WRAPPER_SOURCES_PLUGIN}
+)
+apply_standard_settings(flutter_wrapper_plugin)
+set_target_properties(flutter_wrapper_plugin PROPERTIES
+  POSITION_INDEPENDENT_CODE ON)
+set_target_properties(flutter_wrapper_plugin PROPERTIES
+  CXX_VISIBILITY_PRESET hidden)
+target_link_libraries(flutter_wrapper_plugin PUBLIC flutter)
+target_include_directories(flutter_wrapper_plugin PUBLIC
+  "${WRAPPER_ROOT}/include"
+)
+add_dependencies(flutter_wrapper_plugin flutter_assemble)
+
+# Wrapper sources needed for the runner.
+add_library(flutter_wrapper_app STATIC
+  ${CPP_WRAPPER_SOURCES_CORE}
+  ${CPP_WRAPPER_SOURCES_APP}
+)
+apply_standard_settings(flutter_wrapper_app)
+target_link_libraries(flutter_wrapper_app PUBLIC flutter)
+target_include_directories(flutter_wrapper_app PUBLIC
+  "${WRAPPER_ROOT}/include"
+)
+add_dependencies(flutter_wrapper_app flutter_assemble)
+
+# === Flutter tool backend ===
+# _phony_ is a non-existent file to force this command to run every time,
+# since currently there's no way to get a full input/output list from the
+# flutter tool.
+set(PHONY_OUTPUT "${CMAKE_CURRENT_BINARY_DIR}/_phony_")
+set_source_files_properties("${PHONY_OUTPUT}" PROPERTIES SYMBOLIC TRUE)
+add_custom_command(
+  OUTPUT ${FLUTTER_LIBRARY} ${FLUTTER_LIBRARY_HEADERS}
+    ${CPP_WRAPPER_SOURCES_CORE} ${CPP_WRAPPER_SOURCES_PLUGIN}
+    ${CPP_WRAPPER_SOURCES_APP}
+    ${PHONY_OUTPUT}
+  COMMAND ${CMAKE_COMMAND} -E env
+    ${FLUTTER_TOOL_ENVIRONMENT}
+    "${FLUTTER_ROOT}/packages/flutter_tools/bin/tool_backend.bat"
+      ${FLUTTER_TARGET_PLATFORM} $<CONFIG>
+  VERBATIM
+)
+add_custom_target(flutter_assemble DEPENDS
+  "${FLUTTER_LIBRARY}"
+  ${FLUTTER_LIBRARY_HEADERS}
+  ${CPP_WRAPPER_SOURCES_CORE}
+  ${CPP_WRAPPER_SOURCES_PLUGIN}
+  ${CPP_WRAPPER_SOURCES_APP}
+)
+
+```
+
+---
+
+### <a id="📄-windows-flutter-generated-plugin-registrant-h"></a>📄 `windows/flutter/generated_plugin_registrant.h`
+
+**File Info:**
+- **Size**: 302 B
+- **Extension**: `.h`
+- **Language**: `text`
+- **Location**: `windows/flutter/generated_plugin_registrant.h`
+- **Relative Path**: `windows/flutter`
+- **Created**: 2026-04-05 10:15:54 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-05 10:15:54 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `0ea33875f9f8e118f9c2ded03e2e2835`
+- **SHA256**: `dbc11635d7b1ba1887adf40df5b83d634e9c3ab0bee34510c71528bb4d73602a`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```text
+//
+//  Generated file. Do not edit.
+//
+
+// clang-format off
+
+#ifndef GENERATED_PLUGIN_REGISTRANT_
+#define GENERATED_PLUGIN_REGISTRANT_
+
+#include <flutter/plugin_registry.h>
+
+// Registers Flutter plugins.
+void RegisterPlugins(flutter::PluginRegistry* registry);
+
+#endif  // GENERATED_PLUGIN_REGISTRANT_
+
+```
+
+---
+
+### <a id="📄-windows-flutter-generated-plugins-cmake"></a>📄 `windows/flutter/generated_plugins.cmake`
+
+**File Info:**
+- **Size**: 904 B
+- **Extension**: `.cmake`
+- **Language**: `text`
+- **Location**: `windows/flutter/generated_plugins.cmake`
+- **Relative Path**: `windows/flutter`
+- **Created**: 2026-04-05 10:15:54 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-16 18:08:54 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `d8c733e2c6dc0c10966f041ae84a471d`
+- **SHA256**: `b0c0508a12305fbed8683c8571a02da797ae51a462e992cb3d20c7c313a2be9a`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```text
+#
+# Generated file, do not edit.
+#
+
+list(APPEND FLUTTER_PLUGIN_LIST
+  app_links
+  connectivity_plus
+  permission_handler_windows
+  realm
+  syncfusion_pdfviewer_windows
+  url_launcher_windows
+)
+
+list(APPEND FLUTTER_FFI_PLUGIN_LIST
+  flutter_local_notifications_windows
+)
+
+set(PLUGIN_BUNDLED_LIBRARIES)
+
+foreach(plugin ${FLUTTER_PLUGIN_LIST})
+  add_subdirectory(flutter/ephemeral/.plugin_symlinks/${plugin}/windows plugins/${plugin})
+  target_link_libraries(${BINARY_NAME} PRIVATE ${plugin}_plugin)
+  list(APPEND PLUGIN_BUNDLED_LIBRARIES $<TARGET_FILE:${plugin}_plugin>)
+  list(APPEND PLUGIN_BUNDLED_LIBRARIES ${${plugin}_bundled_libraries})
+endforeach(plugin)
+
+foreach(ffi_plugin ${FLUTTER_FFI_PLUGIN_LIST})
+  add_subdirectory(flutter/ephemeral/.plugin_symlinks/${ffi_plugin}/windows plugins/${ffi_plugin})
+  list(APPEND PLUGIN_BUNDLED_LIBRARIES ${${ffi_plugin}_bundled_libraries})
+endforeach(ffi_plugin)
+
+```
+
+---
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `windows/flutter/generated_plugin_registrant.cc`
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `windows/runner/resources/app_icon.ico`
+
+### <a id="📄-windows-runner-cmakelists-txt"></a>📄 `windows/runner/CMakeLists.txt`
+
+**File Info:**
+- **Size**: 1.79 KB
+- **Extension**: `.txt`
+- **Language**: `text`
+- **Location**: `windows/runner/CMakeLists.txt`
+- **Relative Path**: `windows/runner`
+- **Created**: 2026-04-05 10:15:51 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-02-23 09:36:18 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `028602ab9754bffe716659ada7590d29`
+- **SHA256**: `d765fdd05f63ad099e585a2cced0cbff13ec3229b7de68c8681b2107db850089`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```text
+cmake_minimum_required(VERSION 3.14)
+project(runner LANGUAGES CXX)
+
+# Define the application target. To change its name, change BINARY_NAME in the
+# top-level CMakeLists.txt, not the value here, or `flutter run` will no longer
+# work.
+#
+# Any new source files that you add to the application should be added here.
+add_executable(${BINARY_NAME} WIN32
+  "flutter_window.cpp"
+  "main.cpp"
+  "utils.cpp"
+  "win32_window.cpp"
+  "${FLUTTER_MANAGED_DIR}/generated_plugin_registrant.cc"
+  "Runner.rc"
+  "runner.exe.manifest"
+)
+
+# Apply the standard set of build settings. This can be removed for applications
+# that need different build settings.
+apply_standard_settings(${BINARY_NAME})
+
+# Add preprocessor definitions for the build version.
+target_compile_definitions(${BINARY_NAME} PRIVATE "FLUTTER_VERSION=\"${FLUTTER_VERSION}\"")
+target_compile_definitions(${BINARY_NAME} PRIVATE "FLUTTER_VERSION_MAJOR=${FLUTTER_VERSION_MAJOR}")
+target_compile_definitions(${BINARY_NAME} PRIVATE "FLUTTER_VERSION_MINOR=${FLUTTER_VERSION_MINOR}")
+target_compile_definitions(${BINARY_NAME} PRIVATE "FLUTTER_VERSION_PATCH=${FLUTTER_VERSION_PATCH}")
+target_compile_definitions(${BINARY_NAME} PRIVATE "FLUTTER_VERSION_BUILD=${FLUTTER_VERSION_BUILD}")
+
+# Disable Windows macros that collide with C++ standard library functions.
+target_compile_definitions(${BINARY_NAME} PRIVATE "NOMINMAX")
+
+# Add dependency libraries and include directories. Add any application-specific
+# dependencies here.
+target_link_libraries(${BINARY_NAME} PRIVATE flutter flutter_wrapper_app)
+target_link_libraries(${BINARY_NAME} PRIVATE "dwmapi.lib")
+target_include_directories(${BINARY_NAME} PRIVATE "${CMAKE_SOURCE_DIR}")
+
+# Run the Flutter tool portions of the build. This must not be removed.
+add_dependencies(${BINARY_NAME} flutter_assemble)
+
+```
+
+---
+
+### <a id="📄-windows-runner-flutter-window-cpp"></a>📄 `windows/runner/flutter_window.cpp`
+
+**File Info:**
+- **Size**: 2.14 KB
+- **Extension**: `.cpp`
+- **Language**: `cpp`
+- **Location**: `windows/runner/flutter_window.cpp`
+- **Relative Path**: `windows/runner`
+- **Created**: 2026-04-05 10:15:51 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-02-23 09:36:18 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `2f463f9b7da67a2d692a012f9ea85e0c`
+- **SHA256**: `d615eedc06ae37321e59c2c00c7687d1887dcd97904eb7225fafd8dcb5b83da6`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```cpp
+#include "flutter_window.h"
+
+#include <optional>
+
+#include "flutter/generated_plugin_registrant.h"
+
+FlutterWindow::FlutterWindow(const flutter::DartProject& project)
+    : project_(project) {}
+
+FlutterWindow::~FlutterWindow() {}
+
+bool FlutterWindow::OnCreate() {
+  if (!Win32Window::OnCreate()) {
+    return false;
+  }
+
+  RECT frame = GetClientArea();
+
+  // The size here must match the window dimensions to avoid unnecessary surface
+  // creation / destruction in the startup path.
+  flutter_controller_ = std::make_unique<flutter::FlutterViewController>(
+      frame.right - frame.left, frame.bottom - frame.top, project_);
+  // Ensure that basic setup of the controller was successful.
+  if (!flutter_controller_->engine() || !flutter_controller_->view()) {
+    return false;
+  }
+  RegisterPlugins(flutter_controller_->engine());
+  SetChildContent(flutter_controller_->view()->GetNativeWindow());
+
+  flutter_controller_->engine()->SetNextFrameCallback([&]() {
+    this->Show();
+  });
+
+  // Flutter can complete the first frame before the "show window" callback is
+  // registered. The following call ensures a frame is pending to ensure the
+  // window is shown. It is a no-op if the first frame hasn't completed yet.
+  flutter_controller_->ForceRedraw();
+
+  return true;
+}
+
+void FlutterWindow::OnDestroy() {
+  if (flutter_controller_) {
+    flutter_controller_ = nullptr;
+  }
+
+  Win32Window::OnDestroy();
+}
+
+LRESULT
+FlutterWindow::MessageHandler(HWND hwnd, UINT const message,
+                              WPARAM const wparam,
+                              LPARAM const lparam) noexcept {
+  // Give Flutter, including plugins, an opportunity to handle window messages.
+  if (flutter_controller_) {
+    std::optional<LRESULT> result =
+        flutter_controller_->HandleTopLevelWindowProc(hwnd, message, wparam,
+                                                      lparam);
+    if (result) {
+      return *result;
+    }
+  }
+
+  switch (message) {
+    case WM_FONTCHANGE:
+      flutter_controller_->engine()->ReloadSystemFonts();
+      break;
+  }
+
+  return Win32Window::MessageHandler(hwnd, message, wparam, lparam);
+}
+
+```
+
+---
+
+### <a id="📄-windows-runner-flutter-window-h"></a>📄 `windows/runner/flutter_window.h`
+
+**File Info:**
+- **Size**: 961 B
+- **Extension**: `.h`
+- **Language**: `text`
+- **Location**: `windows/runner/flutter_window.h`
+- **Relative Path**: `windows/runner`
+- **Created**: 2026-04-05 10:15:51 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-02-23 09:36:18 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `7defcc89d4a26d56e801241d624d48fb`
+- **SHA256**: `0252b804f5da380c7709cbe1daff2b8d18daf6c49d7e6dd43e5af3c99c19f56c`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```text
+#ifndef RUNNER_FLUTTER_WINDOW_H_
+#define RUNNER_FLUTTER_WINDOW_H_
+
+#include <flutter/dart_project.h>
+#include <flutter/flutter_view_controller.h>
+
+#include <memory>
+
+#include "win32_window.h"
+
+// A window that does nothing but host a Flutter view.
+class FlutterWindow : public Win32Window {
+ public:
+  // Creates a new FlutterWindow hosting a Flutter view running |project|.
+  explicit FlutterWindow(const flutter::DartProject& project);
+  virtual ~FlutterWindow();
+
+ protected:
+  // Win32Window:
+  bool OnCreate() override;
+  void OnDestroy() override;
+  LRESULT MessageHandler(HWND window, UINT const message, WPARAM const wparam,
+                         LPARAM const lparam) noexcept override;
+
+ private:
+  // The project to run.
+  flutter::DartProject project_;
+
+  // The Flutter instance hosted by this window.
+  std::unique_ptr<flutter::FlutterViewController> flutter_controller_;
+};
+
+#endif  // RUNNER_FLUTTER_WINDOW_H_
+
+```
+
+---
+
+### <a id="📄-windows-runner-main-cpp"></a>📄 `windows/runner/main.cpp`
+
+**File Info:**
+- **Size**: 1.27 KB
+- **Extension**: `.cpp`
+- **Language**: `cpp`
+- **Location**: `windows/runner/main.cpp`
+- **Relative Path**: `windows/runner`
+- **Created**: 2026-04-05 10:15:51 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-05 10:15:51 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `f918611a490399f1cb5e06071e1ce534`
+- **SHA256**: `324f4a0613ce76fa8c598bf59abde1264d44b3f4aa5562e463faf2cd31fe767e`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```cpp
+#include <flutter/dart_project.h>
+#include <flutter/flutter_view_controller.h>
+#include <windows.h>
+
+#include "flutter_window.h"
+#include "utils.h"
+
+int APIENTRY wWinMain(_In_ HINSTANCE instance, _In_opt_ HINSTANCE prev,
+                      _In_ wchar_t *command_line, _In_ int show_command) {
+  // Attach to console when present (e.g., 'flutter run') or create a
+  // new console when running with a debugger.
+  if (!::AttachConsole(ATTACH_PARENT_PROCESS) && ::IsDebuggerPresent()) {
+    CreateAndAttachConsole();
+  }
+
+  // Initialize COM, so that it is available for use in the library and/or
+  // plugins.
+  ::CoInitializeEx(nullptr, COINIT_APARTMENTTHREADED);
+
+  flutter::DartProject project(L"data");
+
+  std::vector<std::string> command_line_arguments =
+      GetCommandLineArguments();
+
+  project.set_dart_entrypoint_arguments(std::move(command_line_arguments));
+
+  FlutterWindow window(project);
+  Win32Window::Point origin(10, 10);
+  Win32Window::Size size(1280, 720);
+  if (!window.Create(L"baby_care", origin, size)) {
+    return EXIT_FAILURE;
+  }
+  window.SetQuitOnClose(true);
+
+  ::MSG msg;
+  while (::GetMessage(&msg, nullptr, 0, 0)) {
+    ::TranslateMessage(&msg);
+    ::DispatchMessage(&msg);
+  }
+
+  ::CoUninitialize();
+  return EXIT_SUCCESS;
+}
+
+```
+
+---
+
+### <a id="📄-windows-runner-resource-h"></a>📄 `windows/runner/resource.h`
+
+**File Info:**
+- **Size**: 448 B
+- **Extension**: `.h`
+- **Language**: `text`
+- **Location**: `windows/runner/resource.h`
+- **Relative Path**: `windows/runner`
+- **Created**: 2026-04-05 10:15:51 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-02-23 09:36:18 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `1ade5dd15e613479a15e8832ed276f2b`
+- **SHA256**: `d0e8bf7835468b4b6b1f8f0747f2e8f25c19841f2df2ac60aaa584ddae3aa7c6`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```text
+//{{NO_DEPENDENCIES}}
+// Microsoft Visual C++ generated include file.
+// Used by Runner.rc
+//
+#define IDI_APP_ICON                    101
+
+// Next default values for new objects
+//
+#ifdef APSTUDIO_INVOKED
+#ifndef APSTUDIO_READONLY_SYMBOLS
+#define _APS_NEXT_RESOURCE_VALUE        102
+#define _APS_NEXT_COMMAND_VALUE         40001
+#define _APS_NEXT_CONTROL_VALUE         1001
+#define _APS_NEXT_SYMED_VALUE           101
+#endif
+#endif
+
+```
+
+---
+
+### <a id="📄-windows-runner-runner-exe-manifest"></a>📄 `windows/runner/runner.exe.manifest`
+
+**File Info:**
+- **Size**: 616 B
+- **Extension**: `.manifest`
+- **Language**: `text`
+- **Location**: `windows/runner/runner.exe.manifest`
+- **Relative Path**: `windows/runner`
+- **Created**: 2026-04-05 10:15:51 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-02-23 09:36:18 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `298a0260a755c3959d2c3c8904298803`
+- **SHA256**: `639a56233fcd8cbcb8bbefcd93e4680ec2664f32d9acfb3d2ec1d8726a96e090`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```text
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+  <application xmlns="urn:schemas-microsoft-com:asm.v3">
+    <windowsSettings>
+      <dpiAwareness xmlns="http://schemas.microsoft.com/SMI/2016/WindowsSettings">PerMonitorV2</dpiAwareness>
+    </windowsSettings>
+  </application>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- Windows 10 and Windows 11 -->
+      <supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}"/>
+    </application>
+  </compatibility>
+</assembly>
+
+```
+
+---
+
+### <a id="📄-windows-runner-utils-cpp"></a>📄 `windows/runner/utils.cpp`
+
+**File Info:**
+- **Size**: 1.82 KB
+- **Extension**: `.cpp`
+- **Language**: `cpp`
+- **Location**: `windows/runner/utils.cpp`
+- **Relative Path**: `windows/runner`
+- **Created**: 2026-04-05 10:15:51 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-02-23 09:36:18 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `432461b09d862a2f8dadf380ff0e34e5`
+- **SHA256**: `fbb18524c22593d0ce7869b0733e237be38e668fe045e3023bcf2d0b31784fa3`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```cpp
+#include "utils.h"
+
+#include <flutter_windows.h>
+#include <io.h>
+#include <stdio.h>
+#include <windows.h>
+
+#include <iostream>
+
+void CreateAndAttachConsole() {
+  if (::AllocConsole()) {
+    FILE *unused;
+    if (freopen_s(&unused, "CONOUT$", "w", stdout)) {
+      _dup2(_fileno(stdout), 1);
+    }
+    if (freopen_s(&unused, "CONOUT$", "w", stderr)) {
+      _dup2(_fileno(stdout), 2);
+    }
+    std::ios::sync_with_stdio();
+    FlutterDesktopResyncOutputStreams();
+  }
+}
+
+std::vector<std::string> GetCommandLineArguments() {
+  // Convert the UTF-16 command line arguments to UTF-8 for the Engine to use.
+  int argc;
+  wchar_t** argv = ::CommandLineToArgvW(::GetCommandLineW(), &argc);
+  if (argv == nullptr) {
+    return std::vector<std::string>();
+  }
+
+  std::vector<std::string> command_line_arguments;
+
+  // Skip the first argument as it's the binary name.
+  for (int i = 1; i < argc; i++) {
+    command_line_arguments.push_back(Utf8FromUtf16(argv[i]));
+  }
+
+  ::LocalFree(argv);
+
+  return command_line_arguments;
+}
+
+std::string Utf8FromUtf16(const wchar_t* utf16_string) {
+  if (utf16_string == nullptr) {
+    return std::string();
+  }
+  unsigned int target_length = ::WideCharToMultiByte(
+      CP_UTF8, WC_ERR_INVALID_CHARS, utf16_string,
+      -1, nullptr, 0, nullptr, nullptr)
+    -1; // remove the trailing null character
+  int input_length = (int)wcslen(utf16_string);
+  std::string utf8_string;
+  if (target_length == 0 || target_length > utf8_string.max_size()) {
+    return utf8_string;
+  }
+  utf8_string.resize(target_length);
+  int converted_length = ::WideCharToMultiByte(
+      CP_UTF8, WC_ERR_INVALID_CHARS, utf16_string,
+      input_length, utf8_string.data(), target_length, nullptr, nullptr);
+  if (converted_length == 0) {
+    return std::string();
+  }
+  return utf8_string;
+}
+
+```
+
+---
+
+### <a id="📄-windows-runner-utils-h"></a>📄 `windows/runner/utils.h`
+
+**File Info:**
+- **Size**: 691 B
+- **Extension**: `.h`
+- **Language**: `text`
+- **Location**: `windows/runner/utils.h`
+- **Relative Path**: `windows/runner`
+- **Created**: 2026-04-05 10:15:51 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-02-23 09:36:18 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `fd81e143f5614eb6fd75efe539002853`
+- **SHA256**: `832e246b6758253f89016fb0374b30791242e97ad950d27fc678b3d9feacfdc4`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```text
+#ifndef RUNNER_UTILS_H_
+#define RUNNER_UTILS_H_
+
+#include <string>
+#include <vector>
+
+// Creates a console for the process, and redirects stdout and stderr to
+// it for both the runner and the Flutter library.
+void CreateAndAttachConsole();
+
+// Takes a null-terminated wchar_t* encoded in UTF-16 and returns a std::string
+// encoded in UTF-8. Returns an empty std::string on failure.
+std::string Utf8FromUtf16(const wchar_t* utf16_string);
+
+// Gets the command line arguments passed in as a std::vector<std::string>,
+// encoded in UTF-8. Returns an empty std::vector<std::string> on failure.
+std::vector<std::string> GetCommandLineArguments();
+
+#endif  // RUNNER_UTILS_H_
+
+```
+
+---
+
+### <a id="📄-windows-runner-win32-window-cpp"></a>📄 `windows/runner/win32_window.cpp`
+
+**File Info:**
+- **Size**: 8.62 KB
+- **Extension**: `.cpp`
+- **Language**: `cpp`
+- **Location**: `windows/runner/win32_window.cpp`
+- **Relative Path**: `windows/runner`
+- **Created**: 2026-04-05 10:15:51 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-02-23 09:36:18 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `571eb8234dbc2661be03aa5f2a4d2fca`
+- **SHA256**: `4e4f4dcf8e86ea6e097562cb3476039e693449bd8045367538afee579c017511`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```cpp
+#include "win32_window.h"
+
+#include <dwmapi.h>
+#include <flutter_windows.h>
+
+#include "resource.h"
+
+namespace {
+
+/// Window attribute that enables dark mode window decorations.
+///
+/// Redefined in case the developer's machine has a Windows SDK older than
+/// version 10.0.22000.0.
+/// See: https://docs.microsoft.com/windows/win32/api/dwmapi/ne-dwmapi-dwmwindowattribute
+#ifndef DWMWA_USE_IMMERSIVE_DARK_MODE
+#define DWMWA_USE_IMMERSIVE_DARK_MODE 20
+#endif
+
+constexpr const wchar_t kWindowClassName[] = L"FLUTTER_RUNNER_WIN32_WINDOW";
+
+/// Registry key for app theme preference.
+///
+/// A value of 0 indicates apps should use dark mode. A non-zero or missing
+/// value indicates apps should use light mode.
+constexpr const wchar_t kGetPreferredBrightnessRegKey[] =
+  L"Software\\Microsoft\\Windows\\CurrentVersion\\Themes\\Personalize";
+constexpr const wchar_t kGetPreferredBrightnessRegValue[] = L"AppsUseLightTheme";
+
+// The number of Win32Window objects that currently exist.
+static int g_active_window_count = 0;
+
+using EnableNonClientDpiScaling = BOOL __stdcall(HWND hwnd);
+
+// Scale helper to convert logical scaler values to physical using passed in
+// scale factor
+int Scale(int source, double scale_factor) {
+  return static_cast<int>(source * scale_factor);
+}
+
+// Dynamically loads the |EnableNonClientDpiScaling| from the User32 module.
+// This API is only needed for PerMonitor V1 awareness mode.
+void EnableFullDpiSupportIfAvailable(HWND hwnd) {
+  HMODULE user32_module = LoadLibraryA("User32.dll");
+  if (!user32_module) {
+    return;
+  }
+  auto enable_non_client_dpi_scaling =
+      reinterpret_cast<EnableNonClientDpiScaling*>(
+          GetProcAddress(user32_module, "EnableNonClientDpiScaling"));
+  if (enable_non_client_dpi_scaling != nullptr) {
+    enable_non_client_dpi_scaling(hwnd);
+  }
+  FreeLibrary(user32_module);
+}
+
+}  // namespace
+
+// Manages the Win32Window's window class registration.
+class WindowClassRegistrar {
+ public:
+  ~WindowClassRegistrar() = default;
+
+  // Returns the singleton registrar instance.
+  static WindowClassRegistrar* GetInstance() {
+    if (!instance_) {
+      instance_ = new WindowClassRegistrar();
+    }
+    return instance_;
+  }
+
+  // Returns the name of the window class, registering the class if it hasn't
+  // previously been registered.
+  const wchar_t* GetWindowClass();
+
+  // Unregisters the window class. Should only be called if there are no
+  // instances of the window.
+  void UnregisterWindowClass();
+
+ private:
+  WindowClassRegistrar() = default;
+
+  static WindowClassRegistrar* instance_;
+
+  bool class_registered_ = false;
+};
+
+WindowClassRegistrar* WindowClassRegistrar::instance_ = nullptr;
+
+const wchar_t* WindowClassRegistrar::GetWindowClass() {
+  if (!class_registered_) {
+    WNDCLASS window_class{};
+    window_class.hCursor = LoadCursor(nullptr, IDC_ARROW);
+    window_class.lpszClassName = kWindowClassName;
+    window_class.style = CS_HREDRAW | CS_VREDRAW;
+    window_class.cbClsExtra = 0;
+    window_class.cbWndExtra = 0;
+    window_class.hInstance = GetModuleHandle(nullptr);
+    window_class.hIcon =
+        LoadIcon(window_class.hInstance, MAKEINTRESOURCE(IDI_APP_ICON));
+    window_class.hbrBackground = 0;
+    window_class.lpszMenuName = nullptr;
+    window_class.lpfnWndProc = Win32Window::WndProc;
+    RegisterClass(&window_class);
+    class_registered_ = true;
+  }
+  return kWindowClassName;
+}
+
+void WindowClassRegistrar::UnregisterWindowClass() {
+  UnregisterClass(kWindowClassName, nullptr);
+  class_registered_ = false;
+}
+
+Win32Window::Win32Window() {
+  ++g_active_window_count;
+}
+
+Win32Window::~Win32Window() {
+  --g_active_window_count;
+  Destroy();
+}
+
+bool Win32Window::Create(const std::wstring& title,
+                         const Point& origin,
+                         const Size& size) {
+  Destroy();
+
+  const wchar_t* window_class =
+      WindowClassRegistrar::GetInstance()->GetWindowClass();
+
+  const POINT target_point = {static_cast<LONG>(origin.x),
+                              static_cast<LONG>(origin.y)};
+  HMONITOR monitor = MonitorFromPoint(target_point, MONITOR_DEFAULTTONEAREST);
+  UINT dpi = FlutterDesktopGetDpiForMonitor(monitor);
+  double scale_factor = dpi / 96.0;
+
+  HWND window = CreateWindow(
+      window_class, title.c_str(), WS_OVERLAPPEDWINDOW,
+      Scale(origin.x, scale_factor), Scale(origin.y, scale_factor),
+      Scale(size.width, scale_factor), Scale(size.height, scale_factor),
+      nullptr, nullptr, GetModuleHandle(nullptr), this);
+
+  if (!window) {
+    return false;
+  }
+
+  UpdateTheme(window);
+
+  return OnCreate();
+}
+
+bool Win32Window::Show() {
+  return ShowWindow(window_handle_, SW_SHOWNORMAL);
+}
+
+// static
+LRESULT CALLBACK Win32Window::WndProc(HWND const window,
+                                      UINT const message,
+                                      WPARAM const wparam,
+                                      LPARAM const lparam) noexcept {
+  if (message == WM_NCCREATE) {
+    auto window_struct = reinterpret_cast<CREATESTRUCT*>(lparam);
+    SetWindowLongPtr(window, GWLP_USERDATA,
+                     reinterpret_cast<LONG_PTR>(window_struct->lpCreateParams));
+
+    auto that = static_cast<Win32Window*>(window_struct->lpCreateParams);
+    EnableFullDpiSupportIfAvailable(window);
+    that->window_handle_ = window;
+  } else if (Win32Window* that = GetThisFromHandle(window)) {
+    return that->MessageHandler(window, message, wparam, lparam);
+  }
+
+  return DefWindowProc(window, message, wparam, lparam);
+}
+
+LRESULT
+Win32Window::MessageHandler(HWND hwnd,
+                            UINT const message,
+                            WPARAM const wparam,
+                            LPARAM const lparam) noexcept {
+  switch (message) {
+    case WM_DESTROY:
+      window_handle_ = nullptr;
+      Destroy();
+      if (quit_on_close_) {
+        PostQuitMessage(0);
+      }
+      return 0;
+
+    case WM_DPICHANGED: {
+      auto newRectSize = reinterpret_cast<RECT*>(lparam);
+      LONG newWidth = newRectSize->right - newRectSize->left;
+      LONG newHeight = newRectSize->bottom - newRectSize->top;
+
+      SetWindowPos(hwnd, nullptr, newRectSize->left, newRectSize->top, newWidth,
+                   newHeight, SWP_NOZORDER | SWP_NOACTIVATE);
+
+      return 0;
+    }
+    case WM_SIZE: {
+      RECT rect = GetClientArea();
+      if (child_content_ != nullptr) {
+        // Size and position the child window.
+        MoveWindow(child_content_, rect.left, rect.top, rect.right - rect.left,
+                   rect.bottom - rect.top, TRUE);
+      }
+      return 0;
+    }
+
+    case WM_ACTIVATE:
+      if (child_content_ != nullptr) {
+        SetFocus(child_content_);
+      }
+      return 0;
+
+    case WM_DWMCOLORIZATIONCOLORCHANGED:
+      UpdateTheme(hwnd);
+      return 0;
+  }
+
+  return DefWindowProc(window_handle_, message, wparam, lparam);
+}
+
+void Win32Window::Destroy() {
+  OnDestroy();
+
+  if (window_handle_) {
+    DestroyWindow(window_handle_);
+    window_handle_ = nullptr;
+  }
+  if (g_active_window_count == 0) {
+    WindowClassRegistrar::GetInstance()->UnregisterWindowClass();
+  }
+}
+
+Win32Window* Win32Window::GetThisFromHandle(HWND const window) noexcept {
+  return reinterpret_cast<Win32Window*>(
+      GetWindowLongPtr(window, GWLP_USERDATA));
+}
+
+void Win32Window::SetChildContent(HWND content) {
+  child_content_ = content;
+  SetParent(content, window_handle_);
+  RECT frame = GetClientArea();
+
+  MoveWindow(content, frame.left, frame.top, frame.right - frame.left,
+             frame.bottom - frame.top, true);
+
+  SetFocus(child_content_);
+}
+
+RECT Win32Window::GetClientArea() {
+  RECT frame;
+  GetClientRect(window_handle_, &frame);
+  return frame;
+}
+
+HWND Win32Window::GetHandle() {
+  return window_handle_;
+}
+
+void Win32Window::SetQuitOnClose(bool quit_on_close) {
+  quit_on_close_ = quit_on_close;
+}
+
+bool Win32Window::OnCreate() {
+  // No-op; provided for subclasses.
+  return true;
+}
+
+void Win32Window::OnDestroy() {
+  // No-op; provided for subclasses.
+}
+
+void Win32Window::UpdateTheme(HWND const window) {
+  DWORD light_mode;
+  DWORD light_mode_size = sizeof(light_mode);
+  LSTATUS result = RegGetValue(HKEY_CURRENT_USER, kGetPreferredBrightnessRegKey,
+                               kGetPreferredBrightnessRegValue,
+                               RRF_RT_REG_DWORD, nullptr, &light_mode,
+                               &light_mode_size);
+
+  if (result == ERROR_SUCCESS) {
+    BOOL enable_dark_mode = light_mode == 0;
+    DwmSetWindowAttribute(window, DWMWA_USE_IMMERSIVE_DARK_MODE,
+                          &enable_dark_mode, sizeof(enable_dark_mode));
+  }
+}
+
+```
+
+---
+
+### <a id="📄-windows-runner-win32-window-h"></a>📄 `windows/runner/win32_window.h`
+
+**File Info:**
+- **Size**: 3.54 KB
+- **Extension**: `.h`
+- **Language**: `text`
+- **Location**: `windows/runner/win32_window.h`
+- **Relative Path**: `windows/runner`
+- **Created**: 2026-04-05 10:15:51 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-02-23 09:36:18 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `7569387d58711ab975940f4df3b4bcda`
+- **SHA256**: `d154cf89ba85f820631a9b5bedacbe64fc5815e428fe6bc5da579ce649f69841`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```text
+#ifndef RUNNER_WIN32_WINDOW_H_
+#define RUNNER_WIN32_WINDOW_H_
+
+#include <windows.h>
+
+#include <functional>
+#include <memory>
+#include <string>
+
+// A class abstraction for a high DPI-aware Win32 Window. Intended to be
+// inherited from by classes that wish to specialize with custom
+// rendering and input handling
+class Win32Window {
+ public:
+  struct Point {
+    unsigned int x;
+    unsigned int y;
+    Point(unsigned int x, unsigned int y) : x(x), y(y) {}
+  };
+
+  struct Size {
+    unsigned int width;
+    unsigned int height;
+    Size(unsigned int width, unsigned int height)
+        : width(width), height(height) {}
+  };
+
+  Win32Window();
+  virtual ~Win32Window();
+
+  // Creates a win32 window with |title| that is positioned and sized using
+  // |origin| and |size|. New windows are created on the default monitor. Window
+  // sizes are specified to the OS in physical pixels, hence to ensure a
+  // consistent size this function will scale the inputted width and height as
+  // as appropriate for the default monitor. The window is invisible until
+  // |Show| is called. Returns true if the window was created successfully.
+  bool Create(const std::wstring& title, const Point& origin, const Size& size);
+
+  // Show the current window. Returns true if the window was successfully shown.
+  bool Show();
+
+  // Release OS resources associated with window.
+  void Destroy();
+
+  // Inserts |content| into the window tree.
+  void SetChildContent(HWND content);
+
+  // Returns the backing Window handle to enable clients to set icon and other
+  // window properties. Returns nullptr if the window has been destroyed.
+  HWND GetHandle();
+
+  // If true, closing this window will quit the application.
+  void SetQuitOnClose(bool quit_on_close);
+
+  // Return a RECT representing the bounds of the current client area.
+  RECT GetClientArea();
+
+ protected:
+  // Processes and route salient window messages for mouse handling,
+  // size change and DPI. Delegates handling of these to member overloads that
+  // inheriting classes can handle.
+  virtual LRESULT MessageHandler(HWND window,
+                                 UINT const message,
+                                 WPARAM const wparam,
+                                 LPARAM const lparam) noexcept;
+
+  // Called when CreateAndShow is called, allowing subclass window-related
+  // setup. Subclasses should return false if setup fails.
+  virtual bool OnCreate();
+
+  // Called when Destroy is called.
+  virtual void OnDestroy();
+
+ private:
+  friend class WindowClassRegistrar;
+
+  // OS callback called by message pump. Handles the WM_NCCREATE message which
+  // is passed when the non-client area is being created and enables automatic
+  // non-client DPI scaling so that the non-client area automatically
+  // responds to changes in DPI. All other messages are handled by
+  // MessageHandler.
+  static LRESULT CALLBACK WndProc(HWND const window,
+                                  UINT const message,
+                                  WPARAM const wparam,
+                                  LPARAM const lparam) noexcept;
+
+  // Retrieves a class instance pointer for |window|
+  static Win32Window* GetThisFromHandle(HWND const window) noexcept;
+
+  // Update the window frame's theme to match the system theme.
+  static void UpdateTheme(HWND const window);
+
+  bool quit_on_close_ = false;
+
+  // window handle for top level window.
+  HWND window_handle_ = nullptr;
+
+  // window handle for hosted content.
+  HWND child_content_ = nullptr;
+};
+
+#endif  // RUNNER_WIN32_WINDOW_H_
+
+```
+
+---
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `windows/runner/Runner.rc`
+
+### <a id="📄-windows-cmakelists-txt"></a>📄 `windows/CMakeLists.txt`
+
+**File Info:**
+- **Size**: 4.16 KB
+- **Extension**: `.txt`
+- **Language**: `text`
+- **Location**: `windows/CMakeLists.txt`
+- **Relative Path**: `windows`
+- **Created**: 2026-04-05 10:15:51 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-05 10:15:51 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `4f5f4a9e44d9ea72eb85fc142afe19b4`
+- **SHA256**: `a29111c8f79d04de84cd91186f8457db6db597737631543dcf8b8fecea9799ba`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```text
+# Project-level configuration.
+cmake_minimum_required(VERSION 3.14)
+project(baby_care LANGUAGES CXX)
+
+# The name of the executable created for the application. Change this to change
+# the on-disk name of your application.
+set(BINARY_NAME "baby_care")
+
+# Explicitly opt in to modern CMake behaviors to avoid warnings with recent
+# versions of CMake.
+cmake_policy(VERSION 3.14...3.25)
+
+# Define build configuration option.
+get_property(IS_MULTICONFIG GLOBAL PROPERTY GENERATOR_IS_MULTI_CONFIG)
+if(IS_MULTICONFIG)
+  set(CMAKE_CONFIGURATION_TYPES "Debug;Profile;Release"
+    CACHE STRING "" FORCE)
+else()
+  if(NOT CMAKE_BUILD_TYPE AND NOT CMAKE_CONFIGURATION_TYPES)
+    set(CMAKE_BUILD_TYPE "Debug" CACHE
+      STRING "Flutter build mode" FORCE)
+    set_property(CACHE CMAKE_BUILD_TYPE PROPERTY STRINGS
+      "Debug" "Profile" "Release")
+  endif()
+endif()
+# Define settings for the Profile build mode.
+set(CMAKE_EXE_LINKER_FLAGS_PROFILE "${CMAKE_EXE_LINKER_FLAGS_RELEASE}")
+set(CMAKE_SHARED_LINKER_FLAGS_PROFILE "${CMAKE_SHARED_LINKER_FLAGS_RELEASE}")
+set(CMAKE_C_FLAGS_PROFILE "${CMAKE_C_FLAGS_RELEASE}")
+set(CMAKE_CXX_FLAGS_PROFILE "${CMAKE_CXX_FLAGS_RELEASE}")
+
+# Use Unicode for all projects.
+add_definitions(-DUNICODE -D_UNICODE)
+
+# Compilation settings that should be applied to most targets.
+#
+# Be cautious about adding new options here, as plugins use this function by
+# default. In most cases, you should add new options to specific targets instead
+# of modifying this function.
+function(APPLY_STANDARD_SETTINGS TARGET)
+  target_compile_features(${TARGET} PUBLIC cxx_std_17)
+  target_compile_options(${TARGET} PRIVATE /W4 /WX /wd"4100")
+  target_compile_options(${TARGET} PRIVATE /EHsc)
+  target_compile_definitions(${TARGET} PRIVATE "_HAS_EXCEPTIONS=0")
+  target_compile_definitions(${TARGET} PRIVATE "$<$<CONFIG:Debug>:_DEBUG>")
+endfunction()
+
+# Flutter library and tool build rules.
+set(FLUTTER_MANAGED_DIR "${CMAKE_CURRENT_SOURCE_DIR}/flutter")
+add_subdirectory(${FLUTTER_MANAGED_DIR})
+
+# Application build; see runner/CMakeLists.txt.
+add_subdirectory("runner")
+
+
+# Generated plugin build rules, which manage building the plugins and adding
+# them to the application.
+include(flutter/generated_plugins.cmake)
+
+
+# === Installation ===
+# Support files are copied into place next to the executable, so that it can
+# run in place. This is done instead of making a separate bundle (as on Linux)
+# so that building and running from within Visual Studio will work.
+set(BUILD_BUNDLE_DIR "$<TARGET_FILE_DIR:${BINARY_NAME}>")
+# Make the "install" step default, as it's required to run.
+set(CMAKE_VS_INCLUDE_INSTALL_TO_DEFAULT_BUILD 1)
+if(CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT)
+  set(CMAKE_INSTALL_PREFIX "${BUILD_BUNDLE_DIR}" CACHE PATH "..." FORCE)
+endif()
+
+set(INSTALL_BUNDLE_DATA_DIR "${CMAKE_INSTALL_PREFIX}/data")
+set(INSTALL_BUNDLE_LIB_DIR "${CMAKE_INSTALL_PREFIX}")
+
+install(TARGETS ${BINARY_NAME} RUNTIME DESTINATION "${CMAKE_INSTALL_PREFIX}"
+  COMPONENT Runtime)
+
+install(FILES "${FLUTTER_ICU_DATA_FILE}" DESTINATION "${INSTALL_BUNDLE_DATA_DIR}"
+  COMPONENT Runtime)
+
+install(FILES "${FLUTTER_LIBRARY}" DESTINATION "${INSTALL_BUNDLE_LIB_DIR}"
+  COMPONENT Runtime)
+
+if(PLUGIN_BUNDLED_LIBRARIES)
+  install(FILES "${PLUGIN_BUNDLED_LIBRARIES}"
+    DESTINATION "${INSTALL_BUNDLE_LIB_DIR}"
+    COMPONENT Runtime)
+endif()
+
+# Copy the native assets provided by the build.dart from all packages.
+set(NATIVE_ASSETS_DIR "${PROJECT_BUILD_DIR}native_assets/windows/")
+install(DIRECTORY "${NATIVE_ASSETS_DIR}"
+   DESTINATION "${INSTALL_BUNDLE_LIB_DIR}"
+   COMPONENT Runtime)
+
+# Fully re-copy the assets directory on each build to avoid having stale files
+# from a previous install.
+set(FLUTTER_ASSET_DIR_NAME "flutter_assets")
+install(CODE "
+  file(REMOVE_RECURSE \"${INSTALL_BUNDLE_DATA_DIR}/${FLUTTER_ASSET_DIR_NAME}\")
+  " COMPONENT Runtime)
+install(DIRECTORY "${PROJECT_BUILD_DIR}/${FLUTTER_ASSET_DIR_NAME}"
+  DESTINATION "${INSTALL_BUNDLE_DATA_DIR}" COMPONENT Runtime)
+
+# Install the AOT library on non-Debug builds only.
+install(FILES "${AOT_LIBRARY}" DESTINATION "${INSTALL_BUNDLE_DATA_DIR}"
+  CONFIGURATIONS Profile;Release
+  COMPONENT Runtime)
+
+```
+
+---
+
+### <a id="📄-analysis-options-yaml"></a>📄 `analysis_options.yaml`
+
+**File Info:**
+- **Size**: 1.41 KB
+- **Extension**: `.yaml`
+- **Language**: `yaml`
+- **Location**: `analysis_options.yaml`
+- **Relative Path**: `root`
+- **Created**: 2026-04-05 10:15:50 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-05 10:15:50 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `9e65f4b9beebb674c0dc252f70a5c177`
+- **SHA256**: `b63207cf529949ec4727b68c23dbb38ce255b6f6f4ae1effcb5c1dcf2852d238`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```yaml
+# This file configures the analyzer, which statically analyzes Dart code to
+# check for errors, warnings, and lints.
+#
+# The issues identified by the analyzer are surfaced in the UI of Dart-enabled
+# IDEs (https://dart.dev/tools#ides-and-editors). The analyzer can also be
+# invoked from the command line by running `flutter analyze`.
+
+# The following line activates a set of recommended lints for Flutter apps,
+# packages, and plugins designed to encourage good coding practices.
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  # The lint rules applied to this project can be customized in the
+  # section below to disable rules from the `package:flutter_lints/flutter.yaml`
+  # included above or to enable additional rules. A list of all available lints
+  # and their documentation is published at https://dart.dev/lints.
+  #
+  # Instead of disabling a lint rule for the entire project in the
+  # section below, it can also be suppressed for a single line of code
+  # or a specific dart file by using the `// ignore: name_of_lint` and
+  # `// ignore_for_file: name_of_lint` syntax on the line or in the file
+  # producing the lint.
+  rules:
+    # avoid_print: false  # Uncomment to disable the `avoid_print` rule
+    # prefer_single_quotes: true  # Uncomment to enable the `prefer_single_quotes` rule
+
+# Additional information about this file can be found at
+# https://dart.dev/guides/language/analysis-options
+
+```
+
+---
+
+### <a id="📄-devtools-options-yaml"></a>📄 `devtools_options.yaml`
+
+**File Info:**
+- **Size**: 184 B
+- **Extension**: `.yaml`
+- **Language**: `yaml`
+- **Location**: `devtools_options.yaml`
+- **Relative Path**: `root`
+- **Created**: 2026-04-05 11:00:32 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-05 11:00:32 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `d1ff5187b1b67653e7357395895e8449`
+- **SHA256**: `e8ba6877169885107d577db47d3e9eb10b32b7aded5959dfc52cae8022a5de84`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```yaml
+description: This file stores settings for Dart & Flutter DevTools.
+documentation: https://docs.flutter.dev/tools/devtools/extensions#configure-extension-enablement-states
+extensions:
+
+```
+
+---
+
+### <a id="📄-flutter-launcher-icons-yaml"></a>📄 `flutter_launcher_icons.yaml`
+
+**File Info:**
+- **Size**: 233 B
+- **Extension**: `.yaml`
+- **Language**: `yaml`
+- **Location**: `flutter_launcher_icons.yaml`
+- **Relative Path**: `root`
+- **Created**: 2026-04-07 14:15:45 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-12 07:31:48 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `8768b33ad7d2ea92f75461535c8e8ba5`
+- **SHA256**: `0415a566686506355fac695b5d2b944d5cfdf982bd3752feb92d984508fb0066`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```yaml
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/branding/app_icon.png
+  adaptive_icon_background: "#000000"
+  adaptive_icon_foreground: assets/branding/app_icon_foreground.png
+  remove_alpha_ios: true
+
+```
+
+---
+
+### <a id="📄-flutter-native-splash-yaml"></a>📄 `flutter_native_splash.yaml`
+
+**File Info:**
+- **Size**: 271 B
+- **Extension**: `.yaml`
+- **Language**: `yaml`
+- **Location**: `flutter_native_splash.yaml`
+- **Relative Path**: `root`
+- **Created**: 2026-04-07 14:15:42 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-12 12:10:56 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `5cb0c6a0b16e19d64fa55e32385c78dd`
+- **SHA256**: `516407f864c7148048341a63033edc871f3b42d370dd73ac9caf5e4d39b33750`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```yaml
+flutter_native_splash:
+  color: "#000000"
+  image: "assets/branding/splash_logo.png" 
+  android_12:
+    image: "assets/branding/splash_logo.png"
+    color: "#000000"
+  android_12:
+    color: "#000000"
+    image: "assets/branding/splash_logo.png"
+
+  web: false
+
+```
+
+---
+
+### <a id="📄-pubspec-lock"></a>📄 `pubspec.lock`
+
+**File Info:**
+- **Size**: 47.75 KB
+- **Extension**: `.lock`
+- **Language**: `text`
+- **Location**: `pubspec.lock`
+- **Relative Path**: `root`
+- **Created**: 2026-04-05 10:15:54 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-16 19:14:31 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `ccfbf08e69dbb6198f6c7d282eeb8864`
+- **SHA256**: `4dde89888a9ba2a516cdeaa98189c1d2a43715d25214a5119132e6a1e8b6f1f4`
+- **Encoding**: ASCII
+
+**File code content:**
+
+```text
+# Generated by pub
+# See https://dart.dev/tools/pub/glossary#lockfile
+packages:
+  _fe_analyzer_shared:
+    dependency: transitive
+    description:
+      name: _fe_analyzer_shared
+      sha256: da0d9209ca76bde579f2da330aeb9df62b6319c834fa7baae052021b0462401f
+      url: "https://pub.dev"
+    source: hosted
+    version: "85.0.0"
+  analyzer:
+    dependency: transitive
+    description:
+      name: analyzer
+      sha256: f4ad0fea5f102201015c9aae9d93bc02f75dd9491529a8c21f88d17a8523d44c
+      url: "https://pub.dev"
+    source: hosted
+    version: "7.6.0"
+  analyzer_plugin:
+    dependency: transitive
+    description:
+      name: analyzer_plugin
+      sha256: a5ab7590c27b779f3d4de67f31c4109dbe13dd7339f86461a6f2a8ab2594d8ce
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.13.4"
+  app_links:
+    dependency: transitive
+    description:
+      name: app_links
+      sha256: "3462d9defc61565fde4944858b59bec5be2b9d5b05f20aed190adb3ad08a7abc"
+      url: "https://pub.dev"
+    source: hosted
+    version: "7.0.0"
+  app_links_linux:
+    dependency: transitive
+    description:
+      name: app_links_linux
+      sha256: f5f7173a78609f3dfd4c2ff2c95bd559ab43c80a87dc6a095921d96c05688c81
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.3"
+  app_links_platform_interface:
+    dependency: transitive
+    description:
+      name: app_links_platform_interface
+      sha256: "05f5379577c513b534a29ddea68176a4d4802c46180ee8e2e966257158772a3f"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.2"
+  app_links_web:
+    dependency: transitive
+    description:
+      name: app_links_web
+      sha256: af060ed76183f9e2b87510a9480e56a5352b6c249778d07bd2c95fc35632a555
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.4"
+  archive:
+    dependency: transitive
+    description:
+      name: archive
+      sha256: a96e8b390886ee8abb49b7bd3ac8df6f451c621619f52a26e815fdcf568959ff
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.0.9"
+  args:
+    dependency: transitive
+    description:
+      name: args
+      sha256: d0481093c50b1da8910eb0bb301626d4d8eb7284aa739614d2b394ee09e3ea04
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.7.0"
+  async:
+    dependency: transitive
+    description:
+      name: async
+      sha256: e2eb0491ba5ddb6177742d2da23904574082139b07c1e33b8503b9f46f3e1a37
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.13.1"
+  audio_session:
+    dependency: transitive
+    description:
+      name: audio_session
+      sha256: "7217b229db57cc4dc577a8abb56b7429a5a212b978517a5be578704bfe5e568b"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.2.3"
+  boolean_selector:
+    dependency: transitive
+    description:
+      name: boolean_selector
+      sha256: "8aab1771e1243a5063b8b0ff68042d67334e3feab9e95b9490f9a6ebf73b42ea"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.1.2"
+  build:
+    dependency: transitive
+    description:
+      name: build
+      sha256: cef23f1eda9b57566c81e2133d196f8e3df48f244b317368d65c5943d91148f0
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.4.2"
+  build_cli_annotations:
+    dependency: transitive
+    description:
+      name: build_cli_annotations
+      sha256: e563c2e01de8974566a1998410d3f6f03521788160a02503b0b1f1a46c7b3d95
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.1.1"
+  build_config:
+    dependency: transitive
+    description:
+      name: build_config
+      sha256: "4ae2de3e1e67ea270081eaee972e1bd8f027d459f249e0f1186730784c2e7e33"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.2"
+  build_daemon:
+    dependency: transitive
+    description:
+      name: build_daemon
+      sha256: bf05f6e12cfea92d3c09308d7bcdab1906cd8a179b023269eed00c071004b957
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.1.1"
+  build_resolvers:
+    dependency: transitive
+    description:
+      name: build_resolvers
+      sha256: b9e4fda21d846e192628e7a4f6deda6888c36b5b69ba02ff291a01fd529140f0
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.4.4"
+  build_runner:
+    dependency: "direct dev"
+    description:
+      name: build_runner
+      sha256: "058fe9dce1de7d69c4b84fada934df3e0153dd000758c4d65964d0166779aa99"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.4.15"
+  build_runner_core:
+    dependency: transitive
+    description:
+      name: build_runner_core
+      sha256: "22e3aa1c80e0ada3722fe5b63fd43d9c8990759d0a2cf489c8c5d7b2bdebc021"
+      url: "https://pub.dev"
+    source: hosted
+    version: "8.0.0"
+  built_collection:
+    dependency: transitive
+    description:
+      name: built_collection
+      sha256: "376e3dd27b51ea877c28d525560790aee2e6fbb5f20e2f85d5081027d94e2100"
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.1.1"
+  built_value:
+    dependency: transitive
+    description:
+      name: built_value
+      sha256: "0730c18c770d05636a8f945c32a4d7d81cb6e0f0148c8db4ad12e7748f7e49af"
+      url: "https://pub.dev"
+    source: hosted
+    version: "8.12.5"
+  cancellation_token:
+    dependency: transitive
+    description:
+      name: cancellation_token
+      sha256: ad95acf9d4b2f3563e25dc937f63587e46a70ce534e910b65d10e115490f1027
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.1"
+  characters:
+    dependency: transitive
+    description:
+      name: characters
+      sha256: faf38497bda5ead2a8c7615f4f7939df04333478bf32e4173fcb06d428b5716b
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.4.1"
+  checked_yaml:
+    dependency: transitive
+    description:
+      name: checked_yaml
+      sha256: "959525d3162f249993882720d52b7e0c833978df229be20702b33d48d91de70f"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.4"
+  ci:
+    dependency: transitive
+    description:
+      name: ci
+      sha256: "145d095ce05cddac4d797a158bc4cf3b6016d1fe63d8c3d2fbd7212590adca13"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.1.0"
+  cli_util:
+    dependency: transitive
+    description:
+      name: cli_util
+      sha256: ff6785f7e9e3c38ac98b2fb035701789de90154024a75b6cb926445e83197d1c
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.4.2"
+  clock:
+    dependency: transitive
+    description:
+      name: clock
+      sha256: fddb70d9b5277016c77a80201021d40a2247104d9f4aa7bab7157b7e3f05b84b
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.2"
+  code_assets:
+    dependency: transitive
+    description:
+      name: code_assets
+      sha256: "83ccdaa064c980b5596c35dd64a8d3ecc68620174ab9b90b6343b753aa721687"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.0"
+  code_builder:
+    dependency: transitive
+    description:
+      name: code_builder
+      sha256: "6a6cab2ba4680d6423f34a9b972a4c9a94ebe1b62ecec4e1a1f2cba91fd1319d"
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.11.1"
+  collection:
+    dependency: transitive
+    description:
+      name: collection
+      sha256: "2f5709ae4d3d59dd8f7cd309b4e023046b57d8a6c82130785d2b0e5868084e76"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.19.1"
+  connectivity_plus:
+    dependency: "direct main"
+    description:
+      name: connectivity_plus
+      sha256: b5e72753cf63becce2c61fd04dfe0f1c430cc5278b53a1342dc5ad839eab29ec
+      url: "https://pub.dev"
+    source: hosted
+    version: "6.1.5"
+  connectivity_plus_platform_interface:
+    dependency: transitive
+    description:
+      name: connectivity_plus_platform_interface
+      sha256: "3c09627c536d22fd24691a905cdd8b14520de69da52c7a97499c8be5284a32ed"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.1.0"
+  convert:
+    dependency: transitive
+    description:
+      name: convert
+      sha256: b30acd5944035672bc15c6b7a8b47d773e41e2f17de064350988c5d02adb1c68
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.1.2"
+  crypto:
+    dependency: transitive
+    description:
+      name: crypto
+      sha256: c8ea0233063ba03258fbcf2ca4d6dadfefe14f02fab57702265467a19f27fadf
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.0.7"
+  custom_lint:
+    dependency: "direct dev"
+    description:
+      name: custom_lint
+      sha256: "9656925637516c5cf0f5da018b33df94025af2088fe09c8ae2ca54c53f2d9a84"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.7.6"
+  custom_lint_builder:
+    dependency: transitive
+    description:
+      name: custom_lint_builder
+      sha256: "6cdc8e87e51baaaba9c43e283ed8d28e59a0c4732279df62f66f7b5984655414"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.7.6"
+  custom_lint_core:
+    dependency: transitive
+    description:
+      name: custom_lint_core
+      sha256: "31110af3dde9d29fb10828ca33f1dce24d2798477b167675543ce3d208dee8be"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.7.5"
+  custom_lint_visitor:
+    dependency: transitive
+    description:
+      name: custom_lint_visitor
+      sha256: "4a86a0d8415a91fbb8298d6ef03e9034dc8e323a599ddc4120a0e36c433983a2"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.0+7.7.0"
+  dart_jsonwebtoken:
+    dependency: transitive
+    description:
+      name: dart_jsonwebtoken
+      sha256: cb79ed79baa02b4f59a597bf365873cbd83f9bb15273d63f7803802d21717c7d
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.4.0"
+  dart_style:
+    dependency: transitive
+    description:
+      name: dart_style
+      sha256: "8a0e5fba27e8ee025d2ffb4ee820b4e6e2cf5e4246a6b1a477eb66866947e0bb"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.1.1"
+  dbus:
+    dependency: transitive
+    description:
+      name: dbus
+      sha256: d0c98dcd4f5169878b6cf8f6e0a52403a9dff371a3e2f019697accbf6f44a270
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.7.12"
+  decimal:
+    dependency: transitive
+    description:
+      name: decimal
+      sha256: fc706a5618b81e5b367b01dd62621def37abc096f2b46a9bd9068b64c1fa36d0
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.2.4"
+  device_info_plus:
+    dependency: transitive
+    description:
+      name: device_info_plus
+      sha256: b4fed1b2835da9d670d7bed7db79ae2a94b0f5ad6312268158a9b5479abbacdd
+      url: "https://pub.dev"
+    source: hosted
+    version: "12.4.0"
+  device_info_plus_platform_interface:
+    dependency: transitive
+    description:
+      name: device_info_plus_platform_interface
+      sha256: e1ea89119e34903dca74b883d0dd78eb762814f97fb6c76f35e9ff74d261a18f
+      url: "https://pub.dev"
+    source: hosted
+    version: "7.0.3"
+  ejson:
+    dependency: transitive
+    description:
+      name: ejson
+      sha256: "5856e32943e476d67304731dedcd2a4b2363f2d14442176e2a151039605c4633"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.4.1"
+  ejson_annotation:
+    dependency: transitive
+    description:
+      name: ejson_annotation
+      sha256: "966c38370f21a0b5ed296a33293c2592a7d14e4b320cc1a5de49d6c55606cc2f"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.4.1"
+  equatable:
+    dependency: transitive
+    description:
+      name: equatable
+      sha256: "3e0141505477fd8ad55d6eb4e7776d3fe8430be8e497ccb1521370c3f21a3e2b"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.8"
+  fake_async:
+    dependency: transitive
+    description:
+      name: fake_async
+      sha256: "5368f224a74523e8d2e7399ea1638b37aecfca824a3cc4dfdf77bf1fa905ac44"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.3.3"
+  ffi:
+    dependency: transitive
+    description:
+      name: ffi
+      sha256: "6d7fd89431262d8f3125e81b50d3847a091d846eafcd4fdb88dd06f36d705a45"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.2.0"
+  file:
+    dependency: transitive
+    description:
+      name: file
+      sha256: a3b4f84adafef897088c160faf7dfffb7696046cb13ae90b508c2cbc95d3b8d4
+      url: "https://pub.dev"
+    source: hosted
+    version: "7.0.1"
+  fixnum:
+    dependency: transitive
+    description:
+      name: fixnum
+      sha256: b6dc7065e46c974bc7c5f143080a6764ec7a4be6da1285ececdc37be96de53be
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.1"
+  fl_chart:
+    dependency: "direct main"
+    description:
+      name: fl_chart
+      sha256: b938f77d042cbcd822936a7a359a7235bad8bd72070de1f827efc2cc297ac888
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.2.0"
+  flutter:
+    dependency: "direct main"
+    description: flutter
+    source: sdk
+    version: "0.0.0"
+  flutter_dotenv:
+    dependency: "direct main"
+    description:
+      name: flutter_dotenv
+      sha256: d4130c4a43e0b13fefc593bc3961f2cb46e30cb79e253d4a526b1b5d24ae1ce4
+      url: "https://pub.dev"
+    source: hosted
+    version: "6.0.0"
+  flutter_hooks:
+    dependency: "direct main"
+    description:
+      name: flutter_hooks
+      sha256: cde36b12f7188c85286fba9b38cc5a902e7279f36dd676967106c041dc9dde70
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.20.5"
+  flutter_launcher_icons:
+    dependency: "direct dev"
+    description:
+      name: flutter_launcher_icons
+      sha256: "526faf84284b86a4cb36d20a5e45147747b7563d921373d4ee0559c54fcdbcea"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.13.1"
+  flutter_lints:
+    dependency: "direct dev"
+    description:
+      name: flutter_lints
+      sha256: "3f41d009ba7172d5ff9be5f6e6e6abb4300e263aab8866d2a0842ed2a70f8f0c"
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.0.0"
+  flutter_local_notifications:
+    dependency: "direct main"
+    description:
+      name: flutter_local_notifications
+      sha256: "0d9035862236fe38250fe1644d7ed3b8254e34a21b2c837c9f539fbb3bba5ef1"
+      url: "https://pub.dev"
+    source: hosted
+    version: "21.0.0"
+  flutter_local_notifications_linux:
+    dependency: transitive
+    description:
+      name: flutter_local_notifications_linux
+      sha256: e0f25e243c6c44c825bbbc6b2b2e76f7d9222362adcfe9fd780bf01923c840bd
+      url: "https://pub.dev"
+    source: hosted
+    version: "8.0.0"
+  flutter_local_notifications_platform_interface:
+    dependency: transitive
+    description:
+      name: flutter_local_notifications_platform_interface
+      sha256: e7db3d5b49c2b7ecc68deba4aaaa67a348f92ee0fef34c8e4b4459dbef0d7307
+      url: "https://pub.dev"
+    source: hosted
+    version: "11.0.0"
+  flutter_local_notifications_windows:
+    dependency: transitive
+    description:
+      name: flutter_local_notifications_windows
+      sha256: "3a2654ba104fbb52c618ebed9def24ef270228470718c43b3a6afcd5c81bef0c"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.0.0"
+  flutter_localizations:
+    dependency: "direct main"
+    description: flutter
+    source: sdk
+    version: "0.0.0"
+  flutter_markdown:
+    dependency: "direct main"
+    description:
+      name: flutter_markdown
+      sha256: "08fb8315236099ff8e90cb87bb2b935e0a724a3af1623000a9cec930468e0f27"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.7.7+1"
+  flutter_riverpod:
+    dependency: transitive
+    description:
+      name: flutter_riverpod
+      sha256: "9532ee6db4a943a1ed8383072a2e3eeda041db5657cdf6d2acecf3c21ecbe7e1"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.6.1"
+  flutter_test:
+    dependency: "direct dev"
+    description: flutter
+    source: sdk
+    version: "0.0.0"
+  flutter_web_plugins:
+    dependency: transitive
+    description: flutter
+    source: sdk
+    version: "0.0.0"
+  freezed_annotation:
+    dependency: transitive
+    description:
+      name: freezed_annotation
+      sha256: "7294967ff0a6d98638e7acb774aac3af2550777accd8149c90af5b014e6d44d8"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.1.0"
+  frontend_server_client:
+    dependency: transitive
+    description:
+      name: frontend_server_client
+      sha256: f64a0333a82f30b0cca061bc3d143813a486dc086b574bfb233b7c1372427694
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.0.0"
+  functions_client:
+    dependency: transitive
+    description:
+      name: functions_client
+      sha256: "94074d62167ae634127ef6095f536835063a7dc80f2b1aa306d2346ff9023996"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.5.0"
+  glob:
+    dependency: transitive
+    description:
+      name: glob
+      sha256: c3f1ee72c96f8f78935e18aa8cecced9ab132419e8625dc187e1c2408efc20de
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.1.3"
+  google_fonts:
+    dependency: "direct main"
+    description:
+      name: google_fonts
+      sha256: ba03d03bcaa2f6cb7bd920e3b5027181db75ab524f8891c8bc3aa603885b8055
+      url: "https://pub.dev"
+    source: hosted
+    version: "6.3.3"
+  google_mobile_ads:
+    dependency: "direct main"
+    description:
+      name: google_mobile_ads
+      sha256: "50549f6c945d7a445d53c04f34d025b1a1723fbd02719de9e67de432e2597f40"
+      url: "https://pub.dev"
+    source: hosted
+    version: "8.0.0"
+  gotrue:
+    dependency: transitive
+    description:
+      name: gotrue
+      sha256: ecdf3fa3ef8c5f886390ba0056d00d29138c02c39984e9caa8194dffd8a73ef7
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.19.0"
+  graphs:
+    dependency: transitive
+    description:
+      name: graphs
+      sha256: "741bbf84165310a68ff28fe9e727332eef1407342fca52759cb21ad8177bb8d0"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.3.2"
+  gtk:
+    dependency: transitive
+    description:
+      name: gtk
+      sha256: e8ce9ca4b1df106e4d72dad201d345ea1a036cc12c360f1a7d5a758f78ffa42c
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.1.0"
+  home_widget:
+    dependency: "direct main"
+    description:
+      name: home_widget
+      sha256: b04f99438ad6c5aad80fc9fca1e2e3471bf2a15028f614e4814d2552e13bc2a3
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.9.1"
+  hooks:
+    dependency: transitive
+    description:
+      name: hooks
+      sha256: e79ed1e8e1929bc6ecb6ec85f0cb519c887aa5b423705ded0d0f2d9226def388
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.2"
+  hooks_riverpod:
+    dependency: "direct main"
+    description:
+      name: hooks_riverpod
+      sha256: "70bba33cfc5670c84b796e6929c54b8bc5be7d0fe15bb28c2560500b9ad06966"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.6.1"
+  hotreloader:
+    dependency: transitive
+    description:
+      name: hotreloader
+      sha256: "66871df468fc24eee81f1a0a7cb98acc104716f9b7376d355437b48d633c4ebf"
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.4.0"
+  http:
+    dependency: "direct main"
+    description:
+      name: http
+      sha256: "87721a4a50b19c7f1d49001e51409bddc46303966ce89a65af4f4e6004896412"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.6.0"
+  http_multi_server:
+    dependency: transitive
+    description:
+      name: http_multi_server
+      sha256: aa6199f908078bb1c5efb8d8638d4ae191aac11b311132c3ef48ce352fb52ef8
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.2.2"
+  http_parser:
+    dependency: transitive
+    description:
+      name: http_parser
+      sha256: "178d74305e7866013777bab2c3d8726205dc5a4dd935297175b19a23a2e66571"
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.1.2"
+  image:
+    dependency: transitive
+    description:
+      name: image
+      sha256: f9881ff4998044947ec38d098bc7c8316ae1186fa786eddffdb867b9bc94dfce
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.8.0"
+  intl:
+    dependency: "direct main"
+    description:
+      name: intl
+      sha256: "3df61194eb431efc39c4ceba583b95633a403f46c9fd341e550ce0bfa50e9aa5"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.20.2"
+  io:
+    dependency: transitive
+    description:
+      name: io
+      sha256: dfd5a80599cf0165756e3181807ed3e77daf6dd4137caaad72d0b7931597650b
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.5"
+  js:
+    dependency: transitive
+    description:
+      name: js
+      sha256: "53385261521cc4a0c4658fd0ad07a7d14591cf8fc33abbceae306ddb974888dc"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.7.2"
+  json_annotation:
+    dependency: transitive
+    description:
+      name: json_annotation
+      sha256: cb09e7dac6210041fad964ed7fbee004f14258b4eca4040f72d1234062ace4c8
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.11.0"
+  just_audio:
+    dependency: "direct main"
+    description:
+      name: just_audio
+      sha256: "9694e4734f515f2a052493d1d7e0d6de219ee0427c7c29492e246ff32a219908"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.10.5"
+  just_audio_platform_interface:
+    dependency: transitive
+    description:
+      name: just_audio_platform_interface
+      sha256: "2532c8d6702528824445921c5ff10548b518b13f808c2e34c2fd54793b999a6a"
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.6.0"
+  just_audio_web:
+    dependency: transitive
+    description:
+      name: just_audio_web
+      sha256: "6ba8a2a7e87d57d32f0f7b42856ade3d6a9fbe0f1a11fabae0a4f00bb73f0663"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.4.16"
+  jwt_decode:
+    dependency: transitive
+    description:
+      name: jwt_decode
+      sha256: d2e9f68c052b2225130977429d30f187aa1981d789c76ad104a32243cfdebfbb
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.3.1"
+  leak_tracker:
+    dependency: transitive
+    description:
+      name: leak_tracker
+      sha256: "33e2e26bdd85a0112ec15400c8cbffea70d0f9c3407491f672a2fad47915e2de"
+      url: "https://pub.dev"
+    source: hosted
+    version: "11.0.2"
+  leak_tracker_flutter_testing:
+    dependency: transitive
+    description:
+      name: leak_tracker_flutter_testing
+      sha256: "1dbc140bb5a23c75ea9c4811222756104fbcd1a27173f0c34ca01e16bea473c1"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.0.10"
+  leak_tracker_testing:
+    dependency: transitive
+    description:
+      name: leak_tracker_testing
+      sha256: "8d5a2d49f4a66b49744b23b018848400d23e54caf9463f4eb20df3eb8acb2eb1"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.0.2"
+  lints:
+    dependency: transitive
+    description:
+      name: lints
+      sha256: "976c774dd944a42e83e2467f4cc670daef7eed6295b10b36ae8c85bcbf828235"
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.0.0"
+  logging:
+    dependency: transitive
+    description:
+      name: logging
+      sha256: c8245ada5f1717ed44271ed1c26b8ce85ca3228fd2ffdb75468ab01979309d61
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.3.0"
+  markdown:
+    dependency: transitive
+    description:
+      name: markdown
+      sha256: ee85086ad7698b42522c6ad42fe195f1b9898e4d974a1af4576c1a3a176cada9
+      url: "https://pub.dev"
+    source: hosted
+    version: "7.3.1"
+  matcher:
+    dependency: transitive
+    description:
+      name: matcher
+      sha256: "12956d0ad8390bbcc63ca2e1469c0619946ccb52809807067a7020d57e647aa6"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.12.18"
+  material_color_utilities:
+    dependency: transitive
+    description:
+      name: material_color_utilities
+      sha256: "9c337007e82b1889149c82ed242ed1cb24a66044e30979c44912381e9be4c48b"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.13.0"
+  meta:
+    dependency: transitive
+    description:
+      name: meta
+      sha256: "23f08335362185a5ea2ad3a4e597f1375e78bce8a040df5c600c8d3552ef2394"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.17.0"
+  mime:
+    dependency: transitive
+    description:
+      name: mime
+      sha256: "41a20518f0cb1256669420fdba0cd90d21561e560ac240f26ef8322e45bb7ed6"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.0"
+  native_toolchain_c:
+    dependency: transitive
+    description:
+      name: native_toolchain_c
+      sha256: "6ba77bb18063eebe9de401f5e6437e95e1438af0a87a3a39084fbd37c90df572"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.17.6"
+  nm:
+    dependency: transitive
+    description:
+      name: nm
+      sha256: "2c9aae4127bdc8993206464fcc063611e0e36e72018696cd9631023a31b24254"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.5.0"
+  objectid:
+    dependency: transitive
+    description:
+      name: objectid
+      sha256: f6cea8360862c78b1984cc8f497e484aa7f491282f7f4e4bd2f722bc85f93237
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.0.3"
+  objective_c:
+    dependency: transitive
+    description:
+      name: objective_c
+      sha256: "100a1c87616ab6ed41ec263b083c0ef3261ee6cd1dc3b0f35f8ddfa4f996fe52"
+      url: "https://pub.dev"
+    source: hosted
+    version: "9.3.0"
+  package_config:
+    dependency: transitive
+    description:
+      name: package_config
+      sha256: f096c55ebb7deb7e384101542bfba8c52696c1b56fca2eb62827989ef2353bbc
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.2.0"
+  path:
+    dependency: transitive
+    description:
+      name: path
+      sha256: "75cca69d1490965be98c73ceaea117e8a04dd21217b37b292c9ddbec0d955bc5"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.9.1"
+  path_provider:
+    dependency: transitive
+    description:
+      name: path_provider
+      sha256: "50c5dd5b6e1aaf6fb3a78b33f6aa3afca52bf903a8a5298f53101fdaee55bbcd"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.1.5"
+  path_provider_android:
+    dependency: transitive
+    description:
+      name: path_provider_android
+      sha256: "149441ca6e4f38193b2e004c0ca6376a3d11f51fa5a77552d8bd4d2b0c0912ba"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.2.23"
+  path_provider_foundation:
+    dependency: transitive
+    description:
+      name: path_provider_foundation
+      sha256: "2a376b7d6392d80cd3705782d2caa734ca4727776db0b6ec36ef3f1855197699"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.6.0"
+  path_provider_linux:
+    dependency: transitive
+    description:
+      name: path_provider_linux
+      sha256: f7a1fe3a634fe7734c8d3f2766ad746ae2a2884abe22e241a8b301bf5cac3279
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.2.1"
+  path_provider_platform_interface:
+    dependency: transitive
+    description:
+      name: path_provider_platform_interface
+      sha256: "88f5779f72ba699763fa3a3b06aa4bf6de76c8e5de842cf6f29e2e06476c2334"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.1.2"
+  path_provider_windows:
+    dependency: transitive
+    description:
+      name: path_provider_windows
+      sha256: bd6f00dbd873bfb70d0761682da2b3a2c2fccc2b9e84c495821639601d81afe7
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.3.0"
+  permission_handler:
+    dependency: "direct main"
+    description:
+      name: permission_handler
+      sha256: bc917da36261b00137bbc8896bf1482169cd76f866282368948f032c8c1caae1
+      url: "https://pub.dev"
+    source: hosted
+    version: "12.0.1"
+  permission_handler_android:
+    dependency: transitive
+    description:
+      name: permission_handler_android
+      sha256: "1e3bc410ca1bf84662104b100eb126e066cb55791b7451307f9708d4007350e6"
+      url: "https://pub.dev"
+    source: hosted
+    version: "13.0.1"
+  permission_handler_apple:
+    dependency: transitive
+    description:
+      name: permission_handler_apple
+      sha256: f000131e755c54cf4d84a5d8bd6e4149e262cc31c5a8b1d698de1ac85fa41023
+      url: "https://pub.dev"
+    source: hosted
+    version: "9.4.7"
+  permission_handler_html:
+    dependency: transitive
+    description:
+      name: permission_handler_html
+      sha256: "38f000e83355abb3392140f6bc3030660cfaef189e1f87824facb76300b4ff24"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.1.3+5"
+  permission_handler_platform_interface:
+    dependency: transitive
+    description:
+      name: permission_handler_platform_interface
+      sha256: eb99b295153abce5d683cac8c02e22faab63e50679b937fa1bf67d58bb282878
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.3.0"
+  permission_handler_windows:
+    dependency: transitive
+    description:
+      name: permission_handler_windows
+      sha256: "1a790728016f79a41216d88672dbc5df30e686e811ad4e698bfc51f76ad91f1e"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.2.1"
+  petitparser:
+    dependency: transitive
+    description:
+      name: petitparser
+      sha256: "91bd59303e9f769f108f8df05e371341b15d59e995e6806aefab827b58336675"
+      url: "https://pub.dev"
+    source: hosted
+    version: "7.0.2"
+  platform:
+    dependency: transitive
+    description:
+      name: platform
+      sha256: "5d6b1b0036a5f331ebc77c850ebc8506cbc1e9416c27e59b439f917a902a4984"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.1.6"
+  plugin_platform_interface:
+    dependency: transitive
+    description:
+      name: plugin_platform_interface
+      sha256: "4820fbfdb9478b1ebae27888254d445073732dae3d6ea81f0b7e06d5dedc3f02"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.1.8"
+  pointycastle:
+    dependency: transitive
+    description:
+      name: pointycastle
+      sha256: "92aa3841d083cc4b0f4709b5c74fd6409a3e6ba833ffc7dc6a8fee096366acf5"
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.0.0"
+  pool:
+    dependency: transitive
+    description:
+      name: pool
+      sha256: "978783255c543aa3586a1b3c21f6e9d720eb315376a915872c61ef8b5c20177d"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.5.2"
+  posix:
+    dependency: transitive
+    description:
+      name: posix
+      sha256: "185ef7606574f789b40f289c233efa52e96dead518aed988e040a10737febb07"
+      url: "https://pub.dev"
+    source: hosted
+    version: "6.5.0"
+  postgrest:
+    dependency: transitive
+    description:
+      name: postgrest
+      sha256: f4b6bb24b465c47649243ef0140475de8a0ec311dc9c75ebe573b2dcabb10460
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.6.0"
+  pub_semver:
+    dependency: transitive
+    description:
+      name: pub_semver
+      sha256: "5bfcf68ca79ef689f8990d1160781b4bad40a3bd5e5218ad4076ddb7f4081585"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.2.0"
+  pubspec_parse:
+    dependency: transitive
+    description:
+      name: pubspec_parse
+      sha256: "0560ba233314abbed0a48a2956f7f022cce7c3e1e73df540277da7544cad4082"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.5.0"
+  rational:
+    dependency: transitive
+    description:
+      name: rational
+      sha256: cb808fb6f1a839e6fc5f7d8cb3b0a10e1db48b3be102de73938c627f0b636336
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.2.3"
+  realm:
+    dependency: "direct main"
+    description:
+      name: realm
+      sha256: "7adf8af455ef87a1b1ec957714b8171b2a655fe025b08516eaeff3e483437f02"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.5.0"
+  realm_common:
+    dependency: transitive
+    description:
+      name: realm_common
+      sha256: "212fe6fc7635f80109c3c7c4361431f3836a6efd74d14483cf87fd0b562a7095"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.5.0"
+  realm_dart:
+    dependency: transitive
+    description:
+      name: realm_dart
+      sha256: "2fbd307dde35f0f3b7f700cba0c46cb81f48d0920e074191adff37b95793d634"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.5.0"
+  realm_generator:
+    dependency: transitive
+    description:
+      name: realm_generator
+      sha256: c87bb0b999c44e91aad5689f94a55e0ddb80fb51f987eb84cc859456dfd1e7ff
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.5.0"
+  realtime_client:
+    dependency: transitive
+    description:
+      name: realtime_client
+      sha256: ee8e71af7a834e960f5b2f494f398117488036fbdb11f422611f7287fbf40562
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.7.1"
+  retry:
+    dependency: transitive
+    description:
+      name: retry
+      sha256: "822e118d5b3aafed083109c72d5f484c6dc66707885e07c0fbcb8b986bba7efc"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.1.2"
+  riverpod:
+    dependency: transitive
+    description:
+      name: riverpod
+      sha256: "59062512288d3056b2321804332a13ffdd1bf16df70dcc8e506e411280a72959"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.6.1"
+  riverpod_analyzer_utils:
+    dependency: transitive
+    description:
+      name: riverpod_analyzer_utils
+      sha256: "03a17170088c63aab6c54c44456f5ab78876a1ddb6032ffde1662ddab4959611"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.5.10"
+  riverpod_annotation:
+    dependency: "direct main"
+    description:
+      name: riverpod_annotation
+      sha256: e14b0bf45b71326654e2705d462f21b958f987087be850afd60578fcd502d1b8
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.6.1"
+  riverpod_generator:
+    dependency: "direct dev"
+    description:
+      name: riverpod_generator
+      sha256: "44a0992d54473eb199ede00e2260bd3c262a86560e3c6f6374503d86d0580e36"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.6.5"
+  riverpod_lint:
+    dependency: "direct dev"
+    description:
+      name: riverpod_lint
+      sha256: "89a52b7334210dbff8605c3edf26cfe69b15062beed5cbfeff2c3812c33c9e35"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.6.5"
+  rxdart:
+    dependency: transitive
+    description:
+      name: rxdart
+      sha256: "5c3004a4a8dbb94bd4bf5412a4def4acdaa12e12f269737a5751369e12d1a962"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.28.0"
+  sane_uuid:
+    dependency: transitive
+    description:
+      name: sane_uuid
+      sha256: "5b3fd581f51d01aef0526344c175e198d04ff701249c1a75186429dbb4367265"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.0"
+  shared_preferences:
+    dependency: "direct main"
+    description:
+      name: shared_preferences
+      sha256: c3025c5534b01739267eb7d76959bbc25a6d10f6988e1c2a3036940133dd10bf
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.5.5"
+  shared_preferences_android:
+    dependency: transitive
+    description:
+      name: shared_preferences_android
+      sha256: e8d4762b1e2e8578fc4d0fd548cebf24afd24f49719c08974df92834565e2c53
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.4.23"
+  shared_preferences_foundation:
+    dependency: transitive
+    description:
+      name: shared_preferences_foundation
+      sha256: "4e7eaffc2b17ba398759f1151415869a34771ba11ebbccd1b0145472a619a64f"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.5.6"
+  shared_preferences_linux:
+    dependency: transitive
+    description:
+      name: shared_preferences_linux
+      sha256: "580abfd40f415611503cae30adf626e6656dfb2f0cee8f465ece7b6defb40f2f"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.4.1"
+  shared_preferences_platform_interface:
+    dependency: transitive
+    description:
+      name: shared_preferences_platform_interface
+      sha256: "649dc798a33931919ea356c4305c2d1f81619ea6e92244070b520187b5140ef9"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.4.2"
+  shared_preferences_web:
+    dependency: transitive
+    description:
+      name: shared_preferences_web
+      sha256: c49bd060261c9a3f0ff445892695d6212ff603ef3115edbb448509d407600019
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.4.3"
+  shared_preferences_windows:
+    dependency: transitive
+    description:
+      name: shared_preferences_windows
+      sha256: "94ef0f72b2d71bc3e700e025db3710911bd51a71cefb65cc609dd0d9a982e3c1"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.4.1"
+  shelf:
+    dependency: transitive
+    description:
+      name: shelf
+      sha256: e7dd780a7ffb623c57850b33f43309312fc863fb6aa3d276a754bb299839ef12
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.4.2"
+  shelf_web_socket:
+    dependency: transitive
+    description:
+      name: shelf_web_socket
+      sha256: "3632775c8e90d6c9712f883e633716432a27758216dfb61bd86a8321c0580925"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.0.0"
+  shimmer:
+    dependency: "direct main"
+    description:
+      name: shimmer
+      sha256: "5f88c883a22e9f9f299e5ba0e4f7e6054857224976a5d9f839d4ebdc94a14ac9"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.0.0"
+  sky_engine:
+    dependency: transitive
+    description: flutter
+    source: sdk
+    version: "0.0.0"
+  source_gen:
+    dependency: transitive
+    description:
+      name: source_gen
+      sha256: "35c8150ece9e8c8d263337a265153c3329667640850b9304861faea59fc98f6b"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.0"
+  source_span:
+    dependency: transitive
+    description:
+      name: source_span
+      sha256: "56a02f1f4cd1a2d96303c0144c93bd6d909eea6bee6bf5a0e0b685edbd4c47ab"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.10.2"
+  stack_trace:
+    dependency: transitive
+    description:
+      name: stack_trace
+      sha256: "8b27215b45d22309b5cddda1aa2b19bdfec9df0e765f2de506401c071d38d1b1"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.12.1"
+  state_notifier:
+    dependency: transitive
+    description:
+      name: state_notifier
+      sha256: b8677376aa54f2d7c58280d5a007f9e8774f1968d1fb1c096adcb4792fba29bb
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.0"
+  storage_client:
+    dependency: transitive
+    description:
+      name: storage_client
+      sha256: "085a08fd67f234d575113957c04a0e8d0a3050129762f939ce831ee2c0df8257"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.5.1"
+  stream_channel:
+    dependency: transitive
+    description:
+      name: stream_channel
+      sha256: "969e04c80b8bcdf826f8f16579c7b14d780458bd97f56d107d3950fdbeef059d"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.1.4"
+  stream_transform:
+    dependency: transitive
+    description:
+      name: stream_transform
+      sha256: ad47125e588cfd37a9a7f86c7d6356dde8dfe89d071d293f80ca9e9273a33871
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.1.1"
+  string_scanner:
+    dependency: transitive
+    description:
+      name: string_scanner
+      sha256: "921cd31725b72fe181906c6a94d987c78e3b98c2e205b397ea399d4054872b43"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.4.1"
+  supabase:
+    dependency: transitive
+    description:
+      name: supabase
+      sha256: "89b190b585f8609fe1537cbf53eae0c9fda9b777591b064d1150c6f26e607a84"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.10.4"
+  supabase_flutter:
+    dependency: "direct main"
+    description:
+      name: supabase_flutter
+      sha256: c2974cfdfeb5de517652a35f3ef0d1f3159e068de82b50ccaa27908a2b45fb82
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.12.2"
+  syncfusion_flutter_core:
+    dependency: transitive
+    description:
+      name: syncfusion_flutter_core
+      sha256: "06ca4169ed9fc3fc881a984772ac4c6ab4626a69770c073ed76b25defb2ac55c"
+      url: "https://pub.dev"
+    source: hosted
+    version: "33.1.49"
+  syncfusion_flutter_pdf:
+    dependency: transitive
+    description:
+      name: syncfusion_flutter_pdf
+      sha256: e9248c03eb0865ddd1d874f75ea5ff75e8cb2063b304cd440d1bd3043de1c57a
+      url: "https://pub.dev"
+    source: hosted
+    version: "33.1.49"
+  syncfusion_flutter_pdfviewer:
+    dependency: "direct main"
+    description:
+      name: syncfusion_flutter_pdfviewer
+      sha256: "25425d32c8ab8c6db36fd60654d1857e8a05ad3cacec277ed04a824017dd6f0c"
+      url: "https://pub.dev"
+    source: hosted
+    version: "33.1.49"
+  syncfusion_flutter_signaturepad:
+    dependency: transitive
+    description:
+      name: syncfusion_flutter_signaturepad
+      sha256: "6a2611ca652c6c0e97174119cbb4c5a776eb6f2a263a07e27c630f1c60ede1f6"
+      url: "https://pub.dev"
+    source: hosted
+    version: "33.1.49"
+  syncfusion_pdfviewer_linux:
+    dependency: transitive
+    description:
+      name: syncfusion_pdfviewer_linux
+      sha256: ca6d0443831b9e9291def964a7beda4e1e428575a0c05d36660bb75153f0eb0c
+      url: "https://pub.dev"
+    source: hosted
+    version: "33.1.49"
+  syncfusion_pdfviewer_macos:
+    dependency: transitive
+    description:
+      name: syncfusion_pdfviewer_macos
+      sha256: "7d1e71707a1694952f23efd59d59e531395d25a8cd0f05fb61f22b4ac742101c"
+      url: "https://pub.dev"
+    source: hosted
+    version: "33.1.49"
+  syncfusion_pdfviewer_platform_interface:
+    dependency: transitive
+    description:
+      name: syncfusion_pdfviewer_platform_interface
+      sha256: "3374e3b0b868ccf25ea8f3ba0d0921edde6c6ab7306c8afbe00e44b5e1aa8ee5"
+      url: "https://pub.dev"
+    source: hosted
+    version: "33.1.49"
+  syncfusion_pdfviewer_web:
+    dependency: transitive
+    description:
+      name: syncfusion_pdfviewer_web
+      sha256: c39c672033a7e6def5e8b59897f3322f0df33803daae66a99b4b8f98d586b8e2
+      url: "https://pub.dev"
+    source: hosted
+    version: "33.1.49"
+  syncfusion_pdfviewer_windows:
+    dependency: transitive
+    description:
+      name: syncfusion_pdfviewer_windows
+      sha256: b17f86fc9247cb5b575a8f18ee8260f40e4de576cd52b210c1bcf3553ea26df7
+      url: "https://pub.dev"
+    source: hosted
+    version: "33.1.49"
+  synchronized:
+    dependency: transitive
+    description:
+      name: synchronized
+      sha256: c254ade258ec8282947a0acbbc90b9575b4f19673533ee46f2f6e9b3aeefd7c0
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.4.0"
+  tar:
+    dependency: transitive
+    description:
+      name: tar
+      sha256: b338bacfd24dae6cf527acb4242003a71fc88ce183a9002376fabbc4ebda30c9
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.2"
+  term_glyph:
+    dependency: transitive
+    description:
+      name: term_glyph
+      sha256: "7f554798625ea768a7518313e58f83891c7f5024f88e46e7182a4558850a4b8e"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.2.2"
+  test_api:
+    dependency: transitive
+    description:
+      name: test_api
+      sha256: "93167629bfc610f71560ab9312acdda4959de4df6fac7492c89ff0d3886f6636"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.7.9"
+  timezone:
+    dependency: "direct main"
+    description:
+      name: timezone
+      sha256: "784a5e34d2eb62e1326f24d6f600aaaee452eb8ca8ef2f384a59244e292d158b"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.11.0"
+  timing:
+    dependency: transitive
+    description:
+      name: timing
+      sha256: "62ee18aca144e4a9f29d212f5a4c6a053be252b895ab14b5821996cff4ed90fe"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.2"
+  tutorial_coach_mark:
+    dependency: "direct main"
+    description:
+      name: tutorial_coach_mark
+      sha256: "5a325d53bcf16ce7a969e2ab8d4dc9610f39ee3eab2b3cc57d5c98936129b891"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.3.3"
+  type_plus:
+    dependency: transitive
+    description:
+      name: type_plus
+      sha256: d5d1019471f0d38b91603adb9b5fd4ce7ab903c879d2fbf1a3f80a630a03fcc9
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.1.1"
+  typed_data:
+    dependency: transitive
+    description:
+      name: typed_data
+      sha256: f9049c039ebfeb4cf7a7104a675823cd72dba8297f264b6637062516699fa006
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.4.0"
+  url_launcher:
+    dependency: transitive
+    description:
+      name: url_launcher
+      sha256: f6a7e5c4835bb4e3026a04793a4199ca2d14c739ec378fdfe23fc8075d0439f8
+      url: "https://pub.dev"
+    source: hosted
+    version: "6.3.2"
+  url_launcher_android:
+    dependency: transitive
+    description:
+      name: url_launcher_android
+      sha256: "3bb000251e55d4a209aa0e2e563309dc9bb2befea2295fd0cec1f51760aac572"
+      url: "https://pub.dev"
+    source: hosted
+    version: "6.3.29"
+  url_launcher_ios:
+    dependency: transitive
+    description:
+      name: url_launcher_ios
+      sha256: "580fe5dfb51671ae38191d316e027f6b76272b026370708c2d898799750a02b0"
+      url: "https://pub.dev"
+    source: hosted
+    version: "6.4.1"
+  url_launcher_linux:
+    dependency: transitive
+    description:
+      name: url_launcher_linux
+      sha256: d5e14138b3bc193a0f63c10a53c94b91d399df0512b1f29b94a043db7482384a
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.2.2"
+  url_launcher_macos:
+    dependency: transitive
+    description:
+      name: url_launcher_macos
+      sha256: "368adf46f71ad3c21b8f06614adb38346f193f3a59ba8fe9a2fd74133070ba18"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.2.5"
+  url_launcher_platform_interface:
+    dependency: transitive
+    description:
+      name: url_launcher_platform_interface
+      sha256: "552f8a1e663569be95a8190206a38187b531910283c3e982193e4f2733f01029"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.3.2"
+  url_launcher_web:
+    dependency: transitive
+    description:
+      name: url_launcher_web
+      sha256: d0412fcf4c6b31ecfdb7762359b7206ffba3bbffd396c6d9f9c4616ece476c1f
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.4.2"
+  url_launcher_windows:
+    dependency: transitive
+    description:
+      name: url_launcher_windows
+      sha256: "712c70ab1b99744ff066053cbe3e80c73332b38d46e5e945c98689b2e66fc15f"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.1.5"
+  uuid:
+    dependency: "direct main"
+    description:
+      name: uuid
+      sha256: "1fef9e8e11e2991bb773070d4656b7bd5d850967a2456cfc83cf47925ba79489"
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.5.3"
+  vector_math:
+    dependency: transitive
+    description:
+      name: vector_math
+      sha256: d530bd74fea330e6e364cda7a85019c434070188383e1cd8d9777ee586914c5b
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.2.0"
+  vm_service:
+    dependency: transitive
+    description:
+      name: vm_service
+      sha256: "45caa6c5917fa127b5dbcfbd1fa60b14e583afdc08bfc96dda38886ca252eb60"
+      url: "https://pub.dev"
+    source: hosted
+    version: "15.0.2"
+  watcher:
+    dependency: transitive
+    description:
+      name: watcher
+      sha256: "1398c9f081a753f9226febe8900fce8f7d0a67163334e1c94a2438339d79d635"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.2.1"
+  web:
+    dependency: transitive
+    description:
+      name: web
+      sha256: "868d88a33d8a87b18ffc05f9f030ba328ffefba92d6c127917a2ba740f9cfe4a"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.1"
+  web_socket:
+    dependency: transitive
+    description:
+      name: web_socket
+      sha256: "34d64019aa8e36bf9842ac014bb5d2f5586ca73df5e4d9bf5c936975cae6982c"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.1"
+  web_socket_channel:
+    dependency: transitive
+    description:
+      name: web_socket_channel
+      sha256: d645757fb0f4773d602444000a8131ff5d48c9e47adfe9772652dd1a4f2d45c8
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.0.3"
+  webview_flutter:
+    dependency: transitive
+    description:
+      name: webview_flutter
+      sha256: a3da219916aba44947d3a5478b1927876a09781174b5a2b67fa5be0555154bf9
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.13.1"
+  webview_flutter_android:
+    dependency: transitive
+    description:
+      name: webview_flutter_android
+      sha256: f560f57d0f529c1dcdaf4edc3a3217b099560622f9f4a10b6bdbb566553c61ea
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.11.0"
+  webview_flutter_platform_interface:
+    dependency: transitive
+    description:
+      name: webview_flutter_platform_interface
+      sha256: "1221c1b12f5278791042f2ec2841743784cf25c5a644e23d6680e5d718824f04"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.15.1"
+  webview_flutter_wkwebview:
+    dependency: transitive
+    description:
+      name: webview_flutter_wkwebview
+      sha256: e15d8828e014291324a4d0cf6e272090167f4fa5673ffcf8fe446f4a4cd35861
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.24.3"
+  win32:
+    dependency: transitive
+    description:
+      name: win32
+      sha256: d7cb55e04cd34096cd3a79b3330245f54cb96a370a1c27adb3c84b917de8b08e
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.15.0"
+  win32_registry:
+    dependency: transitive
+    description:
+      name: win32_registry
+      sha256: "6f1b564492d0147b330dd794fee8f512cec4977957f310f9951b5f9d83618dae"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.1.0"
+  xdg_directories:
+    dependency: transitive
+    description:
+      name: xdg_directories
+      sha256: "7a3f37b05d989967cdddcbb571f1ea834867ae2faa29725fd085180e0883aa15"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.0"
+  xml:
+    dependency: transitive
+    description:
+      name: xml
+      sha256: "971043b3a0d3da28727e40ed3e0b5d18b742fa5a68665cca88e74b7876d5e025"
+      url: "https://pub.dev"
+    source: hosted
+    version: "6.6.1"
+  yaml:
+    dependency: transitive
+    description:
+      name: yaml
+      sha256: b9da305ac7c39faa3f030eccd175340f968459dae4af175130b3fc47e40d76ce
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.1.3"
+  yet_another_json_isolate:
+    dependency: transitive
+    description:
+      name: yet_another_json_isolate
+      sha256: fe45897501fa156ccefbfb9359c9462ce5dec092f05e8a56109db30be864f01e
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.1.0"
+sdks:
+  dart: ">=3.10.3 <4.0.0"
+  flutter: ">=3.38.4"
+
+```
+
+---
+
+### <a id="📄-pubspec-yaml"></a>📄 `pubspec.yaml`
+
+**File Info:**
+- **Size**: 1.5 KB
+- **Extension**: `.yaml`
+- **Language**: `yaml`
+- **Location**: `pubspec.yaml`
+- **Relative Path**: `root`
+- **Created**: 2026-04-05 10:15:51 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-16 19:14:24 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `d7815f1f63bf630811e040719bdba36e`
+- **SHA256**: `4b77a5a83d065225a9e7c22504a146cf8ac1395cebee4b84b6cc1f8621f6ddd2`
+- **Encoding**: UTF-8
+
+**File code content:**
+
+```yaml
+name: babytracker
+description: Offline-first bebek takip uygulaması.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State Management
+  hooks_riverpod: ^2.6.1
+  flutter_hooks: ^0.20.5
+  riverpod_annotation: ^2.3.5
+
+  # Local Database
+  realm: ^3.4.0
+
+  # Backend & Auth
+  supabase_flutter: ^2.5.0
+
+  # Storage
+  shared_preferences: ^2.3.2
+
+  # Connectivity
+  connectivity_plus: ^6.0.5
+
+  # Typography
+  google_fonts: ^6.2.1
+
+  # Utilities
+  intl: ^0.20.2
+  fl_chart: ^1.0.0
+  shimmer: ^3.0.0
+  uuid: ^4.4.0
+  flutter_dotenv: ^6.0.0
+  http: ^1.2.2
+  flutter_markdown: ^0.7.7+1
+  just_audio: ^0.10.5
+  flutter_local_notifications: ^21.0.0
+  permission_handler: ^12.0.1
+  timezone: ^0.11.0
+  home_widget: ^0.9.1
+  tutorial_coach_mark: ^1.3.3
+  syncfusion_flutter_pdfviewer: ^33.1.49
+  google_mobile_ads: ^8.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.9
+  riverpod_generator: ^2.4.3
+  custom_lint: 0.7.6
+  riverpod_lint: ^2.3.10
+  # LOGO İÇİN GEREKLİ PAKET BURADA:
+  flutter_launcher_icons: ^0.13.1
+
+# LOGO DEĞİŞİM AYARLARI (Yol: assets/app_icon.png)
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/app_icon.png"
+  min_sdk_android: 21
+  remove_alpha_ios: true
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
+    #- assets/app_icon.png
+```
+
+---
+
+### <a id="📄-readme-md"></a>📄 `README.md`
+
+**File Info:**
+- **Size**: 2.41 KB
+- **Extension**: `.md`
+- **Language**: `text`
+- **Location**: `README.md`
+- **Relative Path**: `root`
+- **Created**: 2026-04-05 10:15:51 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-18 10:50:39 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `d53e7dc426a2f0ed9db81a32840a65d9`
+- **SHA256**: `610fe0ab26425838ab5ec56a925c842703d3505f570039d1de7fb22c5388bba9`
+- **Encoding**: UTF-8
+
+**File code content:**
+
+````markdown
+# E-Ebeveyn: Smart Baby Tracker & AI Coach 🍼✨
+
+E-Ebeveyn is a modern Flutter application built with **Clean Architecture** principles, allowing parents to synchronize and track their baby's development, feeding, and sleep schedules on a single screen.
+
+## 🚀 Project Goal and Architectural Approach
+This project is built using a **Feature-First Clean Architecture** to establish a sustainable and scalable software architecture. Data management, UI, and business logic are completely isolated from each other.
+
+### 🛠️ Tech Stack
+* **Framework:** Flutter & Dart
+* **State Management:** Riverpod (Hooks & Notifiers)
+* **Backend & BaaS:** Supabase (PostgreSQL, Auth, Storage)
+* **Local Database:** Realm (For offline-first capabilities)
+* **Architecture:** Clean Architecture (Domain, Data, Presentation layers)
+
+## 📸 Screenshots
+<p align="center">
+  <img src="YOUR_SCREENSHOT_LINK_1" width="200"/>
+  <img src="YOUR_SCREENSHOT_LINK_2" width="200"/>
+  <img src="YOUR_SCREENSHOT_LINK_3" width="200"/>
+</p>
+
+## 🔥 Key Features
+* **Supabase Realtime:** Instant data synchronization between family members (Mother, Father, Caregiver).
+* **Riverpod Caching:** Optimized state management to prevent unnecessary API requests.
+* **Custom Audio Player:** Background-running, loop-supported sleep sounds engine.
+* **AI Integration:** An AI coach assistant that analyzes baby data and provides personalized insights to parents.
+
+## ⚙️ How to Run
+1. Clone the repo: `git clone https://github.com/clbieren/E-Ebeveyn.git`
+2. Install dependencies: `flutter pub get`
+3. Enter your Supabase credentials in the `lib/config/` directory.
+4. Run the project: `flutter run`
+
+
+## 📁 Folder Structure (Feature-First Clean Architecture)
+Our project strictly follows Clean Architecture principles to separate business logic from UI, ensuring high maintainability and scalability.
+
+~~~~text
+lib/
+├── core/               # Shared utilities, routing, themes, and network services
+├── features/           # Feature-based modules (e.g., auth, sleep, vaccine)
+│   ├── data/           # DTOs, Data Sources (Supabase, Realm), Repositories Impl
+│   ├── domain/         # Entities, Repository Interfaces, UseCases
+│   └── presentation/   # UI Screens, Custom Widgets, Riverpod Providers
+├── config/             # Environment variables and API keys
+└── main.dart           # App entry point
+````
+
+---
+
+### <a id="📄-supabase-vaccine-logs-sql"></a>📄 `supabase_vaccine_logs.sql`
+
+**File Info:**
+- **Size**: 714 B
+- **Extension**: `.sql`
+- **Language**: `sql`
+- **Location**: `supabase_vaccine_logs.sql`
+- **Relative Path**: `root`
+- **Created**: 2026-04-11 10:42:54 (Europe/Istanbul / GMT+03:00)
+- **Modified**: 2026-04-12 07:31:48 (Europe/Istanbul / GMT+03:00)
+- **MD5**: `8c62ea8754084e9beaf69be88767851f`
+- **SHA256**: `a004890659d7165c25ea70f859248056165814685aa47c4e8e7ff3e0aec341a2`
+- **Encoding**: UTF-8
+
+**File code content:**
+
+```sql
+-- Supabase SQL Editor'da çalıştırın. RLS politikalarını kendi güvenlik modelinize göre ekleyin.
+
+create table if not exists public.child_vaccine_logs (
+  id uuid primary key default gen_random_uuid(),
+  child_id uuid not null references public.children (id) on delete cascade,
+  family_id uuid not null,
+  user_id uuid not null,
+  vaccine_id text not null,
+  is_completed boolean not null default true,
+  completed_at timestamptz not null default now(),
+  created_at timestamptz not null default now(),
+  updated_at timestamptz not null default now(),
+  unique (child_id, vaccine_id)
+);
+
+create index if not exists child_vaccine_logs_child_id_idx on public.child_vaccine_logs (child_id);
+
+```
+
+---
+
+## 🚫 Binary/Excluded Files
+
+The following files were not included in the text content:
+
+- `baby_care.iml`
+- `babytracker.iml`
+
